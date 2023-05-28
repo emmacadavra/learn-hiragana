@@ -184,7 +184,7 @@ footer {
     }
 
     .game-area {
-        max-width: 85%;
+        max-width: 90%;
     }
 
     .game-area h2 {
@@ -193,7 +193,11 @@ footer {
 
     .question-container {
         max-width: 50%;
-        font-size: 10rem;
+        font-size: 5rem;
+    }
+
+    .answers-container {
+        max-width: 50%;
     }
 
     .answer-btn {
