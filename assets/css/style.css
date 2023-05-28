@@ -112,9 +112,10 @@ header {
 }
 
 .question-container {
-    padding: 0.2rem;
+    margin: 0.2rem;
+    border: 1px solid;
+    border-radius: 0.5rem;
     aspect-ratio: 1 / 1;
-
 }
 
 .answers-container {
@@ -128,7 +129,7 @@ header {
 
 .answer-btn {
     border: 1px solid;
-    border-radius: 0.2rem;
+    border-radius: 0.5rem;
     aspect-ratio: 1 / 1;
 }
 
