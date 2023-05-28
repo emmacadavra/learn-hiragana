@@ -25,6 +25,12 @@ header {
     font-family: "BIZ UDMincho", serif;
 }
 
+/* Homepage CSS */
+.choose-game-container {
+    width: 100%;
+    display: flex;
+}
+
 .choose-game a {
     text-decoration: none;
 }
