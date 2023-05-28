@@ -132,6 +132,9 @@ h1 {
 .question-container {
     border-radius: 0.5rem;
     aspect-ratio: 1 / 1;
+}
+
+.hiragana-question {
     background-color: #35586F;
     color: #D1A617;
     box-shadow: 0 0.2rem 1.2rem 0 rgba(43, 88, 110, 0.5);
@@ -149,6 +152,9 @@ h1 {
 .answer-btn {
     border-radius: 0.5rem;
     aspect-ratio: 1 / 1;
+}
+
+.hiragana-answer {
     background-color: #E0E58F;
     color: #385879;
     box-shadow: 0 0.2rem 0.2rem 0 rgba(43, 88, 110, 0.5);
@@ -167,8 +173,9 @@ h1 {
 
 .back-to-menu {
     padding: 0.5rem;
-    background-color: #78A5ff;
-    border: 0.3rem solid #4F75D8;
+    color: #E0E58F;
+    background-color: #385879;
+    border: 0.3rem solid #D1A617;
     border-radius: 0.5rem;
     width: fit-content;
     margin: 1rem auto;
