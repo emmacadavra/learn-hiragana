@@ -117,7 +117,7 @@ header {
 }
 
 .question-container {
-    margin: 0.2rem;
+    margin: 0.4rem;
     border: 1px solid;
     border-radius: 0.5rem;
     aspect-ratio: 1 / 1;
@@ -181,12 +181,12 @@ footer {
         font-size: 0.75rem;
     }
 
-    .question-container {
-        width: 50%;
-    }
-
     .game-area {
         width: 85%;
+    }
+
+    .question-container {
+        width: 60%;
     }
 
     .answer-btn {
@@ -196,20 +196,15 @@ footer {
     }
 }
 
-/* Media Queries - min-width: 375px */
-/* @media screen and (min-width: 375px) {
+/* Media Queries - min-width: 400px */
+@media screen and (min-width: 400px) {
+
+    .header-inner {
+        font-size: 1rem;
+    }
+
     .game-area {
-        width: 85%;
-    }
-
-    .menu-button {
-    font-size: 1.5rem;
-    }
-} */
-
-/* Media Queries - min-width: 450px */
-/* @media screen and (min-width: 450px) {
-        .game-area {
         width: 75%;
     }
-    } */
+
+}
