@@ -112,22 +112,24 @@ header {
 }
 
 .question-container {
-    height: 17.188rem;
     padding: 0.2rem;
+    aspect-ratio: 1 / 1;
+
 }
 
 .answers-container {
-    height: 17.188rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 0.2rem;
     padding: 0.2rem;
+    aspect-ratio: 1 / 1;
 }
 
 .answer-btn {
-    flex-grow: 2;
-    flex-basis: calc(50% - 0.2rem);
+    border: 1px solid;
+    border-radius: 0.2rem;
+    aspect-ratio: 1 / 1;
 }
 
 /* Footer */
@@ -141,4 +143,12 @@ footer {
 .footer-inner {
     padding: 1rem;
     text-align: center;
+}
+
+/* Media Queries - min-width: 280px */
+@media screen and (min-width: 280px) {
+    .answer-btn {
+        flex-grow: 2;
+        flex-basis: calc(50% - 0.2rem);
+    }
 }
