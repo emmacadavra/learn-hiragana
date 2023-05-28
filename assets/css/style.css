@@ -191,9 +191,10 @@ footer {
         font-size: 2rem;
     }
 
-    /* .question-container {
-        width: 60%;
-    } */
+    .question-container {
+        max-width: 50%;
+        font-size: 10rem;
+    }
 
     .answer-btn {
         flex-grow: 2;
