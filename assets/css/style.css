@@ -104,6 +104,7 @@ header {
     text-align: center;
     margin: 1rem auto;
     border-radius: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .game-container {
@@ -136,6 +137,11 @@ header {
 
 .back-to-menu {
     padding: 0.5rem;
+    background-color: #78A5ff;
+    border: 0.5rem solid #4F75D8;
+    border-radius: 0.5rem;
+    width: fit-content;
+    margin: 1rem auto;
 }
 
 .back-to-menu a {
