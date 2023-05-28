@@ -16,6 +16,10 @@ header {
     background-color: #B3CFCD;
 }
 
+.logo-font {
+    font-family: "Righteous", sans-serif;
+}
+
 .site-heading {
     color: #306A67;
     font-family: "Righteous", sans-serif;
