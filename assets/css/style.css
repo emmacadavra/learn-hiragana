@@ -150,6 +150,7 @@ header {
     width: fit-content;
     margin: 1rem auto;
     text-align: center;
+    font-size: 1.2rem;
 }
 
 .back-to-menu a {
@@ -214,6 +215,10 @@ footer {
         font-size: 1.5rem;
     }
 
+    .back-to-menu {
+        font-size: 1.4rem;
+    }
+
 }
 
 /* Media Queries - min-width: 768px */
@@ -244,5 +249,13 @@ footer {
     .answer-btn {
         flex-basis: calc(50% - 0.5rem);
         font-size: 3.5rem;
+    }
+
+    .score-container {
+        font-size: 2rem;
+    }
+
+    .back-to-menu {
+        font-size: 1.8rem;
     }
 }
