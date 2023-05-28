@@ -59,6 +59,11 @@ header {
     padding: 1rem;
 }
 
+.choose-hiragana {
+    background-color: #78A5ff;
+
+}
+
 .choose-game a {
     text-decoration: none;
 }
