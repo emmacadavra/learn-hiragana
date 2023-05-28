@@ -58,6 +58,11 @@ header {
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    text-align: center;
+}
+
+.choose-game h2 {
+    font-size: 2rem;
 }
 
 .choose-hiragana {
@@ -76,6 +81,7 @@ header {
     background-color: #fff;
     color: #00439D;
     text-align: center;
+    font-size: 1.5rem;
     border: 0.2rem solid #D1A617;
     border-radius: 0.5rem;
     margin: 1rem;
