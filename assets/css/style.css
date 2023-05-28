@@ -176,3 +176,10 @@ footer {
         font-size: 5rem;
     }
 }
+
+/* Media Queries - min-width: 375px */
+@media screen and (min-width: 375px) {
+    .game-area {
+        width: 90%;
+    }
+}
