@@ -10,7 +10,7 @@
 body {
     background-color: #E6F4F1;
     font-family: "Rubik", sans-serif;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -99,17 +99,25 @@ header {
 }
 
 /* Learn Hiragana & Katakana */
+
+.game-section {
+    height: 100vh;
+}
+
 .game-area {
     background-color: #fff;
     text-align: center;
     margin: 1rem auto;
     border-radius: 0.5rem;
     padding-bottom: 0.5rem;
+    max-height: 100vh;
 }
 
 .game-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border-radius: 0.5rem;
 }
 
@@ -158,10 +166,6 @@ header {
     color: inherit;
 }
 
-.menu-button {
-    font-size: 1.5rem;
-}
-
 /* Footer */
 footer {
     background-color: #B3CFCD;
@@ -182,14 +186,18 @@ footer {
         font-size: 0.75rem;
     }
 
-    /* .game-area {
+    .question-container {
         width: 50%;
-    } */
+    }
+
+    .game-area {
+        width: 85%;
+    }
 
     .answer-btn {
         flex-grow: 2;
         flex-basis: calc(50% - 0.2rem);
-        font-size: 5rem;
+        font-size: 2rem;
     }
 }
 
@@ -197,6 +205,10 @@ footer {
 /* @media screen and (min-width: 375px) {
     .game-area {
         width: 85%;
+    }
+
+    .menu-button {
+    font-size: 1.5rem;
     }
 } */
 
