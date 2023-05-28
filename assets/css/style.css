@@ -135,6 +135,11 @@ header {
     aspect-ratio: 1 / 1;
 }
 
+.score-container {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
 .back-to-menu {
     padding: 0.5rem;
     background-color: #78A5ff;
@@ -142,6 +147,7 @@ header {
     border-radius: 0.5rem;
     width: fit-content;
     margin: 1rem auto;
+    text-align: center;
 }
 
 .back-to-menu a {
