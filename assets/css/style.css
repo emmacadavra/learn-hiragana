@@ -10,6 +10,9 @@
 body {
     background-color: #E6F4F1;
     font-family: "Rubik", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo-font {
@@ -39,12 +42,14 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .choose-game {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .choose-game a {
@@ -55,7 +60,9 @@ body {
     color: inherit;
 }
 
+/* Footer */
 footer {
     background-color: #B3CFCD;
     color: #306A67;
+    margin-top: auto;
 }
