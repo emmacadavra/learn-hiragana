@@ -173,5 +173,6 @@ footer {
     .answer-btn {
         flex-grow: 2;
         flex-basis: calc(50% - 0.2rem);
+        font-size: 5rem;
     }
 }
