@@ -120,11 +120,13 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 0.2rem;
+    padding: 0.2rem;
 }
 
 .answer-btn {
     flex-grow: 2;
-    flex-basis: 50%;
+    flex-basis: calc(50% - 0.2rem);
 }
 
 /* Footer */
