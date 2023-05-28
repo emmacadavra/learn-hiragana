@@ -42,8 +42,17 @@ body {
     margin: 0 auto;
 }
 
+.choose-game {
+    display: flex;
+    flex-direction: column;
+}
+
 .choose-game a {
     text-decoration: none;
+}
+
+.choose-game a:visited {
+    color: inherit;
 }
 
 footer {
