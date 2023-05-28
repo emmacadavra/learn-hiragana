@@ -202,6 +202,10 @@ footer {
         flex-basis: calc(50% - 0.2rem);
         font-size: 2rem;
     }
+
+    .footer-inner {
+        font-size: 0.6rem;
+    }
 }
 
 /* Media Queries - min-width: 400px */
@@ -269,6 +273,10 @@ footer {
     .back-to-menu {
         font-size: 1.8rem;
         margin-top: 1rem;
+    }
+
+    .footer-inner {
+        font-size: 1rem;
     }
 }
 
