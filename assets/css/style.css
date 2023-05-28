@@ -12,9 +12,13 @@ body {
     font-family: "Rubik", sans-serif;
 }
 
-header {
+.header {
     background-color: #B3CFCD;
     color: #306A67;
+}
+
+.header a {
+    text-decoration: none;
 }
 
 .logo-font {
