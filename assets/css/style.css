@@ -21,6 +21,10 @@ header {
     font-family: "Righteous", sans-serif;
 }
 
+.select-button a {
+    text-decoration: none;
+}
+
 footer {
     background-color: #B3CFCD;
     color: #306A67;
