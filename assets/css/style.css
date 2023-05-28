@@ -260,8 +260,8 @@ footer {
     }
 }
 
-/* Media Queries - min-width: 1200px */
-@media screen and (min-width: 1200px) {
+/* Media Queries - min-width: 1280px */
+@media screen and (min-width: 1280px) {
 
     .game-area {
         width: 75%;
