@@ -117,6 +117,7 @@ header {
 
 .answers-container {
     height: 17.188rem;
+    display: flex;
 }
 
 /* Footer */
