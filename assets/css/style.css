@@ -118,6 +118,13 @@ header {
 .answers-container {
     height: 17.188rem;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.answer-btn {
+    flex-grow: 2;
+    flex-basis: 50%;
 }
 
 /* Footer */
