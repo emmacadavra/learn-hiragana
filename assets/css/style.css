@@ -72,6 +72,12 @@ header {
     border-radius: 0.5rem;
 }
 
+.select-button {
+    background-color: #D1A617;
+    color: #00439D;
+    text-align: center;
+}
+
 .choose-game a {
     text-decoration: none;
 }
