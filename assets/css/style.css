@@ -105,7 +105,7 @@ h1 {
 
 /* Learn Hiragana & Katakana */
 .game-area {
-    background-color: #fff;
+    background-color: #B0E4DC;
     text-align: center;
     margin: 1rem auto;
     border-radius: 0.5rem;
@@ -122,9 +122,10 @@ h1 {
 }
 
 .question-container {
-    border: 1px solid;
     border-radius: 0.5rem;
     aspect-ratio: 1 / 1;
+    background-color: #35586F;
+    color: #D1A617;
 }
 
 .answers-container {
@@ -137,9 +138,11 @@ h1 {
 }
 
 .answer-btn {
-    border: 1px solid;
     border-radius: 0.5rem;
     aspect-ratio: 1 / 1;
+    background-color: #E0E58F;
+    color: #385879;
+
 }
 
 .score-container {
