@@ -115,6 +115,10 @@ header {
     height: 17.188rem;
 }
 
+.answers-container {
+    height: 17.188rem;
+}
+
 /* Footer */
 footer {
     background-color: #B3CFCD;
