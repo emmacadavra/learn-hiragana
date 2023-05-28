@@ -315,7 +315,7 @@ footer {
 @media screen and (min-width: 1600px) {
 
     .game-area {
-        margin-top: 2rem;
+        margin-top: 3rem;
     }
 
     .game-area h2 {
@@ -332,5 +332,6 @@ footer {
 
     .back-to-menu {
         font-size: 2.3rem;
+        margin-top: 2.5rem;
     }
 }
