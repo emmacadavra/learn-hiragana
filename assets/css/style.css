@@ -27,6 +27,7 @@ body {
 header {
     background-color: #B3CFCD;
     color: #306A67;
+    width: 100%;
 }
 
 .header-inner {
@@ -97,11 +98,15 @@ header {
     color: inherit;
 }
 
+/* Learn Hiragana & Katakana */
+
+
 /* Footer */
 footer {
     background-color: #B3CFCD;
     color: #306A67;
     margin-top: auto;
+    width: 100%;
 }
 
 .footer-inner {
