@@ -106,7 +106,7 @@ header {
     margin: 1rem auto;
     border-radius: 0.5rem;
     padding: 0.5rem 0;
-    height: 75vh;
+    max-height: 75vh;
 }
 
 .game-container {
@@ -218,6 +218,10 @@ footer {
         max-width: 75%;
     }
 
+    .question-container {
+        font-size: 6rem;
+    }
+
     .score-container {
         font-size: 1.5rem;
     }
@@ -244,13 +248,15 @@ footer {
         padding: 1rem;
     }
 
-    /* .question-container {
-        width: 75%;
-    } */
+    .question-container {
+        max-width: 60%;
+        font-size: 15rem;
+    }
 
     .answers-container {
         gap: 0.5rem;
         padding: 0.5rem;
+        max-width: 60%;
     }
 
     .answer-btn {
@@ -260,10 +266,12 @@ footer {
 
     .score-container {
         font-size: 2rem;
+        padding: 2rem;
     }
 
     .back-to-menu {
         font-size: 1.8rem;
+        margin-top: 2rem;
     }
 }
 
@@ -310,7 +318,6 @@ footer {
 
     .back-to-menu {
         font-size: 1.8rem;
-        margin-top: 2rem;
     }
 
     .score-container {
