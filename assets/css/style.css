@@ -134,12 +134,20 @@ header {
     aspect-ratio: 1 / 1;
 }
 
+.back-to-menu {
+    padding: 0.5rem;
+}
+
 .back-to-menu a {
     text-decoration: none;
 }
 
 .back-to-menu a:visited {
     color: inherit;
+}
+
+.menu-button {
+    font-size: 1.5rem;
 }
 
 /* Footer */
