@@ -264,7 +264,11 @@ footer {
 @media screen and (min-width: 1280px) {
 
     .game-area {
-        width: 75%;
+        width: 60%;
+    }
+
+    .game-area h2 {
+        font-size: 3rem;
     }
 
     .question-container {
@@ -273,10 +277,10 @@ footer {
 
     .answers-container {
         flex-wrap: nowrap;
-        gap: 0.2rem;
-        padding: 0.2rem;
+        gap: 1rem;
+        padding: 1rem;
         aspect-ratio: 4 / 1;
-        width: 90%;
+        width: 85%;
     }
 
     .answer-btn {
