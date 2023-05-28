@@ -13,6 +13,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    color: #333;
 }
 
 .logo-font {
@@ -95,6 +96,13 @@ h1 {
     padding: 0.5rem;
 }
 
+.select-button:hover {
+    cursor: pointer;
+    box-shadow: 0 0.2rem 0.2rem 0 rgba(43, 88, 110, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
 .choose-game a {
     text-decoration: none;
 }
@@ -126,6 +134,7 @@ h1 {
     aspect-ratio: 1 / 1;
     background-color: #35586F;
     color: #D1A617;
+    box-shadow: 0 0.2rem 1.2rem 0 rgba(43, 88, 110, 0.5);
 }
 
 .answers-container {
@@ -142,7 +151,14 @@ h1 {
     aspect-ratio: 1 / 1;
     background-color: #E0E58F;
     color: #385879;
+    box-shadow: 0 0.2rem 0.2rem 0 rgba(43, 88, 110, 0.5);
+}
 
+.answer-btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.2rem 0.2rem 0 rgba(43, 88, 110, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
 }
 
 .score-container {
