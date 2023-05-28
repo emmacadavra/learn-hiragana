@@ -78,6 +78,8 @@ header {
     text-align: center;
     border: 0.2rem solid #D1A617;
     border-radius: 0.5rem;
+    margin: 1rem;
+    padding: 0.5rem;
 }
 
 .choose-game a {
