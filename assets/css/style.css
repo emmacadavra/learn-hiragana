@@ -113,6 +113,7 @@ header {
 
 .question-container {
     height: 17.188rem;
+    padding: 0.2rem;
 }
 
 .answers-container {
