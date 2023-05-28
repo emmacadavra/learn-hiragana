@@ -208,3 +208,25 @@ footer {
     }
 
 }
+
+/* Media Queries - min-width: 768px */
+@media screen and (min-width: 768px) {
+
+    .header-inner {
+        font-size: 1.5rem;
+    }
+
+    .game-area {
+        width: 60%;
+    }
+
+    .question-container {
+        width: 75%;
+    }
+
+    .answer-btn {
+        flex-grow: 2;
+        flex-basis: calc(50% - 0.2rem);
+        font-size: 3rem;
+    }
+}
