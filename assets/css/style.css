@@ -147,6 +147,7 @@ h1 {
 .katakana-question {
     background-color: #D1A617;
     color: #35586F;
+    box-shadow: 0 0.2rem 1.2rem 0 rgba(43, 88, 110, 0.5);
 }
 
 .answers-container {
@@ -166,6 +167,12 @@ h1 {
 .hiragana-answer {
     background-color: #E0E58F;
     color: #385879;
+    box-shadow: 0 0.2rem 0.2rem 0 rgba(43, 88, 110, 0.5);
+}
+
+.katakana-answer {
+    background-color: #35586F;
+    color: #B0E4DC;
     box-shadow: 0 0.2rem 0.2rem 0 rgba(43, 88, 110, 0.5);
 }
 
