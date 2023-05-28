@@ -99,7 +99,10 @@ header {
 }
 
 /* Learn Hiragana & Katakana */
-.game-area {}
+.game-area {
+    background-color: #fff;
+    max-width: 95%;
+}
 
 .game-container {
     display: flex;
