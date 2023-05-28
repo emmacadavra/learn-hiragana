@@ -66,6 +66,12 @@ header {
     border-radius: 0.5rem;
 }
 
+.choose-katakana {
+    background-color: #78A5ff;
+    border: 0.5rem solid #4F75D8;
+    border-radius: 0.5rem;
+}
+
 .choose-game a {
     text-decoration: none;
 }
