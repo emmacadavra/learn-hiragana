@@ -12,6 +12,15 @@ body {
     font-family: "Rubik", sans-serif;
 }
 
+.logo-font {
+    font-family: "Righteous", sans-serif;
+}
+
+.japanese-text {
+    font-family: "BIZ UDMincho", serif;
+}
+
+/* Header */
 .header {
     background-color: #B3CFCD;
     color: #306A67;
@@ -21,12 +30,8 @@ body {
     text-decoration: none;
 }
 
-.logo-font {
-    font-family: "Righteous", sans-serif;
-}
-
-.japanese-text {
-    font-family: "BIZ UDMincho", serif;
+.header a:visited {
+    color: #306A67;
 }
 
 /* Homepage CSS */
