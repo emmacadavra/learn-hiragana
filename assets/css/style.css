@@ -99,13 +99,11 @@ header {
 }
 
 /* Learn Hiragana & Katakana */
-
 .game-area {
     background-color: #fff;
     text-align: center;
     margin: 1rem auto;
     border-radius: 0.5rem;
-    padding: 0.5rem 0;
     max-height: 75vh;
 }
 
@@ -119,7 +117,6 @@ header {
 }
 
 .question-container {
-    margin: 0.4rem;
     border: 1px solid;
     border-radius: 0.5rem;
     aspect-ratio: 1 / 1;
@@ -147,7 +144,7 @@ header {
 .back-to-menu {
     padding: 0.5rem;
     background-color: #78A5ff;
-    border: 0.5rem solid #4F75D8;
+    border: 0.3rem solid #4F75D8;
     border-radius: 0.5rem;
     width: fit-content;
     margin: 1rem auto;
@@ -172,7 +169,7 @@ footer {
 }
 
 .footer-inner {
-    padding: 1rem;
+    padding: 0.6rem;
     text-align: center;
 }
 
@@ -245,7 +242,7 @@ footer {
 
     .game-area h2 {
         font-size: 2.5rem;
-        padding: 1rem;
+        padding: 0.6rem;
     }
 
     .question-container {
@@ -266,7 +263,7 @@ footer {
 
     .score-container {
         font-size: 1.8rem;
-        padding: 1rem;
+        padding: 0.6rem;
     }
 
     .back-to-menu {
