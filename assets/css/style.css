@@ -289,3 +289,28 @@ footer {
         font-size: 3.5rem;
     }
 }
+
+/* Media Queries - min-width: 1600px */
+@media screen and (min-width: 1600px) {
+
+    .game-area {
+        margin-top: 2rem;
+    }
+
+    .game-area h2 {
+        font-size: 4rem;
+    }
+
+    .back-to-menu {
+        font-size: 1.8rem;
+        margin-top: 2rem;
+    }
+
+    .score-container {
+        font-size: 2.5rem;
+    }
+
+    .back-to-menu {
+        font-size: 2.3rem;
+    }
+}
