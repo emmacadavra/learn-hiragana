@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // Hiragana: Declarations
 const hiraganaQuestion = document.getElementById("hiragana-question");
 const hiraganaChoices = Array.from(document.getElementsByClassName("hiragana-answer"));
+
 let currentHiraganaQuestion = {};
 let hiraganaScore = 0;
 let availableHiraganaQuestions = [];
@@ -149,6 +150,8 @@ const hiragana = [{
     character: "ん",
     phonetic: "n"
 }]
+
+const MAX_QUESTIONS = 10;
 
 // Hiragana: Start game
 
