@@ -110,38 +110,38 @@ const hiragana = [{
     character: "れ",
     phonetic: "re"
 }, {
-    character: "",
-    phonetic: ""
+    character: "お",
+    phonetic: "o"
 }, {
-    character: "",
-    phonetic: ""
+    character: "こ",
+    phonetic: "ko"
 }, {
-    character: "",
-    phonetic: ""
+    character: "そ",
+    phonetic: "so"
 }, {
-    character: "",
-    phonetic: ""
+    character: "と",
+    phonetic: "to"
 }, {
-    character: "",
-    phonetic: ""
+    character: "の",
+    phonetic: "no"
 }, {
-    character: "",
-    phonetic: ""
+    character: "ほ",
+    phonetic: "ho"
 }, {
-    character: "",
-    phonetic: ""
+    character: "も",
+    phonetic: "mo"
 }, {
-    character: "",
-    phonetic: ""
+    character: "よ",
+    phonetic: "yo"
 }, {
-    character: "",
-    phonetic: ""
+    character: "ろ",
+    phonetic: "ro"
 }, {
-    character: "",
-    phonetic: ""
+    character: "を",
+    phonetic: "wo"
 }, {
-    character: "",
-    phonetic: ""
+    character: "ん",
+    phonetic: "n"
 }]
 
 // Hiragana: Choose question (random)
