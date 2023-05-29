@@ -59,32 +59,32 @@ const hiragana = [{
     character: "り",
     phonetic: "ri"
 }, {
-    character: "",
-    phonetic: ""
+    character: "う",
+    phonetic: "u"
 }, {
-    character: "",
-    phonetic: ""
+    character: "く",
+    phonetic: "ku"
 }, {
-    character: "",
-    phonetic: ""
+    character: "す",
+    phonetic: "su"
 }, {
-    character: "",
-    phonetic: ""
+    character: "つ",
+    phonetic: "tsu"
 }, {
-    character: "",
-    phonetic: ""
+    character: "ぬ",
+    phonetic: "nu"
 }, {
-    character: "",
-    phonetic: ""
+    character: "ふ",
+    phonetic: "fu"
 }, {
-    character: "",
-    phonetic: ""
+    character: "む",
+    phonetic: "mu"
 }, {
-    character: "",
-    phonetic: ""
+    character: "ゆ",
+    phonetic: "yu"
 }, {
-    character: "",
-    phonetic: ""
+    character: "る",
+    phonetic: "ru"
 }, {
     character: "",
     phonetic: ""
