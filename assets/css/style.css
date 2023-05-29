@@ -117,7 +117,8 @@ h1 {
     text-align: center;
     margin: 1rem auto;
     border-radius: 0.5rem;
-    max-height: 75vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .game-katakana {
@@ -323,8 +324,8 @@ footer {
     }
 }
 
-/* Media Queries - min-width: 1280px */
-@media screen and (min-width: 1280px) {
+/* Media Queries - min-width: 1200px */
+@media screen and (min-width: 1200px) {
 
     h1 {
         font-size: 2rem;
