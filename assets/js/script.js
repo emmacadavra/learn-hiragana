@@ -3,7 +3,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // Start screen?
 });
 
-// Hiragana: Start game
+// Hiragana: Declarations
+let hiraganaQuestions = [];
+
 const hiragana = [{
     character: "あ",
     phonetic: "a"
@@ -143,6 +145,8 @@ const hiragana = [{
     character: "ん",
     phonetic: "n"
 }]
+
+// Hiragana: Start game
 
 // Hiragana: Choose question (random)
 
