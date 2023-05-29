@@ -27,7 +27,6 @@ body {
 /* Header */
 header {
     background-color: #B3CFCD;
-    color: #306A67;
     width: 100%;
 }
 
@@ -43,6 +42,7 @@ h1 {
 
 .header-inner a {
     text-decoration: none;
+    color: #306A67;
 }
 
 .header-inner a:visited {
@@ -105,10 +105,11 @@ h1 {
 
 .choose-game a {
     text-decoration: none;
+    color: #333;
 }
 
 .choose-game a:visited {
-    color: inherit;
+    color: #333;
 }
 
 /* Learn Hiragana & Katakana */
@@ -190,7 +191,6 @@ h1 {
 
 .back-to-menu {
     padding: 0.5rem;
-    color: #E0E58F;
     background-color: #385879;
     border: 0.3rem solid #D1A617;
     border-radius: 0.5rem;
@@ -201,11 +201,19 @@ h1 {
 }
 
 .back-to-menu a {
+    color: #E0E58F;
     text-decoration: none;
 }
 
 .back-to-menu a:visited {
-    color: inherit;
+    color: color: #E0E58F;
+}
+
+.back-to-menu:hover {
+    cursor: pointer;
+    box-shadow: 0 0.2rem 0.2rem 0 rgba(43, 88, 110, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
 }
 
 /* Footer */
