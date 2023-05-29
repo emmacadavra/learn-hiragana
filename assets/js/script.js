@@ -35,29 +35,29 @@ const hiragana = [{
     character: "わ",
     phonetic: "wa"
 }, {
-    character: "",
-    phonetic: ""
+    character: "い",
+    phonetic: "i"
 }, {
-    character: "",
-    phonetic: ""
+    character: "き",
+    phonetic: "ki"
 }, {
-    character: "",
-    phonetic: ""
+    character: "し",
+    phonetic: "shi"
 }, {
-    character: "",
-    phonetic: ""
+    character: "ち",
+    phonetic: "chi"
 }, {
-    character: "",
-    phonetic: ""
+    character: "に",
+    phonetic: "ni"
 }, {
-    character: "",
-    phonetic: ""
+    character: "ひ",
+    phonetic: "hi"
 }, {
-    character: "",
-    phonetic: ""
+    character: "み",
+    phonetic: "mi"
 }, {
-    character: "",
-    phonetic: ""
+    character: "り",
+    phonetic: "ri"
 }, {
     character: "",
     phonetic: ""
