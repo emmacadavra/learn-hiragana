@@ -1,7 +1,7 @@
 // Wait for page to finish loading
-document.addEventListener("DOMContentLoaded", function () {
-    // Start screen?
-});
+// document.addEventListener("DOMContentLoaded", function () {
+//     // Start screen?
+// });
 
 // Hiragana: Declarations
 const hiraganaQuestion = document.getElementById("hiragana-question");
@@ -155,8 +155,16 @@ const hiragana = [{
 const MAX_QUESTIONS = 10;
 
 // Hiragana: Start game
+function runHiraganaGame() {
+    hiraganaScore = 0;
+    hiraganaQuestionCounter = 0;
+    newHiraganaQuestion();
+}
 
 // Hiragana: Choose question (random)
+function newHiraganaQuestion() {
+
+}
 
 // Hiragana: Display question with 4 potential answers
 
