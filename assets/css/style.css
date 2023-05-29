@@ -76,22 +76,22 @@ h1 {
 }
 
 .choose-hiragana {
-    background-color: #78A5ff;
-    border: 0.5rem solid #4F75D8;
+    background-color: #E0E58F;
+    color: #35586F;
+    border: 0.3rem solid #D1A617;
     border-radius: 0.5rem;
 }
 
 .choose-katakana {
-    background-color: #78A5ff;
-    border: 0.5rem solid #4F75D8;
+    background-color: #B0E4DC;
+    color: #35586F;
+    border: 0.3rem solid #D1A617;
     border-radius: 0.5rem;
 }
 
 .select-button {
-    background-color: #fff;
     text-align: center;
     font-size: 1.5rem;
-    border: 0.2rem solid #D1A617;
     border-radius: 0.5rem;
     margin: 1rem;
     padding: 0.5rem;
@@ -104,23 +104,37 @@ h1 {
     transition: transform 150ms;
 }
 
+.hiragana-go {
+    background-color: #B0E4DC;
+    color: #35586F;
+    border: 0.15rem solid #D1A617;
+}
+
+.katakana-go {
+    background-color: #E0E58F;
+    color: #35586F;
+    border: 0.15rem solid #D1A617;
+}
+
 .choose-game a {
     text-decoration: none;
-    color: #333;
 }
 
 .choose-game a:visited {
-    color: #333;
+    color: #35586F;
 }
 
 /* Learn Hiragana & Katakana */
 .game-area {
-    background-color: #B0E4DC;
     text-align: center;
     margin: 1rem auto;
     border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
+}
+
+.game-hiragana {
+    background-color: #B0E4DC;
 }
 
 .game-katakana {
