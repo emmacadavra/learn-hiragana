@@ -11,6 +11,135 @@ const hiragana = [{
     character: "か",
     phonetic: "ka"
 }, {
+    character: "さ",
+    phonetic: "sa"
+}, {
+    character: "た",
+    phonetic: "ta"
+}, {
+    character: "な",
+    phonetic: "na"
+}, {
+    character: "は",
+    phonetic: "ha"
+}, {
+    character: "ま",
+    phonetic: "ma"
+}, {
+    character: "や",
+    phonetic: "ya"
+}, {
+    character: "ら",
+    phonetic: "ra"
+}, {
+    character: "わ",
+    phonetic: "wa"
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
+    character: "",
+    phonetic: ""
+}, {
     character: "",
     phonetic: ""
 }]
