@@ -4,7 +4,9 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // Hiragana: Declarations
-let hiraganaQuestions = [];
+let currentHiraganaQuestion = {};
+let hiraganaScore = 0;
+let availableHiraganaQuestions = [];
 
 const hiragana = [{
     character: "あ",
