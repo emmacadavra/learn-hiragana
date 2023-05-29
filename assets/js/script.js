@@ -9,6 +9,7 @@ const hiraganaChoices = Array.from(document.getElementsByClassName("hiragana-ans
 
 let currentHiraganaQuestion = {};
 let hiraganaScore = 0;
+let hiraganaQuestionCounter = 0;
 let availableHiraganaQuestions = [];
 
 const hiragana = [{
