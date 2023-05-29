@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Hiragana: Declarations
 const hiraganaQuestion = document.getElementById("hiragana-question");
-const hiraganaChoices = document.getElementsByClassName("hiragana-answer");
+const hiraganaChoices = Array.from(document.getElementsByClassName("hiragana-answer"));
 let currentHiraganaQuestion = {};
 let hiraganaScore = 0;
 let availableHiraganaQuestions = [];
