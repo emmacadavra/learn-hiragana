@@ -86,29 +86,29 @@ const hiragana = [{
     character: "る",
     phonetic: "ru"
 }, {
-    character: "",
-    phonetic: ""
+    character: "え",
+    phonetic: "e"
 }, {
-    character: "",
-    phonetic: ""
+    character: "け",
+    phonetic: "ke"
 }, {
-    character: "",
-    phonetic: ""
+    character: "せ",
+    phonetic: "se"
 }, {
-    character: "",
-    phonetic: ""
+    character: "て",
+    phonetic: "te"
 }, {
-    character: "",
-    phonetic: ""
+    character: "ね",
+    phonetic: "ne"
 }, {
-    character: "",
-    phonetic: ""
+    character: "へ",
+    phonetic: "he"
 }, {
-    character: "",
-    phonetic: ""
+    character: "め",
+    phonetic: "me"
 }, {
-    character: "",
-    phonetic: ""
+    character: "れ",
+    phonetic: "re"
 }, {
     character: "",
     phonetic: ""
