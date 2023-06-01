@@ -1,14 +1,14 @@
 // Wait for page to finish loading
 
-// document.addEventListener("DOMContentLoaded", function() {
-//     let button = document.getElementsByTagName("button");
+document.addEventListener("DOMContentLoaded", function () {
+    let button = document.getElementsByTagName("button");
 
-//     for (let button of buttons) {
-//         button.addEventListener("click", function {
-//             if (this.)
-//         })
-//     }
-// });
+    for (let button of buttons) {
+        button.addEventListener("click", function () {
+            console.log(button.innerText);
+        })
+    }
+});
 
 // Hiragana: Declarations
 const hiraganaQuestion = document.getElementById("hiragana-question");
@@ -19,7 +19,7 @@ let hiraganaScore = 0;
 let hiraganaQuestionCounter = 0;
 let availableHiraganaQuestions = [];
 
-const hiragana = [{
+let hiragana = [{
     character: "あ",
     phonetic: "a"
 }, {
@@ -174,7 +174,7 @@ function newHiraganaQuestion() {
     hiraganaQuestionCounter++;
     const hiraganaQuestionIndex = Math.floor(Math.random() * availableHiraganaQuestions.length);
     currentHiraganaQuestion = availableHiraganaQuestions[hiraganaQuestionIndex];
-    hiraganaQuestion.innerText = currentHiraganaQuestion.hiraganaQuestion;
+    hiraganaQuestion.innerText = currentHiraganaQuestion.character;
 }
 
 // Hiragana: Display question with 4 potential answers
