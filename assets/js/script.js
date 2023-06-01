@@ -172,7 +172,13 @@ function newHiraganaQuestion() {
     currentHiraganaQuestion = availableHiraganaQuestions[hiraganaQuestionIndex];
     hiraganaQuestion.innerText = currentHiraganaQuestion.character;
 
+    // for (let button of buttons) {
+    //     button.addEventListener("click", function () {
+    //         if (button.innerText === currentHiraganaQuestion.phonetic) {
 
+    //         }
+    //     })
+    // }
 
     availableHiraganaQuestions.splice(hiraganaQuestionIndex, 0);
 
