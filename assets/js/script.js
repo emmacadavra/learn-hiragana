@@ -161,7 +161,7 @@ let hiragana = [{
 
 const MAX_QUESTIONS = 10;
 
-// Hiragana: Start game
+// Hiragana: Start game function
 function runHiraganaGame() {
     hiraganaScore = 0;
     hiraganaQuestionCounter = 0;
@@ -169,17 +169,22 @@ function runHiraganaGame() {
     newHiraganaQuestion();
 }
 
-// Hiragana: Choose question (random)
+// Hiragana: New random question function
 function newHiraganaQuestion() {
     hiraganaQuestionCounter++;
     const hiraganaQuestionIndex = Math.floor(Math.random() * availableHiraganaQuestions.length);
     currentHiraganaQuestion = availableHiraganaQuestions[hiraganaQuestionIndex];
     hiraganaQuestion.innerText = currentHiraganaQuestion.character;
+
+    availableHiraganaQuestions.splice(hiraganaQuestionIndex, 0);
 }
 
-runHiraganaGame();
+// Hiragana: Shuffle array & display 4 choices function:
+// Start with another empty array?
+// 
 
-// Hiragana: Display question with 4 potential answers
+// Hiragana: Run game!
+runHiraganaGame();
 
 // Hiragana: User clicks answer
 
