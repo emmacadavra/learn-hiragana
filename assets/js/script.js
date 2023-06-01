@@ -177,11 +177,16 @@ function newHiraganaQuestion() {
     hiraganaQuestion.innerText = currentHiraganaQuestion.character;
 
     availableHiraganaQuestions.splice(hiraganaQuestionIndex, 0);
+
+    hiraganaShuffle();
 }
 
 // Hiragana: Shuffle array & display 4 choices function:
 // Start with another empty array?
 // 
+function hiraganaShuffle() {
+
+}
 
 // Hiragana: Run game!
 runHiraganaGame();
