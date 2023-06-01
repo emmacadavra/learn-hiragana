@@ -172,7 +172,7 @@ function runHiraganaGame() {
 // Hiragana: Choose question (random)
 function newHiraganaQuestion() {
     hiraganaQuestionCounter++;
-    Math.floor(Math.random() * 46);
+    Math.floor(Math.random() * availableHiraganaQuestions.length);
 }
 
 // Hiragana: Display question with 4 potential answers
