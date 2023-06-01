@@ -172,7 +172,7 @@ function runHiraganaGame() {
 // Hiragana: Choose question (random)
 function newHiraganaQuestion() {
     hiraganaQuestionCounter++;
-    const HiraganaQuestionIndex = Math.floor(Math.random() * availableHiraganaQuestions.length);
+    const hiraganaQuestionIndex = Math.floor(Math.random() * availableHiraganaQuestions.length);
     currentHiraganaQuestion = availableHiraganaQuestions[hiraganaQuestionIndex];
     hiraganaQuestion.innerText = currentHiraganaQuestion.hiraganaQuestion;
 }
