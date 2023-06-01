@@ -13,7 +13,7 @@ let hiraganaScore = 0;
 let hiraganaQuestionCounter = 0;
 let availableHiraganaQuestions = [];
 
-let hiragana = [{
+const hiragana = [{
     character: "あ",
     phonetic: "a"
 }, {
@@ -171,6 +171,8 @@ function newHiraganaQuestion() {
     const hiraganaQuestionIndex = Math.floor(Math.random() * availableHiraganaQuestions.length);
     currentHiraganaQuestion = availableHiraganaQuestions[hiraganaQuestionIndex];
     hiraganaQuestion.innerText = currentHiraganaQuestion.character;
+
+
 
     availableHiraganaQuestions.splice(hiraganaQuestionIndex, 0);
 
