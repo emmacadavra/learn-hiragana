@@ -10,6 +10,8 @@
 //     }
 // });
 
+const MAX_QUESTIONS = 10;
+
 // Hiragana: Declarations
 const hiraganaQuestion = document.getElementById("hiragana-question");
 const hiraganaChoices = Array.from(document.getElementsByClassName("hiragana-answer"));
@@ -159,12 +161,11 @@ const hiragana = [{
     phonetic: "n"
 }]
 
-const MAX_QUESTIONS = 10;
-
 // Hiragana: Start game
 function runHiraganaGame() {
     hiraganaScore = 0;
     hiraganaQuestionCounter = 0;
+    availableHiraganaQuestions = [...hiragana];
     newHiraganaQuestion();
 }
 
