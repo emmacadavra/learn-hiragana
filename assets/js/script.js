@@ -1,14 +1,14 @@
 // Wait for page to finish loading
 
-document.addEventListener("DOMContentLoaded", function () {
-    let button = document.getElementsByTagName("button");
+// document.addEventListener("DOMContentLoaded", function () {
+//     let button = document.getElementsByTagName("button");
 
-    for (let button of buttons) {
-        button.addEventListener("click", function () {
-            console.log(button.innerText);
-        })
-    }
-});
+//     for (let button of buttons) {
+//         button.addEventListener("click", function () {
+//             console.log(button.innerText);
+//         })
+//     }
+// });
 
 // Hiragana: Declarations
 const hiraganaQuestion = document.getElementById("hiragana-question");
