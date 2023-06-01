@@ -1,14 +1,8 @@
 // Wait for page to finish loading
 
-// document.addEventListener("DOMContentLoaded", function () {
-//     let button = document.getElementsByTagName("button");
-
-//     for (let button of buttons) {
-//         button.addEventListener("click", function () {
-//             console.log(button.innerText);
-//         })
-//     }
-// });
+document.addEventListener("DOMContentLoaded", function () {
+    runHiraganaGame();
+});
 
 // Hiragana: Declarations
 const hiraganaQuestion = document.getElementById("hiragana-question");
@@ -172,24 +166,22 @@ function runHiraganaGame() {
 // Hiragana: New random question function
 function newHiraganaQuestion() {
     hiraganaQuestionCounter++;
+    hiraganaShuffle();
+
     const hiraganaQuestionIndex = Math.floor(Math.random() * availableHiraganaQuestions.length);
     currentHiraganaQuestion = availableHiraganaQuestions[hiraganaQuestionIndex];
     hiraganaQuestion.innerText = currentHiraganaQuestion.character;
 
     availableHiraganaQuestions.splice(hiraganaQuestionIndex, 0);
 
-    hiraganaShuffle();
 }
 
 // Hiragana: Shuffle array & display 4 choices function:
 // Start with another empty array?
-// 
+// Max 4 [0-3], shuffle before displaying 
 function hiraganaShuffle() {
 
 }
-
-// Hiragana: Run game!
-runHiraganaGame();
 
 // Hiragana: User clicks answer
 
