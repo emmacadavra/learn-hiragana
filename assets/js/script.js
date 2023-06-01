@@ -177,6 +177,8 @@ function newHiraganaQuestion() {
     hiraganaQuestion.innerText = currentHiraganaQuestion.character;
 }
 
+runHiraganaGame();
+
 // Hiragana: Display question with 4 potential answers
 
 // Hiragana: User clicks answer
