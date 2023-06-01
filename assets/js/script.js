@@ -1,6 +1,13 @@
 // Wait for page to finish loading
-// document.addEventListener("DOMContentLoaded", function () {
-//     // Start screen?
+
+// document.addEventListener("DOMContentLoaded", function() {
+//     let button = document.getElementsByTagName("button");
+
+//     for (let button of buttons) {
+//         button.addEventListener("click", function {
+//             if (this.)
+//         })
+//     }
 // });
 
 // Hiragana: Declarations
