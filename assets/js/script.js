@@ -262,15 +262,18 @@ function newHiraganaQuestion() {
 
 // Hiragana: Listen for click & check answer, display new question
 for (let button of buttons) {
-    button.addEventListener("click", function () {
+    button.addEventListener("click", function (event) {
 
         if (!acceptingAnswers) return;
         acceptingAnswers = false;
+        const selectedAnswer = event.target;
 
-        if (button.innerText === currentHiraganaQuestion.phonetic) {
+        if (selectedAnswer.innerText === currentHiraganaQuestion.phonetic) {
             // If answer is correct, increase score + green background
             hiraganaScore++;
             currentScore.innerText = [hiraganaScore];
+            this.classList.add("correct");
+
             newHiraganaQuestion();
         } else {
             // If incorrect, red background
