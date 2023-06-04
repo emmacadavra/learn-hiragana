@@ -452,14 +452,14 @@ const katakana = [{
 
 // Katakana: Start game function
 function runKatakanaGame() {
-    KatakanaScore = 0;
-    hiraganaQuestionCounter = 0;
-    availableHiraganaQuestions = [...hiragana];
-    newHiraganaQuestion();
+    katakanaScore = 0;
+    katakanaQuestionCounter = 0;
+    availableKatakanaQuestions = [...katakana];
+    newKatakanaQuestion();
 }
 
 // Katakana: New random question function
-function newHiraganaQuestion() {
+function newKatakanaQuestion() {
     // If 10 questions have been asked, display unique message depending on score
     // Restart game or go back to the homepage depending on button press
     if (hiraganaQuestionCounter >= maxQuestions) {
