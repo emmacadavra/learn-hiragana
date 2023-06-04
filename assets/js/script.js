@@ -183,7 +183,7 @@ function newHiraganaQuestion() {
         }
     }
 
-    console.log(hiraganaAnswers);
+    const buttons = document.getElementsByTagName("button");
 
     let i = 0;
 
