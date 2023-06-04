@@ -182,6 +182,7 @@ function newHiraganaQuestion() {
         }
     }
 
+    // Hiragana: Display 4 choices:
     let i = 0;
 
     for (let button of buttons) {
@@ -193,7 +194,7 @@ function newHiraganaQuestion() {
     // console.log(availableHiraganaQuestions);
 }
 
-
+// Hiragana: Listen for click & check answer, display new question
 for (let button of buttons) {
     button.addEventListener("click", function () {
         if (button.innerText === currentHiraganaQuestion.phonetic) {
@@ -205,19 +206,12 @@ for (let button of buttons) {
     });
 }
 
-// Hiragana: Shuffle array & display 4 choices function:
-// Start with another empty array?
-// Max 4 [0-3], shuffle before displaying 
-
-// Hiragana: User clicks answer
-
-// Hiragana: Check the answer
-
-// Hiragana: If correct, answer turns green and increases correct score
+// Hiragana: If answer is correct, increase score
+function increaseScore() {
+    let oldScore = parseInt(document.getElementByClass("score").innerText);
+}
 
 // Hiragana: If incorrect, answer turns red and increases incorrect score
-
-// Hiragana: Display next question (up to 10?)
 
 // Hiragana: After final question, display final score with message depending on score
 
