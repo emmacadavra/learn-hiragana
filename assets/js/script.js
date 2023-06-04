@@ -246,63 +246,66 @@ function newHiraganaQuestion() {
     }
 
     // Display 4 choices
-    let i = 0;
+    function shuffle(array) {
+        for (let i = array.length - 1; i >= 0; i--) {
 
-    for (let button of buttons) {
-        button.innerText = hiraganaAnswers[i].phonetic;
-        i++;
-    }
-
-    // Splice the current question out of the array so it doesn't appear twice
-    availableHiraganaQuestions.splice(hiraganaQuestionIndex, 0);
-
-    // Once everything has loaded, allow answers
-    acceptingAnswers = true;
-}
-
-// Hiragana: Listen for click & check answer, display new question
-for (let button of buttons) {
-    button.addEventListener("click", function (event) {
-
-        if (!acceptingAnswers) return;
-        acceptingAnswers = false;
-
-        const selectedAnswer = event.target;
-
-        if (selectedAnswer.innerText === currentHiraganaQuestion.phonetic) {
-            // If answer is correct, increase score + green background
-            hiraganaScore++;
-            currentScore.innerText = [hiraganaScore];
-            this.classList.add("correct");
-        } else {
-            // If incorrect, red background
-            this.classList.add("incorrect");
         }
 
-        setTimeout(() => {
-            selectedAnswer.classList.remove("correct", "incorrect");
-            newHiraganaQuestion();
-        }, 500);
-    });
-}
+        // for (let button of buttons) {
+        //     button.innerText = hiraganaAnswers[i].phonetic;
+        //     i++;
+        // }
+
+        // Splice the current question out of the array so it doesn't appear twice
+        availableHiraganaQuestions.splice(hiraganaQuestionIndex, 0);
+
+        // Once everything has loaded, allow answers
+        acceptingAnswers = true;
+    }
+
+    // Hiragana: Listen for click & check answer, display new question
+    for (let button of buttons) {
+        button.addEventListener("click", function (event) {
+
+            if (!acceptingAnswers) return;
+            acceptingAnswers = false;
+
+            const selectedAnswer = event.target;
+
+            if (selectedAnswer.innerText === currentHiraganaQuestion.phonetic) {
+                // If answer is correct, increase score + green background
+                hiraganaScore++;
+                currentScore.innerText = [hiraganaScore];
+                this.classList.add("correct");
+            } else {
+                // If incorrect, red background
+                this.classList.add("incorrect");
+            }
+
+            setTimeout(() => {
+                selectedAnswer.classList.remove("correct", "incorrect");
+                newHiraganaQuestion();
+            }, 500);
+        });
+    }
 
 
-// Katakana: Start game
+    // Katakana: Start game
 
-// Katakana: Choose question (random)
+    // Katakana: Choose question (random)
 
-// Katakana: Display question with 4 potential answers
+    // Katakana: Display question with 4 potential answers
 
-// Katakana: User clicks answer
+    // Katakana: User clicks answer
 
-// Katakana: Check the answer
+    // Katakana: Check the answer
 
-// Katakana: If correct, answer turns green and increases correct score
+    // Katakana: If correct, answer turns green and increases correct score
 
-// Katakana: If incorrect, answer turns red and increases incorrect score
+    // Katakana: If incorrect, answer turns red and increases incorrect score
 
-// Katakana: Display next question (up to 10?)
+    // Katakana: Display next question (up to 10?)
 
-// Katakana: After final question, display final score with message depending on score
+    // Katakana: After final question, display final score with message depending on score
 
-// Katakana: Restart the game
+    // Katakana: Restart the game
