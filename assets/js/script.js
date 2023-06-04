@@ -281,10 +281,8 @@ for (let button of buttons) {
 
         setTimeout(() => {
             selectedAnswer.classList.remove("correct", "incorrect");
-
+            newHiraganaQuestion();
         });
-
-        newHiraganaQuestion();
     });
 }
 
