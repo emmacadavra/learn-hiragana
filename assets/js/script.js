@@ -175,13 +175,15 @@ function newHiraganaQuestion() {
     hiraganaQuestion.innerText = currentHiraganaQuestion.character;
 
     // Take the phonetic of the current hiragana and pick 3 others from the list at random
-    const hiraganaAnswers = [currentHiraganaQuestion.phonetic];
+    const hiraganaAnswers = [currentHiraganaQuestion];
     while (hiraganaAnswers.length < 4) {
         let randomHiraganaIndex = Math.floor(Math.random() * hiragana.length);
         if (!hiraganaAnswers.some((answer) => answer === hiragana[randomHiraganaIndex])) {
             hiraganaAnswers.push(hiragana[randomHiraganaIndex]);
         }
     }
+
+    console.log(hiraganaAnswers);
 
     const buttons = document.getElementsByTagName("button");
 
@@ -200,7 +202,7 @@ function newHiraganaQuestion() {
     //     })
     // }
 
-    availableHiraganaQuestions.splice(hiraganaQuestionIndex, 0);
+    // availableHiraganaQuestions.splice(hiraganaQuestionIndex, 0);
 
 }
 
