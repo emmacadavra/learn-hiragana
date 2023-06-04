@@ -249,8 +249,8 @@ function newHiraganaQuestion() {
         shuffle(hiraganaAnswers);
         let j = 0
         button.innerText = hiraganaAnswers[j].phonetic;
+        hiraganaAnswers.splice[j];
         j++;
-        console.log(hiraganaAnswers);
     }
 
     // Splice the current question out of the array so it doesn't appear twice
@@ -262,9 +262,10 @@ function newHiraganaQuestion() {
 
 // Fisher-Yates shuffle method
 function shuffle(hiraganaAnswers) {
-    for (let i = hiraganaAnswers.length - 1; i >= 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [hiraganaAnswers[i], hiraganaAnswers[j]] = [hiraganaAnswers[j], hiraganaAnswers[i]];
+    let i = hiraganaAnswers.length;
+    while (--i > 0) {
+        let temp = Math.floor(Math.random() * (i + 1));
+        [hiraganaAnswers[temp], hiraganaAnswers[i]] = [hiraganaAnswers[i], hiraganaAnswers[temp]];
     }
     return hiraganaAnswers;
 }
