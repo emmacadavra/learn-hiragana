@@ -175,9 +175,9 @@ function newHiraganaQuestion() {
                 allowEscapeKey: false,
                 allowEnterKey: false,
                 allowOutsideClick: false,
-                confirmButtonText: "Play Again!",
+                confirmButtonText: '<a href="hiragana.html">Play Again!</a>',
                 showDenyButton: true,
-                denyButtonText: "Choose Different Game",
+                denyButtonText: '<a href="index.html">Choose a Different Game</a>',
             })
         } else if (hiraganaScore < 10 && hiraganaScore >= 7) {
             Swal.fire({
@@ -186,9 +186,9 @@ function newHiraganaQuestion() {
                 allowEscapeKey: false,
                 allowEnterKey: false,
                 allowOutsideClick: false,
-                confirmButtonText: "Play Again!",
+                confirmButtonText: '<a href="hiragana.html">Play Again!</a>',
                 showDenyButton: true,
-                denyButtonText: "Choose Different Game",
+                denyButtonText: '<a href="index.html">Choose a Different Game</a>',
             })
         } else if (hiraganaScore < 7 && hiraganaScore >= 4) {
             Swal.fire({
@@ -197,9 +197,9 @@ function newHiraganaQuestion() {
                 allowEscapeKey: false,
                 allowEnterKey: false,
                 allowOutsideClick: false,
-                confirmButtonText: "Play Again!",
+                confirmButtonText: '<a href="hiragana.html">Play Again!</a>',
                 showDenyButton: true,
-                denyButtonText: "Choose Different Game",
+                denyButtonText: '<a href="index.html">Choose a Different Game</a>',
             })
         } else if (hiraganaScore < 4 && hiraganaScore >= 1) {
             Swal.fire({
@@ -208,9 +208,9 @@ function newHiraganaQuestion() {
                 allowEscapeKey: false,
                 allowEnterKey: false,
                 allowOutsideClick: false,
-                confirmButtonText: "Play Again!",
+                confirmButtonText: '<a href="hiragana.html">Play Again!</a>',
                 showDenyButton: true,
-                denyButtonText: "Choose Different Game",
+                denyButtonText: '<a href="index.html">Choose a Different Game</a>',
             })
         } else if (hiraganaScore = 0) {
             Swal.fire({
@@ -219,9 +219,9 @@ function newHiraganaQuestion() {
                 allowEscapeKey: false,
                 allowEnterKey: false,
                 allowOutsideClick: false,
-                confirmButtonText: "Play Again!",
+                confirmButtonText: '<a href="hiragana.html">Play Again!</a>',
                 showDenyButton: true,
-                denyButtonText: "Choose Different Game",
+                denyButtonText: '<a href="index.html">Choose a Different Game</a>',
             })
         }
     }
