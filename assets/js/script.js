@@ -158,7 +158,7 @@ const MAX_QUESTIONS = 10;
 
 // Hiragana: Start game function
 function runHiraganaGame() {
-    hiraganaScore = 0;
+    // hiraganaScore = 0;
     hiraganaQuestionCounter = 0;
     availableHiraganaQuestions = [...hiragana];
     newHiraganaQuestion();
