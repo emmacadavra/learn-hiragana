@@ -201,6 +201,8 @@ for (let button of buttons) {
         if (button.innerText === currentHiraganaQuestion.phonetic) {
             hiraganaScore++;
             newHiraganaQuestion();
+        } else {
+            newHiraganaQuestion();
         }
     });
 }
