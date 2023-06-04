@@ -167,6 +167,10 @@ function runHiraganaGame() {
 
 // Hiragana: New random question function
 function newHiraganaQuestion() {
+    if (hiraganaQuestionCounter >= maxQuestions) {
+
+    }
+
     hiraganaQuestionCounter++;
 
     // Pick a random hiragana and display the character as the question
@@ -200,6 +204,10 @@ function newHiraganaQuestion() {
 // Hiragana: Listen for click & check answer, display new question
 for (let button of buttons) {
     button.addEventListener("click", function () {
+
+        if (!acceptingAnswers) return;
+        acceptingAnswers = false;
+
         if (button.innerText === currentHiraganaQuestion.phonetic) {
             hiraganaScore++;
             currentScore.innerText = [hiraganaScore];
