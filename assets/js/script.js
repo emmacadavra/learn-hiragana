@@ -539,16 +539,16 @@ function newKatakanaQuestion() {
     }
 
     // Shuffle the 4 potential answers to each question
-    function hiraganaShuffle() {
-        let j = (hiraganaAnswers.length);
+    function katakanaShuffle() {
+        let j = (katakanaAnswers.length);
         while (--j > 0) {
             let temp = Math.floor(Math.random() * (j + 1));
-            [hiraganaAnswers[temp], hiraganaAnswers[j]] = [hiraganaAnswers[j], hiraganaAnswers[temp]];
+            [katakanaAnswers[temp], katakanaAnswers[j]] = [katakanaAnswers[j], katakanaAnswers[temp]];
         }
-        return hiraganaAnswers;
+        return katakanaAnswers;
     }
 
-    hiraganaShuffle();
+    katakanaShuffle();
 
     // Display the shuffled potential answers
     let i = 0;
