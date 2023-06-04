@@ -193,12 +193,11 @@ function newHiraganaQuestion() {
     // console.log(availableHiraganaQuestions);
 }
 
+
 for (let button of buttons) {
     button.addEventListener("click", function () {
         if (button.innerText === currentHiraganaQuestion.phonetic) {
-            hiraganaScore++;
-            let score = document.getElementsByClassName("score");
-            score.innerText = hiraganaScore;
+            increaseScore();
             newHiraganaQuestion();
         } else {
             newHiraganaQuestion();
