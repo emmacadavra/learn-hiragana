@@ -193,6 +193,8 @@ function newHiraganaQuestion() {
 
     // Splice the current question out of the array so it doesn't appear twice
     availableHiraganaQuestions.splice(hiraganaQuestionIndex, 0);
+
+    acceptingAnswers = true;
 }
 
 // Hiragana: Listen for click & check answer, display new question
