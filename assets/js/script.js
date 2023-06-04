@@ -169,13 +169,15 @@ function newHiraganaQuestion() {
     hiraganaQuestionCounter++;
     hiraganaShuffle();
 
+    // Pick a random hiragana and display the character as the question
     const hiraganaQuestionIndex = Math.floor(Math.random() * availableHiraganaQuestions.length);
     currentHiraganaQuestion = availableHiraganaQuestions[hiraganaQuestionIndex];
     hiraganaQuestion.innerText = currentHiraganaQuestion.character;
-
-    const hiraganaAnswer = [currentHiraganaQuestion.phonetic];
-    while (hiraganaAnswer.length < 4) {
+    // Take the phonetic of the current hiragana and pick 3 others from the list at random
+    const hiraganaAnswers = [currentHiraganaQuestion.phonetic];
+    while (hiraganaAnswers.length < 4) {
         let randomHiraganaIndex = Math.floor(Math.random() * hiragana.length);
+        if (!hiraganaAnswers.some(() => ))
     }
 
 
