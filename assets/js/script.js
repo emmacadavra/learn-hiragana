@@ -554,12 +554,12 @@ function newKatakanaQuestion() {
     let i = 0;
 
     for (let button of buttons) {
-        button.innerText = hiraganaAnswers[i].phonetic;
+        button.innerText = katakanaAnswers[i].phonetic;
         i++;
     }
 
     // Splice the current question out of the array so it doesn't appear twice
-    availableHiraganaQuestions.splice(hiraganaQuestionIndex, 0);
+    availableKatakanaQuestions.splice(katakanaQuestionIndex, 0);
 
     // Once everything has loaded, allow answers
     acceptingAnswers = true;
