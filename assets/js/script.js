@@ -185,11 +185,12 @@ function newHiraganaQuestion() {
 
     console.log(hiraganaAnswers);
 
-    // let i = 0;
+    let i = 0;
 
-    // for (let button of buttons) {
-    //     button
-    // }
+    for (let button of buttons) {
+        button.innerText = hiraganaAnswers[i];
+        i++;
+    }
 
     // for (let button of buttons) {
     //     button.addEventListener("click", function () {
@@ -199,7 +200,7 @@ function newHiraganaQuestion() {
     //     })
     // }
 
-    // availableHiraganaQuestions.splice(hiraganaQuestionIndex, 0);
+    availableHiraganaQuestions.splice(hiraganaQuestionIndex, 0);
 
 }
 
