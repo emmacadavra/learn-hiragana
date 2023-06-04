@@ -266,6 +266,7 @@ for (let button of buttons) {
 
         if (!acceptingAnswers) return;
         acceptingAnswers = false;
+
         const selectedAnswer = event.target;
 
         if (selectedAnswer.innerText === currentHiraganaQuestion.phonetic) {
@@ -273,11 +274,9 @@ for (let button of buttons) {
             hiraganaScore++;
             currentScore.innerText = [hiraganaScore];
             this.classList.add("correct");
-
-            newHiraganaQuestion();
         } else {
             // If incorrect, red background
-            newHiraganaQuestion();
+            this.classList.add("incorrect");
         }
     });
 }
