@@ -278,6 +278,8 @@ for (let button of buttons) {
             // If incorrect, red background
             this.classList.add("incorrect");
         }
+
+        newHiraganaQuestion();
     });
 }
 
