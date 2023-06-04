@@ -183,8 +183,6 @@ function newHiraganaQuestion() {
         }
     }
 
-    console.log(hiraganaAnswers);
-
     const buttons = document.getElementsByTagName("button");
 
     let i = 0;
@@ -202,7 +200,7 @@ for (let button of buttons) {
     button.addEventListener("click", function () {
         if (button.innerText === currentHiraganaQuestion.phonetic) {
             hiraganaScore++;
-
+            newHiraganaQuestion();
         }
     });
 }
