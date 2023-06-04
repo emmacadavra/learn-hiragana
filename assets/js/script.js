@@ -175,7 +175,9 @@ function newHiraganaQuestion() {
                 allowEscapeKey: false,
                 allowEnterKey: false,
                 allowOutsideClick: false,
-
+                confirmButtonText: "Play Again!",
+                showDenyButton: true,
+                denyButtonText: "Choose Different Game",
             })
         }
     }
