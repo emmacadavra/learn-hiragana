@@ -279,6 +279,10 @@ for (let button of buttons) {
             this.classList.add("incorrect");
         }
 
+        setTimeout(() => {
+
+        });
+
         newHiraganaQuestion();
     });
 }
