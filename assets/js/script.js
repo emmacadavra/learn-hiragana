@@ -301,13 +301,12 @@ for (let button of buttons) {
 }
 
 // Katakana: Declarations
-const katakanaQuestion = document.getElementById("hiragana-question");
+const katakanaQuestion = document.getElementById("katakana-question");
 
-let currentHiraganaQuestion = {};
-let hiraganaScore = 0;
-let hiraganaQuestionCounter = 0;
-let availableHiraganaQuestions = [];
-let acceptingAnswers = false;
+let currentKatakanaQuestion = {};
+let katakanaScore = 0;
+let katakanaQuestionCounter = 0;
+let availableKatakanaQuestions = [];
 
 // Katakana object array
 const hiragana = [{
