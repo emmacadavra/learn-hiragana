@@ -190,8 +190,7 @@ function newHiraganaQuestion() {
         i++;
     }
 
-    // availableHiraganaQuestions.splice(currentHiraganaQuestion);
-    // console.log(availableHiraganaQuestions);
+    availableHiraganaQuestions.splice(hiraganaQuestionIndex, 0);
 }
 
 // Hiragana: Listen for click & check answer, display new question
@@ -199,6 +198,7 @@ for (let button of buttons) {
     button.addEventListener("click", function () {
         if (button.innerText === currentHiraganaQuestion.phonetic) {
             hiraganaScore++;
+            currentScore.innerText = [hiraganaScore];
             newHiraganaQuestion();
         } else {
             newHiraganaQuestion();
