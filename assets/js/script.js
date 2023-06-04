@@ -245,6 +245,17 @@ function newHiraganaQuestion() {
         }
     }
 
+    function hiraganaShuffle() {
+        let j = (hiraganaAnswers.length);
+        while (--j > 0) {
+            let temp = Math.floor(Math.random() * (j + 1));
+            [hiraganaAnswers[temp], hiraganaAnswers[j]] = [hiraganaAnswers[j], hiraganaAnswers[temp]];
+        }
+        return hiraganaAnswers;
+    }
+
+    hiraganaShuffle();
+    console.log(hiraganaAnswers);
     let i = 0;
 
     for (let button of buttons) {
@@ -284,8 +295,6 @@ for (let button of buttons) {
         }, 500);
     });
 }
-
-
 // Katakana: Start game
 
 // Katakana: Choose question (random)
