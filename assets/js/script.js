@@ -181,21 +181,24 @@ function newHiraganaQuestion() {
         if (!hiraganaAnswers.some((answer) => answer === hiragana[randomHiraganaIndex])) {
             hiraganaAnswers.push(hiragana[randomHiraganaIndex]);
         }
+        console.log(hiraganaAnswers);
     }
 
-    let i = 0;
+    // let i = 0;
 
-    for ()
+    // for (let button of buttons) {
+    //     button
+    // }
 
-        // for (let button of buttons) {
-        //     button.addEventListener("click", function () {
-        //         if (button.innerText === currentHiraganaQuestion.phonetic) {
+    // for (let button of buttons) {
+    //     button.addEventListener("click", function () {
+    //         if (button.innerText === currentHiraganaQuestion.phonetic) {
 
-        //         }
-        //     })
-        // }
+    //         }
+    //     })
+    // }
 
-        availableHiraganaQuestions.splice(hiraganaQuestionIndex, 0);
+    availableHiraganaQuestions.splice(hiraganaQuestionIndex, 0);
 
 }
 
