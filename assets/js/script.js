@@ -245,8 +245,9 @@ function newHiraganaQuestion() {
         }
     }
 
+    let i = 0;
+
     for (let button of buttons) {
-        let i = 0;
         button.innerText = hiraganaAnswers[i].phonetic;
         i++;
     }
