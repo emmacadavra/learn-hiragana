@@ -1,12 +1,13 @@
 // Wait for page to finish loading
 
-document.addEventListener("DOMContentLoaded", function () {
-    runHiraganaGame();
-});
+// document.addEventListener("DOMContentLoaded", function () {
+//     runHiraganaGame();
+// });
 
 // Hiragana: Declarations
 const hiraganaQuestion = document.getElementById("hiragana-question");
 const hiraganaChoices = Array.from(document.getElementsByClassName("hiragana-answer"));
+
 
 let currentHiraganaQuestion = {};
 let hiraganaScore = 0;
@@ -172,6 +173,7 @@ function newHiraganaQuestion() {
     currentHiraganaQuestion = availableHiraganaQuestions[hiraganaQuestionIndex];
     hiraganaQuestion.innerText = currentHiraganaQuestion.character;
 
+    const hiraganaAnswer = [currentHiraganaQuestion.phonetic];
     // for (let button of buttons) {
     //     button.addEventListener("click", function () {
     //         if (button.innerText === currentHiraganaQuestion.phonetic) {
