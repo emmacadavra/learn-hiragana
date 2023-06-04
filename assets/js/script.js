@@ -181,7 +181,6 @@ function newHiraganaQuestion() {
         if (!hiraganaAnswers.some((answer) => answer === hiragana[randomHiraganaIndex])) {
             hiraganaAnswers.push(hiragana[randomHiraganaIndex]);
         }
-        console.log(hiraganaAnswers);
     }
 
     // let i = 0;
