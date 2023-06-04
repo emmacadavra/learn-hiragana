@@ -183,16 +183,19 @@ function newHiraganaQuestion() {
         }
     }
 
+    let i = 0;
 
-    // for (let button of buttons) {
-    //     button.addEventListener("click", function () {
-    //         if (button.innerText === currentHiraganaQuestion.phonetic) {
+    for ()
 
-    //         }
-    //     })
-    // }
+        // for (let button of buttons) {
+        //     button.addEventListener("click", function () {
+        //         if (button.innerText === currentHiraganaQuestion.phonetic) {
 
-    availableHiraganaQuestions.splice(hiraganaQuestionIndex, 0);
+        //         }
+        //     })
+        // }
+
+        availableHiraganaQuestions.splice(hiraganaQuestionIndex, 0);
 
 }
 
