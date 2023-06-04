@@ -191,7 +191,16 @@ function newHiraganaQuestion() {
                 denyButtonText: "Choose Different Game",
             })
         } else if (hiraganaScore < 7 && hiraganaScore >= 4) {
-
+            Swal.fire({
+                title: `You scored ${hiraganaScore}/10!`,
+                html: "Keep trying! You have some knowledge of hiragana, and with practise your knowledge will surely grow.<br>Would you like to play again?",
+                allowEscapeKey: false,
+                allowEnterKey: false,
+                allowOutsideClick: false,
+                confirmButtonText: "Play Again!",
+                showDenyButton: true,
+                denyButtonText: "Choose Different Game",
+            })
         }
     }
 
