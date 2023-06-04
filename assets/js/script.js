@@ -530,11 +530,11 @@ function newKatakanaQuestion() {
     katakanaQuestion.innerText = currentKatakanaQuestion.character;
 
     // Take the phonetic of the current katakana and pick 3 others from the list at random
-    const hiraganaAnswers = [currentHiraganaQuestion];
-    while (hiraganaAnswers.length < 4) {
-        let randomHiraganaIndex = Math.floor(Math.random() * hiragana.length);
-        if (!hiraganaAnswers.some((answer) => answer === hiragana[randomHiraganaIndex])) {
-            hiraganaAnswers.push(hiragana[randomHiraganaIndex]);
+    const katakanaAnswers = [currentKatakanaQuestion];
+    while (katakanaAnswers.length < 4) {
+        let randomKatakanaIndex = Math.floor(Math.random() * katakana.length);
+        if (!katakanaAnswers.some((answer) => answer === katakana[randomKatakanaIndex])) {
+            katakanaAnswers.push(katakana[randomKatakanaIndex]);
         }
     }
 
