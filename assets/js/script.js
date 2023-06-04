@@ -574,10 +574,10 @@ for (let button of buttons) {
 
         const selectedAnswer = event.target;
 
-        if (selectedAnswer.innerText === currentHiraganaQuestion.phonetic) {
+        if (selectedAnswer.innerText === currentKatakanaQuestion.phonetic) {
             // If answer is correct, increase score + green background
-            hiraganaScore++;
-            currentScore.innerText = [hiraganaScore];
+            katakanaScore++;
+            currentScore.innerText = [katakanaScore];
             this.classList.add("correct");
         } else {
             // If incorrect, red background
@@ -587,7 +587,7 @@ for (let button of buttons) {
         // Remove temporary classes with red/green backgrounds, set a short timeout before loading next question
         setTimeout(() => {
             selectedAnswer.classList.remove("correct", "incorrect");
-            newHiraganaQuestion();
+            newKatakanaQuestion();
         }, 500);
     });
 }
