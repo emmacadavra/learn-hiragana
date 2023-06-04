@@ -391,28 +391,28 @@ const katakana = [{
     character: "ル",
     phonetic: "ru"
 }, {
-    character: "え",
+    character: "エ",
     phonetic: "e"
 }, {
-    character: "け",
+    character: "ケ",
     phonetic: "ke"
 }, {
-    character: "せ",
+    character: "セ",
     phonetic: "se"
 }, {
-    character: "て",
+    character: "テ",
     phonetic: "te"
 }, {
-    character: "ね",
+    character: "ネ",
     phonetic: "ne"
 }, {
-    character: "へ",
+    character: "ヘ",
     phonetic: "he"
 }, {
-    character: "め",
+    character: "メ",
     phonetic: "me"
 }, {
-    character: "れ",
+    character: "レ",
     phonetic: "re"
 }, {
     character: "お",
