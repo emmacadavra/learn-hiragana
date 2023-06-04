@@ -200,6 +200,7 @@ function newHiraganaQuestion() {
     for (let button of buttons) {
         button.addEventListener("click", function () {
             if (button.innerText === currentHiraganaQuestion.phonetic) {
+                hiraganaScore++;
 
             }
         });
