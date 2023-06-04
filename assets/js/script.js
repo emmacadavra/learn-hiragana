@@ -175,7 +175,7 @@ function newHiraganaQuestion() {
 
     const hiraganaAnswer = [currentHiraganaQuestion.phonetic];
     while (hiraganaAnswer.length < 4) {
-
+        let randomHiraganaIndex = Math.floor(Math.random() * hiragana.length);
     }
 
 
