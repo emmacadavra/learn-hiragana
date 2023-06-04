@@ -309,35 +309,35 @@ let katakanaQuestionCounter = 0;
 let availableKatakanaQuestions = [];
 
 // Katakana object array
-const hiragana = [{
-    character: "あ",
+const katakana = [{
+    character: "ア",
     phonetic: "a"
 }, {
-    character: "か",
+    character: "カ",
     phonetic: "ka"
 }, {
-    character: "さ",
+    character: "サ",
     phonetic: "sa"
 }, {
-    character: "た",
+    character: "タ",
     phonetic: "ta"
 }, {
-    character: "な",
+    character: "ナ",
     phonetic: "na"
 }, {
-    character: "は",
+    character: "ハ",
     phonetic: "ha"
 }, {
-    character: "ま",
+    character: "マ",
     phonetic: "ma"
 }, {
-    character: "や",
+    character: "ヤ",
     phonetic: "ya"
 }, {
-    character: "ら",
+    character: "ラ",
     phonetic: "ra"
 }, {
-    character: "わ",
+    character: "ワ",
     phonetic: "wa"
 }, {
     character: "い",
