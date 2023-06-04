@@ -243,31 +243,36 @@ function newHiraganaQuestion() {
         if (!hiraganaAnswers.some((answer) => answer === hiragana[randomHiraganaIndex])) {
             hiraganaAnswers.push(hiragana[randomHiraganaIndex]);
         }
-        shuffle();
     }
 
-    // Fisher-Yates shuffle method
-    function shuffle() {
-        for (let i = hiraganaAnswers.length - 1; i >= 0; i--) {
-            let j = Math.floor(Math.random() * (i + 1));
-            let k = hiraganaAnswers[i];
-            hiraganaAnswers[i] = hiraganaAnswers[j];
-            hiraganaAnswers[j] = k;
-        }
-        console.log(hiraganaAnswers.phonetic);
-    }
+    shuffle(hiraganaAnswers);
 
     for (let button of buttons) {
-        let i = 0;
-        button.innerText = hiraganaAnswers[i].phonetic;
-        i++;
+        let l = 0;
+        button.innerText = hiraganaAnswers[0].phonetic;
+        l++;
     }
+
+
 
     // Splice the current question out of the array so it doesn't appear twice
     availableHiraganaQuestions.splice(hiraganaQuestionIndex, 0);
 
     // Once everything has loaded, allow answers
     acceptingAnswers = true;
+}
+
+// Fisher-Yates shuffle method
+function shuffle(hiraganaAnswers) {
+    for (let i = hiraganaAnswers.length - 1; i >= 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
+        let k = hiraganaAnswers[i];
+        hiraganaAnswers[i] = hiraganaAnswers[j];
+        hiraganaAnswers[j] = k;
+        hiraganaAnswers.push(hiraganaAnswers[j]);
+        hiraganaAnswers.splice(j, 1);
+    }
+    console.log(hiraganaAnswers);
 }
 
 // Hiragana: Listen for click & check answer, display new question
