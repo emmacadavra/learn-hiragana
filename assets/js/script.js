@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // Hiragana: Declarations
 const hiraganaQuestion = document.getElementById("hiragana-question");
 const hiraganaChoices = Array.from(document.getElementsByClassName("hiragana-answer"));
-
+const buttons = document.getElementsByTagName("button");
 
 let currentHiraganaQuestion = {};
 let hiraganaScore = 0;
@@ -183,8 +183,6 @@ function newHiraganaQuestion() {
         }
     }
 
-    const buttons = document.getElementsByTagName("button");
-
     let i = 0;
 
     for (let button of buttons) {
@@ -192,8 +190,8 @@ function newHiraganaQuestion() {
         i++;
     }
 
-    availableHiraganaQuestions.splice(hiraganaQuestionIndex, 0);
-    console.log(availableHiraganaQuestions);
+    // availableHiraganaQuestions.splice(currentHiraganaQuestion);
+    // console.log(availableHiraganaQuestions);
 }
 
 for (let button of buttons) {
