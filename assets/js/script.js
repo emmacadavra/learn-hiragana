@@ -208,7 +208,8 @@ for (let button of buttons) {
 
 // Hiragana: If answer is correct, increase score
 function increaseScore() {
-    let oldScore = parseInt(document.getElementByClass("score").innerText);
+    let oldScore = parseInt(document.getElementByClassName("score").innerText);
+    document.getElementClassName("score").innerText = ++oldScore;
 }
 
 // Hiragana: If incorrect, answer turns red and increases incorrect score
