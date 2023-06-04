@@ -8,12 +8,15 @@ document.addEventListener("DOMContentLoaded", function () {
 const hiraganaQuestion = document.getElementById("hiragana-question");
 const currentScore = document.getElementById("score");
 const buttons = document.getElementsByTagName("button");
+const maxQuestions = 10;
 
 let currentHiraganaQuestion = {};
 let hiraganaScore = 0;
 let hiraganaQuestionCounter = 0;
 let availableHiraganaQuestions = [];
+let acceptingAnswers = false;
 
+// Hiragana object array
 const hiragana = [{
     character: "あ",
     phonetic: "a"
@@ -154,8 +157,6 @@ const hiragana = [{
     phonetic: "n"
 }]
 
-const MAX_QUESTIONS = 10;
-
 // Hiragana: Start game function
 function runHiraganaGame() {
     hiraganaScore = 0;
@@ -182,7 +183,7 @@ function newHiraganaQuestion() {
         }
     }
 
-    // Hiragana: Display 4 choices:
+    // Display 4 choices
     let i = 0;
 
     for (let button of buttons) {
@@ -190,6 +191,7 @@ function newHiraganaQuestion() {
         i++;
     }
 
+    // Splice the current question out of the array so it doesn't appear twice
     availableHiraganaQuestions.splice(hiraganaQuestionIndex, 0);
 }
 
