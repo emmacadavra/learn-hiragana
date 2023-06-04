@@ -522,12 +522,12 @@ function newKatakanaQuestion() {
     }
 
     // Increase the question counter by 1 each time
-    hiraganaQuestionCounter++;
+    katakanaQuestionCounter++;
 
     // Pick a random katakana and display the character as the question
-    const hiraganaQuestionIndex = Math.floor(Math.random() * availableHiraganaQuestions.length);
-    currentHiraganaQuestion = availableHiraganaQuestions[hiraganaQuestionIndex];
-    hiraganaQuestion.innerText = currentHiraganaQuestion.character;
+    const katakanaQuestionIndex = Math.floor(Math.random() * availableKatakanaQuestions.length);
+    currentKatakanaQuestion = availableKatakanaQuestions[katakanaQuestionIndex];
+    katakanaQuestion.innerText = currentKatakanaQuestion.character;
 
     // Take the phonetic of the current katakana and pick 3 others from the list at random
     const hiraganaAnswers = [currentHiraganaQuestion];
