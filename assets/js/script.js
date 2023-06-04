@@ -3,18 +3,19 @@
 document.addEventListener("DOMContentLoaded", function () {
     runHiraganaGame();
 });
-
-// Hiragana: Declarations
-const hiraganaQuestion = document.getElementById("hiragana-question");
+// Global declarations
 const currentScore = document.getElementById("score");
 const buttons = document.getElementsByTagName("button");
 const maxQuestions = 10;
+let acceptingAnswers = false;
+
+// Hiragana: Declarations
+const hiraganaQuestion = document.getElementById("hiragana-question");
 
 let currentHiraganaQuestion = {};
 let hiraganaScore = 0;
 let hiraganaQuestionCounter = 0;
 let availableHiraganaQuestions = [];
-let acceptingAnswers = false;
 
 // Hiragana object array
 const hiragana = [{
