@@ -174,6 +174,8 @@ function newHiraganaQuestion() {
     currentHiraganaQuestion = availableHiraganaQuestions[hiraganaQuestionIndex];
     hiraganaQuestion.innerText = currentHiraganaQuestion.character;
 
+    availableHiraganaQuestions.splice(hiraganaQuestionIndex, 0);
+
     // Take the phonetic of the current hiragana and pick 3 others from the list at random
     const hiraganaAnswers = [currentHiraganaQuestion];
     while (hiraganaAnswers.length < 4) {
@@ -197,10 +199,8 @@ function newHiraganaQuestion() {
     for (let button of buttons) {
         button.addEventListener("click", function () {
 
-        })
+        });
     }
-
-    // availableHiraganaQuestions.splice(hiraganaQuestionIndex, 0);
 
 }
 
