@@ -158,7 +158,7 @@ const MAX_QUESTIONS = 10;
 
 // Hiragana: Start game function
 function runHiraganaGame() {
-    // hiraganaScore = 0;
+    hiraganaScore = 0;
     hiraganaQuestionCounter = 0;
     availableHiraganaQuestions = [...hiragana];
     newHiraganaQuestion();
@@ -167,7 +167,6 @@ function runHiraganaGame() {
 // Hiragana: New random question function
 function newHiraganaQuestion() {
     hiraganaQuestionCounter++;
-    hiraganaShuffle();
 
     // Pick a random hiragana and display the character as the question
     const hiraganaQuestionIndex = Math.floor(Math.random() * availableHiraganaQuestions.length);
@@ -198,6 +197,8 @@ for (let button of buttons) {
     button.addEventListener("click", function () {
         if (button.innerText === currentHiraganaQuestion.phonetic) {
             hiraganaScore++;
+            let score = document.getElementsByClassName("score");
+            score.innerText = hiraganaScore;
             newHiraganaQuestion();
         } else {
             newHiraganaQuestion();
@@ -208,9 +209,6 @@ for (let button of buttons) {
 // Hiragana: Shuffle array & display 4 choices function:
 // Start with another empty array?
 // Max 4 [0-3], shuffle before displaying 
-function hiraganaShuffle() {
-
-}
 
 // Hiragana: User clicks answer
 
