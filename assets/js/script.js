@@ -299,7 +299,7 @@ for (let button of buttons) {
     });
 }
 
-// Hiragana: Declarations
+// Katakana: Declarations
 const hiraganaQuestion = document.getElementById("hiragana-question");
 const currentScore = document.getElementById("score");
 const buttons = document.getElementsByTagName("button");
@@ -311,7 +311,7 @@ let hiraganaQuestionCounter = 0;
 let availableHiraganaQuestions = [];
 let acceptingAnswers = false;
 
-// Hiragana object array
+// Katakana object array
 const hiragana = [{
     character: "あ",
     phonetic: "a"
@@ -452,7 +452,7 @@ const hiragana = [{
     phonetic: "n"
 }]
 
-// Hiragana: Start game function
+// Katakana: Start game function
 function runHiraganaGame() {
     hiraganaScore = 0;
     hiraganaQuestionCounter = 0;
@@ -460,7 +460,7 @@ function runHiraganaGame() {
     newHiraganaQuestion();
 }
 
-// Hiragana: New random question function
+// Katakana: New random question function
 function newHiraganaQuestion() {
     // If 10 questions have been asked, display unique message depending on score
     // Restart game or go back to the homepage depending on button press
@@ -526,12 +526,12 @@ function newHiraganaQuestion() {
     // Increase the question counter by 1 each time
     hiraganaQuestionCounter++;
 
-    // Pick a random hiragana and display the character as the question
+    // Pick a random katakana and display the character as the question
     const hiraganaQuestionIndex = Math.floor(Math.random() * availableHiraganaQuestions.length);
     currentHiraganaQuestion = availableHiraganaQuestions[hiraganaQuestionIndex];
     hiraganaQuestion.innerText = currentHiraganaQuestion.character;
 
-    // Take the phonetic of the current hiragana and pick 3 others from the list at random
+    // Take the phonetic of the current katakana and pick 3 others from the list at random
     const hiraganaAnswers = [currentHiraganaQuestion];
     while (hiraganaAnswers.length < 4) {
         let randomHiraganaIndex = Math.floor(Math.random() * hiragana.length);
@@ -567,7 +567,7 @@ function newHiraganaQuestion() {
     acceptingAnswers = true;
 }
 
-// Hiragana: Listen for click & check answer, display new question
+// Katakana: Listen for click & check answer, display new question
 for (let button of buttons) {
     button.addEventListener("click", function (event) {
 
