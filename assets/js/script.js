@@ -364,31 +364,31 @@ const katakana = [{
     character: "リ",
     phonetic: "ri"
 }, {
-    character: "う",
+    character: "ウ",
     phonetic: "u"
 }, {
-    character: "く",
+    character: "ク",
     phonetic: "ku"
 }, {
-    character: "す",
+    character: "ス",
     phonetic: "su"
 }, {
-    character: "つ",
+    character: "ツ",
     phonetic: "tsu"
 }, {
-    character: "ぬ",
+    character: "ヌ",
     phonetic: "nu"
 }, {
-    character: "ふ",
+    character: "フ",
     phonetic: "fu"
 }, {
-    character: "む",
+    character: "ム",
     phonetic: "mu"
 }, {
-    character: "ゆ",
+    character: "ユ",
     phonetic: "yu"
 }, {
-    character: "る",
+    character: "ル",
     phonetic: "ru"
 }, {
     character: "え",
