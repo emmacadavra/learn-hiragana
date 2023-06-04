@@ -167,6 +167,8 @@ function runHiraganaGame() {
 
 // Hiragana: New random question function
 function newHiraganaQuestion() {
+    // If 10 questions have been asked, display unique message depending on score
+    // Restart game or go back to the homepage depending on button press
     if (hiraganaQuestionCounter >= maxQuestions) {
         if (hiraganaScore = 10) {
             Swal.fire({
@@ -226,6 +228,7 @@ function newHiraganaQuestion() {
         }
     }
 
+    // Increase the question counter by 1 each time
     hiraganaQuestionCounter++;
 
     // Pick a random hiragana and display the character as the question
@@ -253,6 +256,7 @@ function newHiraganaQuestion() {
     // Splice the current question out of the array so it doesn't appear twice
     availableHiraganaQuestions.splice(hiraganaQuestionIndex, 0);
 
+    // Once everything has loaded, allow answers
     acceptingAnswers = true;
 }
 
@@ -264,22 +268,17 @@ for (let button of buttons) {
         acceptingAnswers = false;
 
         if (button.innerText === currentHiraganaQuestion.phonetic) {
+            // If answer is correct, increase score + green background
             hiraganaScore++;
             currentScore.innerText = [hiraganaScore];
             newHiraganaQuestion();
         } else {
+            // If incorrect, red background
             newHiraganaQuestion();
         }
     });
 }
 
-// Hiragana: If answer is correct, increase score
-
-// Hiragana: If incorrect, answer turns red
-
-// Hiragana: After final question, display final score with message depending on score
-
-// Hiragana: Restart the game
 
 // Katakana: Start game
 
