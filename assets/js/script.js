@@ -10,8 +10,6 @@ const hiraganaChoices = Array.from(document.getElementsByClassName("hiragana-ans
 const buttons = document.getElementsByTagName("button");
 
 let currentHiraganaQuestion = {};
-let hiraganaScore = 0;
-let hiraganaQuestionCounter = 0;
 let availableHiraganaQuestions = [];
 
 const hiragana = [{
@@ -198,7 +196,7 @@ function newHiraganaQuestion() {
 for (let button of buttons) {
     button.addEventListener("click", function () {
         if (button.innerText === currentHiraganaQuestion.phonetic) {
-            increaseScore();
+            hiraganaScore++;
             newHiraganaQuestion();
         } else {
             newHiraganaQuestion();
@@ -207,12 +205,8 @@ for (let button of buttons) {
 }
 
 // Hiragana: If answer is correct, increase score
-function increaseScore() {
-    let oldScore = parseInt(document.getElementByClassName("score").innerText);
-    document.getElementClassName("score").innerText = ++oldScore;
-}
 
-// Hiragana: If incorrect, answer turns red and increases incorrect score
+// Hiragana: If incorrect, answer turns red
 
 // Hiragana: After final question, display final score with message depending on score
 
