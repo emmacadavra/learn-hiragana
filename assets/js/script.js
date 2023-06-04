@@ -246,11 +246,9 @@ function newHiraganaQuestion() {
     }
 
     for (let button of buttons) {
-        shuffle(hiraganaAnswers);
-        let j = 0
-        button.innerText = hiraganaAnswers[j].phonetic;
-        hiraganaAnswers.splice[j];
-        j++;
+        let i = 0;
+        button.innerText = hiraganaAnswers[i].phonetic;
+        i++;
     }
 
     // Splice the current question out of the array so it doesn't appear twice
@@ -258,16 +256,6 @@ function newHiraganaQuestion() {
 
     // Once everything has loaded, allow answers
     acceptingAnswers = true;
-}
-
-// Fisher-Yates shuffle method
-function shuffle(hiraganaAnswers) {
-    let i = hiraganaAnswers.length;
-    while (--i > 0) {
-        let temp = Math.floor(Math.random() * (i + 1));
-        [hiraganaAnswers[temp], hiraganaAnswers[i]] = [hiraganaAnswers[i], hiraganaAnswers[temp]];
-    }
-    return hiraganaAnswers;
 }
 
 // Hiragana: Listen for click & check answer, display new question
