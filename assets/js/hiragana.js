@@ -1,13 +1,9 @@
 // Wait for page to finish loading
 
 document.addEventListener("DOMContentLoaded", function () {
-    let url = window.location.pathname;
-    if (url.match("/hiragana.html")) {
-        runHiraganaGame();
-    } else if (url.match("/katakana.html")) {
-        runKatakanaGame();
-    }
+    runHiraganaGame();
 });
+
 // Global declarations
 const currentScore = document.getElementById("score");
 const buttons = document.getElementsByTagName("button");
