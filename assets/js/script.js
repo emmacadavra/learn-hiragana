@@ -196,16 +196,15 @@ function newHiraganaQuestion() {
         button.innerText = hiraganaAnswers[i].phonetic;
         i++;
     }
+}
 
-    for (let button of buttons) {
-        button.addEventListener("click", function () {
-            if (button.innerText === currentHiraganaQuestion.phonetic) {
-                hiraganaScore++;
+for (let button of buttons) {
+    button.addEventListener("click", function () {
+        if (button.innerText === currentHiraganaQuestion.phonetic) {
+            hiraganaScore++;
 
-            }
-        });
-    }
-
+        }
+    });
 }
 
 // Hiragana: Shuffle array & display 4 choices function:
