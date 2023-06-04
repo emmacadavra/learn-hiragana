@@ -6,10 +6,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Hiragana: Declarations
 const hiraganaQuestion = document.getElementById("hiragana-question");
-const
+const hiraganaScore = document.getElementById("score");
 const buttons = document.getElementsByTagName("button");
 
 let currentHiraganaQuestion = {};
+let currentScore = 0;
+
 let availableHiraganaQuestions = [];
 
 const hiragana = [{
