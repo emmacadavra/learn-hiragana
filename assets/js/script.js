@@ -194,13 +194,11 @@ function newHiraganaQuestion() {
         i++;
     }
 
-    // for (let button of buttons) {
-    //     button.addEventListener("click", function () {
-    //         if (button.innerText === currentHiraganaQuestion.phonetic) {
+    for (let button of buttons) {
+        button.addEventListener("click", function () {
 
-    //         }
-    //     })
-    // }
+        })
+    }
 
     // availableHiraganaQuestions.splice(hiraganaQuestionIndex, 0);
 
