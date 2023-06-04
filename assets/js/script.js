@@ -462,59 +462,59 @@ function runKatakanaGame() {
 function newKatakanaQuestion() {
     // If 10 questions have been asked, display unique message depending on score
     // Restart game or go back to the homepage depending on button press
-    if (hiraganaQuestionCounter >= maxQuestions) {
-        if (hiraganaScore = 10) {
+    if (katakanaQuestionCounter >= maxQuestions) {
+        if (katakanaScore = 10) {
             Swal.fire({
                 title: "You scored 10/10!",
-                html: "Amazing! You have excellent knowledge of hiragana, and you should be proud of yourself!<br>Would you like to play again?",
+                html: "Amazing! You have excellent knowledge of katakana, and you should be proud of yourself!<br>Would you like to play again?",
                 allowEscapeKey: false,
                 allowEnterKey: false,
                 allowOutsideClick: false,
-                confirmButtonText: '<a href="hiragana.html">Play Again!</a>',
+                confirmButtonText: '<a href="katakana.html">Play Again!</a>',
                 showDenyButton: true,
                 denyButtonText: '<a href="index.html">Choose a Different Game</a>',
             })
-        } else if (hiraganaScore < 10 && hiraganaScore >= 7) {
+        } else if (katakanaScore < 10 && katakanaScore >= 7) {
             Swal.fire({
-                title: `You scored ${hiraganaScore}/10!`,
-                html: "Well done! You have good knowledge of hiragana! Keep practising and you will be confident in no time.<br>Would you like to play again?",
+                title: `You scored ${katakanaScore}/10!`,
+                html: "Well done! You have good knowledge of katakana! Keep practising and you will be confident in no time.<br>Would you like to play again?",
                 allowEscapeKey: false,
                 allowEnterKey: false,
                 allowOutsideClick: false,
-                confirmButtonText: '<a href="hiragana.html">Play Again!</a>',
+                confirmButtonText: '<a href="katakana.html">Play Again!</a>',
                 showDenyButton: true,
                 denyButtonText: '<a href="index.html">Choose a Different Game</a>',
             })
-        } else if (hiraganaScore < 7 && hiraganaScore >= 4) {
+        } else if (katakanaScore < 7 && katakanaScore >= 4) {
             Swal.fire({
-                title: `You scored ${hiraganaScore}/10!`,
-                html: "Keep trying! You have some knowledge of hiragana, and with practise your knowledge will surely grow!<br>Would you like to play again?",
+                title: `You scored ${katakanaScore}/10!`,
+                html: "Keep trying! You have some knowledge of katakana, and with practise your knowledge will surely grow!<br>Would you like to play again?",
                 allowEscapeKey: false,
                 allowEnterKey: false,
                 allowOutsideClick: false,
-                confirmButtonText: '<a href="hiragana.html">Play Again!</a>',
+                confirmButtonText: '<a href="katakana.html">Play Again!</a>',
                 showDenyButton: true,
                 denyButtonText: '<a href="index.html">Choose a Different Game</a>',
             })
-        } else if (hiraganaScore < 4 && hiraganaScore >= 1) {
+        } else if (katakanaScore < 4 && katakanaScore >= 1) {
             Swal.fire({
-                title: `You scored ${hiraganaScore}/10!`,
+                title: `You scored ${katakanaScore}/10!`,
                 html: "Don't give up! Practise makes perfect, so keep trying and your knowledge will surely grow!<br>Would you like to play again?",
                 allowEscapeKey: false,
                 allowEnterKey: false,
                 allowOutsideClick: false,
-                confirmButtonText: '<a href="hiragana.html">Play Again!</a>',
+                confirmButtonText: '<a href="katakana.html">Play Again!</a>',
                 showDenyButton: true,
                 denyButtonText: '<a href="index.html">Choose a Different Game</a>',
             })
-        } else if (hiraganaScore = 0) {
+        } else if (katakanaScore = 0) {
             Swal.fire({
-                title: `You scored ${hiraganaScore}/10 :(`,
+                title: `You scored ${katakanaScore}/10 :(`,
                 html: "Oh no! Unfortunately you didn't get any questions right this time, but don't give up trying - practise makes perfect!<br>Would you like to play again?",
                 allowEscapeKey: false,
                 allowEnterKey: false,
                 allowOutsideClick: false,
-                confirmButtonText: '<a href="hiragana.html">Play Again!</a>',
+                confirmButtonText: '<a href="katakana.html">Play Again!</a>',
                 showDenyButton: true,
                 denyButtonText: '<a href="index.html">Choose a Different Game</a>',
             })
