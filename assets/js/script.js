@@ -1,7 +1,11 @@
 // Wait for page to finish loading
 
 document.addEventListener("DOMContentLoaded", function () {
-    runHiraganaGame();
+    if (window.location.pathname === "/hiragana.html") {
+        runHiraganaGame();
+    } else if (window.location.pathname === "/katakana.html") {
+        runKatakanaGame();
+    }
 });
 // Global declarations
 const currentScore = document.getElementById("score");
@@ -447,8 +451,8 @@ const katakana = [{
 }]
 
 // Katakana: Start game function
-function runHiraganaGame() {
-    hiraganaScore = 0;
+function runKatakanaGame() {
+    KatakanaScore = 0;
     hiraganaQuestionCounter = 0;
     availableHiraganaQuestions = [...hiragana];
     newHiraganaQuestion();
