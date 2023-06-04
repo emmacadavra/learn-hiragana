@@ -168,7 +168,16 @@ function runHiraganaGame() {
 // Hiragana: New random question function
 function newHiraganaQuestion() {
     if (hiraganaQuestionCounter >= maxQuestions) {
+        if (hiraganaScore = 10) {
+            Swal.fire({
+                title: "You scored 10/10!",
+                html: "Amazing! You have excellent knowledge of hiragana!<br>Would you like to play again?",
+                allowEscapeKey: false,
+                allowEnterKey: false,
+                allowOutsideClick: false,
 
+            })
+        }
     }
 
     hiraganaQuestionCounter++;
