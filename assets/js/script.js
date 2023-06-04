@@ -174,6 +174,11 @@ function newHiraganaQuestion() {
     hiraganaQuestion.innerText = currentHiraganaQuestion.character;
 
     const hiraganaAnswer = [currentHiraganaQuestion.phonetic];
+    while (hiraganaAnswer.length < 4) {
+
+    }
+
+
     // for (let button of buttons) {
     //     button.addEventListener("click", function () {
     //         if (button.innerText === currentHiraganaQuestion.phonetic) {
