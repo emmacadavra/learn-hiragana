@@ -188,7 +188,7 @@ function newHiraganaQuestion() {
     let i = 0;
 
     for (let button of buttons) {
-        button.innerText = hiraganaAnswers[i];
+        button.innerText = hiraganaAnswers[i].phonetic;
         i++;
     }
 
