@@ -244,6 +244,17 @@ footer {
     text-align: center;
 }
 
+/* JavaScript classes - "correct" and "incorrect" */
+.correct {
+    background-color: #74BA6C;
+    color: #007362;
+}
+
+.incorrect {
+    background-color: #FF9C9D;
+    color: #9E0022;
+}
+
 /* Media Queries - min-width: 280px */
 @media screen and (min-width: 280px) {
 
