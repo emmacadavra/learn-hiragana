@@ -193,7 +193,29 @@ function newHiraganaQuestion() {
         } else if (hiraganaScore < 7 && hiraganaScore >= 4) {
             Swal.fire({
                 title: `You scored ${hiraganaScore}/10!`,
-                html: "Keep trying! You have some knowledge of hiragana, and with practise your knowledge will surely grow.<br>Would you like to play again?",
+                html: "Keep trying! You have some knowledge of hiragana, and with practise your knowledge will surely grow!<br>Would you like to play again?",
+                allowEscapeKey: false,
+                allowEnterKey: false,
+                allowOutsideClick: false,
+                confirmButtonText: "Play Again!",
+                showDenyButton: true,
+                denyButtonText: "Choose Different Game",
+            })
+        } else if (hiraganaScore < 4 && hiraganaScore >= 1) {
+            Swal.fire({
+                title: `You scored ${hiraganaScore}/10!`,
+                html: "Don't give up! Practise makes perfect, so keep trying and your knowledge will surely grow!<br>Would you like to play again?",
+                allowEscapeKey: false,
+                allowEnterKey: false,
+                allowOutsideClick: false,
+                confirmButtonText: "Play Again!",
+                showDenyButton: true,
+                denyButtonText: "Choose Different Game",
+            })
+        } else if (hiraganaScore = 0) {
+            Swal.fire({
+                title: `You scored ${hiraganaScore}/10 :(`,
+                html: "Oh no! Unfortunately you didn't get any questions right this time, but don't give up trying - practise makes perfect!<br>Would you like to play again?",
                 allowEscapeKey: false,
                 allowEnterKey: false,
                 allowOutsideClick: false,
