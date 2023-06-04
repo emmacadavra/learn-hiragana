@@ -300,10 +300,7 @@ for (let button of buttons) {
 }
 
 // Katakana: Declarations
-const hiraganaQuestion = document.getElementById("hiragana-question");
-const currentScore = document.getElementById("score");
-const buttons = document.getElementsByTagName("button");
-const maxQuestions = 10;
+const katakanaQuestion = document.getElementById("hiragana-question");
 
 let currentHiraganaQuestion = {};
 let hiraganaScore = 0;
