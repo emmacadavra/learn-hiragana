@@ -1,9 +1,9 @@
 // Wait for page to finish loading
 
 document.addEventListener("DOMContentLoaded", function () {
-    if (window.location.pathname === "/hiragana.html") {
+    if (window.location.href === "https://emmacadavra.github.io/learn-hiragana/hiragana.html") {
         runHiraganaGame();
-    } else if (window.location.pathname === "/katakana.html") {
+    } else if (window.location.href === "https://emmacadavra.github.io/learn-hiragana/katakana.html") {
         runKatakanaGame();
     }
 });
