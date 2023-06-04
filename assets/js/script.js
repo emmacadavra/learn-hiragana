@@ -1,9 +1,10 @@
 // Wait for page to finish loading
 
 document.addEventListener("DOMContentLoaded", function () {
-    if (window.location.pathname === "/learn-hiragana/hiragana.html") {
+    let url = window.location.pathname;
+    if (url.match("/hiragana.html")) {
         runHiraganaGame();
-    } else if (window.location.pathname === "/learn-hiragana/katakana.html") {
+    } else if (url.match("/katakana.html")) {
         runKatakanaGame();
     }
 });
