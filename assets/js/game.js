@@ -116,49 +116,49 @@ function endGameMessage() {
             showDenyButton: true,
             denyButtonText: '<a class="different-game" href="index.html">Choose a Different Game</a>',
         })
-    } else if (hiraganaScore < 10 && hiraganaScore >= 7) {
+    } else if (score < 10 && score >= 7) {
         Swal.fire({
             title: `You scored ${hiraganaScore}/10!`,
-            html: "Well done! You have good knowledge of hiragana! Keep practising and you will be confident in no time.<br>Would you like to play again?",
+            html: "Well done! You have good knowledge of this alphabet! Keep practising and you will be confident in no time.<br>Would you like to play again?",
             allowEscapeKey: false,
             allowEnterKey: false,
             allowOutsideClick: false,
-            confirmButtonText: '<a href="hiragana.html">Play Again!</a>',
+            confirmButtonText: '<a class="play-again" onclick="location.reload()">Play Again!</a>',
             showDenyButton: true,
-            denyButtonText: '<a href="index.html">Choose a Different Game</a>',
+            denyButtonText: '<a class="different-game" href="index.html">Choose a Different Game</a>',
         })
-    } else if (hiraganaScore < 7 && hiraganaScore >= 4) {
+    } else if (score < 7 && score >= 4) {
         Swal.fire({
-            title: `You scored ${hiraganaScore}/10!`,
-            html: "Keep trying! You have some knowledge of hiragana, and with practise your knowledge will surely grow!<br>Would you like to play again?",
+            title: `You scored ${score}/10!`,
+            html: "Keep trying! You have some knowledge of this alphabet, and with practise your knowledge will surely grow!<br>Would you like to play again?",
             allowEscapeKey: false,
             allowEnterKey: false,
             allowOutsideClick: false,
-            confirmButtonText: '<a href="hiragana.html">Play Again!</a>',
+            confirmButtonText: '<a class="play-again" onclick="location.reload()">Play Again!</a>',
             showDenyButton: true,
-            denyButtonText: '<a href="index.html">Choose a Different Game</a>',
+            denyButtonText: '<a class="different-game" href="index.html">Choose a Different Game</a>',
         })
-    } else if (hiraganaScore < 4 && hiraganaScore >= 1) {
+    } else if (score < 4 && score >= 1) {
         Swal.fire({
-            title: `You scored ${hiraganaScore}/10!`,
+            title: `You scored ${score}/10!`,
             html: "Don't give up! Practise makes perfect, so keep trying and your knowledge will surely grow!<br>Would you like to play again?",
             allowEscapeKey: false,
             allowEnterKey: false,
             allowOutsideClick: false,
-            confirmButtonText: '<a href="hiragana.html">Play Again!</a>',
+            confirmButtonText: '<a class="play-again" onclick="location.reload()">Play Again!</a>',
             showDenyButton: true,
-            denyButtonText: '<a href="index.html">Choose a Different Game</a>',
+            denyButtonText: '<a class="different-game" href="index.html">Choose a Different Game</a>',
         })
-    } else if (hiraganaScore === 0) {
+    } else if (score === 0) {
         Swal.fire({
-            title: `You scored ${hiraganaScore}/10 :(`,
+            title: `You scored ${score}/10 :(`,
             html: "Oh no! Unfortunately you didn't get any questions right this time, but don't give up trying - practise makes perfect!<br>Would you like to play again?",
             allowEscapeKey: false,
             allowEnterKey: false,
             allowOutsideClick: false,
-            confirmButtonText: '<a href="hiragana.html">Play Again!</a>',
+            confirmButtonText: '<a class="play-again" onclick="location.reload()">Play Again!</a>',
             showDenyButton: true,
-            denyButtonText: '<a href="index.html">Choose a Different Game</a>',
+            denyButtonText: '<a class="different-game" href="index.html">Choose a Different Game</a>',
         })
     }
 }
