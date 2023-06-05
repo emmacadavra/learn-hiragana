@@ -108,13 +108,13 @@ function endGameMessage() {
     if (score === 10) {
         Swal.fire({
             title: "You scored 10/10!",
-            html: "Amazing! You have excellent knowledge of hiragana, and you should be proud of yourself!<br>Would you like to play again?",
+            html: "Amazing! You have excellent knowledge of this alphabet, and you should be proud of yourself!<br>Would you like to play again?",
             allowEscapeKey: false,
             allowEnterKey: false,
             allowOutsideClick: false,
-            confirmButtonText: '<a href="hiragana.html">Play Again!</a>',
+            confirmButtonText: '<a class="play-again" onclick="location.reload()">Play Again!</a>',
             showDenyButton: true,
-            denyButtonText: '<a href="index.html">Choose a Different Game</a>',
+            denyButtonText: '<a class="different-game" href="index.html">Choose a Different Game</a>',
         })
     } else if (hiraganaScore < 10 && hiraganaScore >= 7) {
         Swal.fire({
