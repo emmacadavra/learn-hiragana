@@ -21,7 +21,7 @@ let availableQuestions = [];
 function runGame() {
     score = 0;
     questionCounter = 0;
-    availableQuestions = [...hiragana];
+    availableQuestions = [...questions];
     newQuestion();
 }
 
@@ -76,7 +76,7 @@ function shuffle(array) {
     return array;
 }
 
-// Hiragana: Listen for click & check answer, display new question
+// Listen for click & check answer, display new question
 for (let button of buttons) {
     button.addEventListener("click", function (event) {
 
