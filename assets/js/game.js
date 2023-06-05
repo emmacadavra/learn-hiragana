@@ -108,7 +108,7 @@ function endGameMessage() {
     if (score === 10) {
         Swal.fire({
             title: "You scored 10/10!",
-            html: "Amazing! You have excellent knowledge of this alphabet, and you should be proud of yourself!<br>Would you like to play again?",
+            html: `Amazing! You have excellent knowledge of ${alphabet}, and you should be proud of yourself!<br>Would you like to play again?`,
             allowEscapeKey: false,
             allowEnterKey: false,
             allowOutsideClick: false,
@@ -118,8 +118,8 @@ function endGameMessage() {
         })
     } else if (score < 10 && score >= 7) {
         Swal.fire({
-            title: `You scored ${hiraganaScore}/10!`,
-            html: "Well done! You have good knowledge of this alphabet! Keep practising and you will be confident in no time.<br>Would you like to play again?",
+            title: `You scored ${score}/10!`,
+            html: `Well done! You have good knowledge of ${alphabet}! Keep practising and you will be confident in no time.<br>Would you like to play again?`,
             allowEscapeKey: false,
             allowEnterKey: false,
             allowOutsideClick: false,
@@ -130,7 +130,7 @@ function endGameMessage() {
     } else if (score < 7 && score >= 4) {
         Swal.fire({
             title: `You scored ${score}/10!`,
-            html: "Keep trying! You have some knowledge of this alphabet, and with practise your knowledge will surely grow!<br>Would you like to play again?",
+            html: `Keep trying! You have some knowledge of ${alphabet}, and with practise your knowledge will surely grow!<br>Would you like to play again?`,
             allowEscapeKey: false,
             allowEnterKey: false,
             allowOutsideClick: false,
@@ -151,7 +151,7 @@ function endGameMessage() {
         })
     } else if (score === 0) {
         Swal.fire({
-            title: `You scored ${score}/10 :(`,
+            title: `You scored 0/10 :(`,
             html: "Oh no! Unfortunately you didn't get any questions right this time, but don't give up trying - practise makes perfect!<br>Would you like to play again?",
             allowEscapeKey: false,
             allowEnterKey: false,
