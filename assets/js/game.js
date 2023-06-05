@@ -50,7 +50,7 @@ function newQuestion() {
         }
     }
 
-    shuffle();
+    answers = shuffle(answers);
 
     // Display the shuffled potential answers
     let i = 0;
