@@ -121,12 +121,12 @@ function newQuestion() {
     let i = 0;
 
     for (let button of buttons) {
-        button.innerText = hiraganaAnswers[i].phonetic;
+        button.innerText = answers[i].phonetic;
         i++;
     }
 
     // Splice the current question out of the array so it doesn't appear twice
-    availableHiraganaQuestions.splice(hiraganaQuestionIndex, 0);
+    availableQuestions.splice(questionIndex, 0);
 
     // Once everything has loaded, allow answers
     acceptingAnswers = true;
@@ -141,10 +141,10 @@ for (let button of buttons) {
 
         const selectedAnswer = event.target;
 
-        if (selectedAnswer.innerText === currentHiraganaQuestion.phonetic) {
+        if (selectedAnswer.innerText === currentQuestion.phonetic) {
             // If answer is correct, increase score + green background
-            hiraganaScore++;
-            currentScore.innerText = [hiraganaScore];
+            score++;
+            currentScore.innerText = [score];
             this.classList.add("correct");
         } else {
             // If incorrect, red background
@@ -154,7 +154,7 @@ for (let button of buttons) {
         // Remove temporary classes with red/green backgrounds, set a short timeout before loading next question
         setTimeout(() => {
             selectedAnswer.classList.remove("correct", "incorrect");
-            newHiraganaQuestion();
+            newQuestion();
         }, 500);
     });
 }
