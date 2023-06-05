@@ -1,7 +1,7 @@
 // Wait for page to finish loading
 
 document.addEventListener("DOMContentLoaded", function () {
-    runHiraganaGame();
+    runGame();
 });
 
 // Global declarations
@@ -11,12 +11,12 @@ const maxQuestions = 10;
 let acceptingAnswers = false;
 
 // Hiragana: Declarations
-const hiraganaQuestion = document.getElementById("hiragana-question");
+const question = document.getElementById("current-question");
 
-let currentHiraganaQuestion = {};
-let hiraganaScore = 0;
-let hiraganaQuestionCounter = 0;
-let availableHiraganaQuestions = [];
+let currentQuestion = {};
+let score = 0;
+let questionCounter = 0;
+let availableQuestions = [];
 
 // Hiragana object array
 const hiragana = [{
