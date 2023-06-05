@@ -50,16 +50,6 @@ function newQuestion() {
         }
     }
 
-    // Shuffle the 4 potential answers to each question
-    function shuffle() {
-        let j = (answers.length);
-        while (--j > 0) {
-            let temp = Math.floor(Math.random() * (j + 1));
-            [answers[temp], answers[j]] = [answers[j], answers[temp]];
-        }
-        return answers;
-    }
-
     shuffle();
 
     // Display the shuffled potential answers
@@ -75,6 +65,15 @@ function newQuestion() {
 
     // Once everything has loaded, allow answers
     acceptingAnswers = true;
+}
+
+function shuffle() {
+    let j = (answers.length);
+    while (--j > 0) {
+        let temp = Math.floor(Math.random() * (j + 1));
+        [answers[temp], answers[j]] = [answers[j], answers[temp]];
+    }
+    return answers;
 }
 
 // Hiragana: Listen for click & check answer, display new question
