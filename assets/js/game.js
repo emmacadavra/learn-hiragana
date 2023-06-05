@@ -4,14 +4,12 @@ document.addEventListener("DOMContentLoaded", function () {
     runGame();
 });
 
-// Global declarations
+// Declarations
 const currentScore = document.getElementById("score");
 const buttons = document.getElementsByTagName("button");
 const maxQuestions = 10;
-let acceptingAnswers = false;
-
-// Hiragana: Declarations
 const question = document.getElementById("current-question");
+let acceptingAnswers = false;
 
 let currentQuestion = {};
 let score = 0;
@@ -27,12 +25,12 @@ function runGame() {
     newQuestion();
 }
 
-// Hiragana: New random question function
-function newHiraganaQuestion() {
+// New random question function
+function newQuestion() {
     // If 10 questions have been asked, display unique message depending on score
     // Restart game or go back to the homepage depending on button press
-    if (hiraganaQuestionCounter >= maxQuestions) {
-        if (hiraganaScore = 10) {
+    if (questionCounter >= maxQuestions) {
+        if (score = 10) {
             Swal.fire({
                 title: "You scored 10/10!",
                 html: "Amazing! You have excellent knowledge of hiragana, and you should be proud of yourself!<br>Would you like to play again?",
@@ -91,12 +89,12 @@ function newHiraganaQuestion() {
     }
 
     // Increase the question counter by 1 each time
-    hiraganaQuestionCounter++;
+    questionCounter++;
 
     // Pick a random hiragana and display the character as the question
-    const hiraganaQuestionIndex = Math.floor(Math.random() * availableHiraganaQuestions.length);
-    currentHiraganaQuestion = availableHiraganaQuestions[hiraganaQuestionIndex];
-    hiraganaQuestion.innerText = currentHiraganaQuestion.character;
+    const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+    currentQuestion = availableQuestions[questionIndex];
+    question.innerText = currentQuestion.character;
 
     // Take the phonetic of the current hiragana and pick 3 others from the list at random
     const hiraganaAnswers = [currentHiraganaQuestion];
