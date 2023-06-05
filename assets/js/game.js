@@ -38,6 +38,7 @@ function newQuestion() {
 
     if (questionCounter >= maxQuestions) {
         endGameMessage();
+        return;
     }
 
     questionCounter++;
