@@ -30,7 +30,7 @@ function newQuestion() {
     // If 10 questions have been asked, display unique message depending on score
     // Restart game or go back to the homepage depending on button press
     if (questionCounter >= maxQuestions) {
-
+        endGameMessage();
     }
 
     // Increase the question counter by 1 each time
