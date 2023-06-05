@@ -42,7 +42,7 @@ function newQuestion() {
     question.innerText = currentQuestion.character;
 
     // Take the phonetic of the current question and pick 3 others from the list at random
-    const answers = [currentQuestion];
+    let answers = [currentQuestion];
     while (answers.length < 4) {
         let randomIndex = Math.floor(Math.random() * questions.length);
         if (!answers.some((answer) => answer === questions[randomIndex])) {
