@@ -19,7 +19,7 @@ let availableQuestions = [];
 /**
  * Sets score & question counter to 0,
  * Pulls question list from respective alphabet file,
- * Calls newQuestion function
+ * Calls newQuestion() function
  */
 function runGame() {
     score = 0;
@@ -28,7 +28,12 @@ function runGame() {
     newQuestion();
 }
 
-// New random question function
+/**
+ * Checks to see if maxQuestions has been reached, called endGameMessage function if so,
+ * Increases questionCounter by 1 & pulls a random question from the questions array,
+ * Pulls 3 additional random answers from the questions array & shuffles them,
+ * Inserts shuffled answers into answer buttons
+ */
 function newQuestion() {
 
     if (questionCounter >= maxQuestions) {
