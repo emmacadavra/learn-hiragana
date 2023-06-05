@@ -91,31 +91,31 @@ function newQuestion() {
     // Increase the question counter by 1 each time
     questionCounter++;
 
-    // Pick a random hiragana and display the character as the question
+    // Pick a random question and display the character as the question
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.character;
 
-    // Take the phonetic of the current hiragana and pick 3 others from the list at random
-    const hiraganaAnswers = [currentHiraganaQuestion];
-    while (hiraganaAnswers.length < 4) {
-        let randomHiraganaIndex = Math.floor(Math.random() * hiragana.length);
-        if (!hiraganaAnswers.some((answer) => answer === hiragana[randomHiraganaIndex])) {
-            hiraganaAnswers.push(hiragana[randomHiraganaIndex]);
+    // Take the phonetic of the current question and pick 3 others from the list at random
+    const answers = [currentQuestion];
+    while (answers.length < 4) {
+        let randomIndex = Math.floor(Math.random() * questions.length);
+        if (!answers.some((answer) => answer === questions[randomIndex])) {
+            answers.push(questions[randomIndex]);
         }
     }
 
     // Shuffle the 4 potential answers to each question
-    function hiraganaShuffle() {
-        let j = (hiraganaAnswers.length);
+    function shuffle() {
+        let j = (answers.length);
         while (--j > 0) {
             let temp = Math.floor(Math.random() * (j + 1));
-            [hiraganaAnswers[temp], hiraganaAnswers[j]] = [hiraganaAnswers[j], hiraganaAnswers[temp]];
+            [answers[temp], answers[j]] = [answers[j], answers[temp]];
         }
-        return hiraganaAnswers;
+        return answers;
     }
 
-    hiraganaShuffle();
+    shuffle();
 
     // Display the shuffled potential answers
     let i = 0;
