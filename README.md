@@ -43,3 +43,183 @@ With Japanese being such a difficult language to learn for native English speake
     * [**Content**](#content)
     * [**Media**](#media)
     
+## **Planning stage**
+### **Target Audiences**
+
+*
+*
+*
+*
+
+### **User Stories**
+
+*
+*
+*
+*
+
+### **Colour Scheme**
+
+*
+*
+*
+*
+
+### **Typography**
+
+*
+*
+*
+*
+
+## **Current Website Features**
+### **Features Present on All Pages**
+
+#### **Favicon**
+
+*
+*
+*
+*
+
+#### **Header**
+
+*
+*
+*
+*
+
+#### **Footer**
+
+*
+*
+*
+*
+
+### **Homepage**
+
+#### **Choice of Game**
+
+*
+*
+*
+*
+
+#### **Select Game**
+
+*
+*
+*
+*
+
+### **Hiragana and Katakana Game Pages**
+
+#### **Game Area**](#game-area)*
+
+*
+*
+*
+*
+
+#### **Game Question**
+
+*
+*
+*
+*
+
+#### **Game Answers**
+
+*
+*
+*
+*
+
+#### **Current Score**
+
+*
+*
+*
+*
+
+#### **Back to Homepage**
+
+*
+*
+*
+*
+
+### **JavaScript on Game Pages**
+
+#### **Main Game Functions**
+
+*
+*
+*
+*
+
+#### **Unique Score Message**
+
+*
+*
+*
+*
+
+## **Testing**
+
+*
+*
+*
+*
+
+
+## **Technologies Used**
+
+*
+*
+*
+*
+
+## **Deployment**
+
+*
+*
+*
+*
+
+## **Future-Enhancements**
+
+*
+*
+*
+*
+
+## **Credits**
+
+### **Honourable Mentions**
+
+*
+*
+*
+*
+
+### **Code References**
+
+*
+*
+*
+*
+
+### **Content**
+
+*
+*
+*
+*
+
+### **Media**
+
+*
+*
+*
+*
