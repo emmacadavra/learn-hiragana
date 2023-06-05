@@ -105,7 +105,7 @@ for (let button of buttons) {
 }
 
 function endGameMessage() {
-    if (score = 10) {
+    if (score === 10) {
         Swal.fire({
             title: "You scored 10/10!",
             html: "Amazing! You have excellent knowledge of hiragana, and you should be proud of yourself!<br>Would you like to play again?",
@@ -149,7 +149,7 @@ function endGameMessage() {
             showDenyButton: true,
             denyButtonText: '<a href="index.html">Choose a Different Game</a>',
         })
-    } else if (hiraganaScore = 0) {
+    } else if (hiraganaScore === 0) {
         Swal.fire({
             title: `You scored ${hiraganaScore}/10 :(`,
             html: "Oh no! Unfortunately you didn't get any questions right this time, but don't give up trying - practise makes perfect!<br>Would you like to play again?",
