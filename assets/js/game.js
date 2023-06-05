@@ -67,13 +67,13 @@ function newQuestion() {
     acceptingAnswers = true;
 }
 
-function shuffle() {
-    let j = (answers.length);
+function shuffle(array) {
+    let j = (array.length);
     while (--j > 0) {
         let temp = Math.floor(Math.random() * (j + 1));
-        [answers[temp], answers[j]] = [answers[j], answers[temp]];
+        [array[temp], array[j]] = [array[j], array[temp]];
     }
-    return answers;
+    return array;
 }
 
 // Hiragana: Listen for click & check answer, display new question
