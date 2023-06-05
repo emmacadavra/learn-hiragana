@@ -22,5 +22,10 @@ With Japanese being such a difficult language to learn for native English speake
         * [*Header*](#header)
         * [*Footer*](#footer)
     * [***Homepage***](#homepage)
-        * [*Choose Game*](#choose-game)
+        * [*Choice of Game*](#choice-of-game)
+        * [*Select Game*](#select-game)
+    * [***Hiragana and Katakana Game Pages***](#hiragana-and-katakana-game-pages)
+        * [*Game Area*](#game-area)
+        * [*Game Question*](#game-question)
+        * [*Game Answers*](#game-answers)
     
