@@ -1,5 +1,4 @@
 // Wait for page to finish loading
-
 document.addEventListener("DOMContentLoaded", function () {
     runGame();
 });
@@ -17,7 +16,11 @@ let questionCounter = 0;
 let availableQuestions = [];
 
 
-// Start game function
+/**
+ * Sets score & question counter to 0,
+ * Pulls question list from respective alphabet file,
+ * Calls newQuestion function
+ */
 function runGame() {
     score = 0;
     questionCounter = 0;
@@ -27,21 +30,17 @@ function runGame() {
 
 // New random question function
 function newQuestion() {
-    // If 10 questions have been asked, display unique message depending on score
-    // Restart game or go back to the homepage depending on button press
+
     if (questionCounter >= maxQuestions) {
         endGameMessage();
     }
 
-    // Increase the question counter by 1 each time
     questionCounter++;
 
-    // Pick a random question and display the character as the question
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.character;
 
-    // Take the phonetic of the current question and pick 3 others from the list at random
     let answers = [currentQuestion];
     while (answers.length < 4) {
         let randomIndex = Math.floor(Math.random() * questions.length);
@@ -52,7 +51,6 @@ function newQuestion() {
 
     answers = shuffle(answers);
 
-    // Display the shuffled potential answers
     let i = 0;
 
     for (let button of buttons) {
@@ -60,10 +58,8 @@ function newQuestion() {
         i++;
     }
 
-    // Splice the current question out of the array so it doesn't appear twice
     availableQuestions.splice(questionIndex, 0);
 
-    // Once everything has loaded, allow answers
     acceptingAnswers = true;
 }
 
