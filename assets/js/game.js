@@ -83,7 +83,7 @@ function shuffle(array) {
     return array;
 }
 
-// Listen for click & check answer, display new question
+// Listen for click & check answer, update class accordingly, display new question after short timeout
 for (let button of buttons) {
     button.addEventListener("click", function (event) {
 
@@ -93,16 +93,13 @@ for (let button of buttons) {
         const selectedAnswer = event.target;
 
         if (selectedAnswer.innerText === currentQuestion.phonetic) {
-            // If answer is correct, increase score + green background
             score++;
             currentScore.innerText = [score];
             this.classList.add("correct");
         } else {
-            // If incorrect, red background
             this.classList.add("incorrect");
         }
 
-        // Remove temporary classes with red/green backgrounds, set a short timeout before loading next question
         setTimeout(() => {
             selectedAnswer.classList.remove("correct", "incorrect");
             newQuestion();
@@ -110,6 +107,11 @@ for (let button of buttons) {
     });
 }
 
+/**
+ * When maxQuestions has been reached, styled alert appears with unique message depending on the user score,
+ * Uses template literals to insert the name of the alphabet and the score out of 10,
+ * Gives user option to play again or return to the home screen
+ */
 function endGameMessage() {
     if (score === 10) {
         Swal.fire({
