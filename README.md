@@ -16,3 +16,11 @@ With Japanese being such a difficult language to learn for native English speake
     * [***Site Aims***](#site-aims)
     * [***Colour Scheme***](#colour-scheme)
     * [***Typography***](#typography)
+1. [**Current Website Features**](#current-website-features)
+    * [***Features Present on All Pages***](#features-present-on-all-pages)
+        * [*Favicon*](#favicon)
+        * [*Header*](#header)
+        * [*Footer*](#footer)
+    * [***Homepage***](#homepage)
+        * [*Choose Game*](#choose-game)
+    
