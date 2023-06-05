@@ -4,4 +4,15 @@ According to the [**U.S. Department of State's *Foreign Language Institute***](h
 
 In a similar way, it is necessary for anyone learning Japanese to recognise both the hiragana and katakana alphabets, as - technically speaking - the entire language could be written in just one or both of them (although, practically speaking, this would be a terrible idea!)
 
-With Japanese being such a difficult language to learn for native English speakers, practise may never equal *perfect*, but practise WILL make *progress*, and gamifying that practise makes learning all the more fun. 
+With Japanese being such a difficult language to learn for native English speakers, practise may never equal *perfect*, but practise WILL make *progress*, and gamifying that practise makes learning all the more fun.
+
+![Am I responsive screenshot]
+
+## **Table of Contents:**
+1. [**Site Overview**](#site-overview)
+1. [**Planning stage**](#planning-stage)
+    * [***Target Audiences***](#target-audiences)
+    * [***User Stories***](#user-stories)
+    * [***Site Aims***](#site-aims)
+    * [***Colour Scheme***](#colour-scheme)
+    * [***Typography***](#typography)
