@@ -260,6 +260,10 @@ footer {
     text-decoration: none;
 }
 
+.different-game:visited {
+    text-decoration: none;
+}
+
 /* Media Queries - min-width: 280px */
 @media screen and (min-width: 280px) {
 
