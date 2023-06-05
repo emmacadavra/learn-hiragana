@@ -69,6 +69,11 @@ function newQuestion() {
     acceptingAnswers = true;
 }
 
+/**
+ * Shuffle the array of potential answers
+ * @param {array} array - The array to be shuffled
+ * @returns 
+ */
 function shuffle(array) {
     let j = (array.length);
     while (--j > 0) {
