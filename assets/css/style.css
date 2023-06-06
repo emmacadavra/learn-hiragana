@@ -258,10 +258,12 @@ footer {
 /* SweetAlert button classes */
 .different-game {
     text-decoration: none;
+    color: #fff;
 }
 
 .different-game:visited {
     text-decoration: none;
+    color: #fff;
 }
 
 /* Media Queries - min-width: 280px */
