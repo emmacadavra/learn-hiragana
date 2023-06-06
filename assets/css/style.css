@@ -152,7 +152,7 @@ h1 {
 
 .question-container {
     border-radius: 0.5rem;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 1 / 1 1important;
 }
 
 .hiragana-question {
@@ -178,7 +178,7 @@ h1 {
 
 .answer-btn {
     border-radius: 0.5rem;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 1 / 1 !important;
 }
 
 .hiragana-answer {
