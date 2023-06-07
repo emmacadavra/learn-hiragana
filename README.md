@@ -65,10 +65,18 @@ With Japanese being such a difficult language to learn for native English speake
 
 ### **Colour Scheme**
 
-*
-*
-*
-*
+This website’s colour scheme was inspired by the following colour palette created by [**akula creative**](https://akulakreative.com/blog/2016/02/a-sea-and-space-inspired-color-palette) based on an image posted by NASA.
+
+![akula creative colour palette](docs/images/sea-space-color-palette-navy-blue-aqua-yellow.jpg)
+
+Japan is an island nation, so I wanted to include colours that the user can associate with the ocean, and serenity. The inclusion of the gold colour was something I intended on from the start, as it is inspired by the Japanese practice of [**Kintsugi (金継ぎ, "golden joinery")**](https://en.wikipedia.org/wiki/Kintsugi).
+
+Below are two colour grids to show how the colours interact with each other from an accessibility perspective - one with just the main site colours, and the other with the additional colours used in the “correct” and “incorrect” classes when taking the quiz itself.
+
+![colourgrid - main colours](docs/images/colourgrid-new)
+
+![colourgrid - with additional colours](docs/images/colour-grid-with-js-classes)
+
 
 ### **Typography**
 
