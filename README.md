@@ -38,8 +38,6 @@ Katakana page:
         * [*Select Game*](#select-game)
     * [***Hiragana and Katakana Game Pages***](#hiragana-and-katakana-game-pages)
         * [*Game Area*](#game-area)
-        * [*Game Question*](#game-question)
-        * [*Game Answers*](#game-answers)
         * [*Current Score*](#current-score)
         * [*Back to Homepage*](#back-to-homepage)
     * [***JavaScript on Game Pages***](#javascript-on-game-pages)
@@ -70,10 +68,10 @@ Katakana page:
 
 ### **Site Aims**
 
-*
-*
-*
-*
+* To provide an interactive experience for people of all age groups who are learning Japanese at beginner-intermediate level.
+* To give users a clear choice between a hiragana game and katakana game, and provide a streamlined experience that reacts to their input and gives them feedback in real time.
+* To provide users with a unique message when they have answered 10 questions, depending on their score.
+* To give users the clear choice to play the game again as many times as they like, or choose to play the other game if they wish.
 
 ### **Colour Scheme**
 
@@ -176,20 +174,6 @@ However, the first character used here is the Japanese kanji for "go". As this s
 ### **Hiragana and Katakana Game Pages**
 
 #### **Game Area**
-
-*
-*
-*
-*
-
-#### **Game Question**
-
-*
-*
-*
-*
-
-#### **Game Answers**
 
 *
 *
