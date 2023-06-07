@@ -73,9 +73,9 @@ Japan is an island nation, so I wanted to include colours that the user can asso
 
 Below are two colour grids to show how the colours interact with each other from an accessibility perspective - one with just the main site colours, and the other with the additional colours used in the “correct” and “incorrect” classes when taking the quiz itself.
 
-![colourgrid - main colours](docs/images/colourgrid-new.PNG)
+![colourgrid - main colours](docs/images/colourgrid-new.png)
 
-![colourgrid - with additional colours](docs/images/colour-grid-with-js-classes.PNG)
+![colourgrid - with additional colours](docs/images/colour-grid-with-js-classes.png)
 
 
 ### **Typography**
@@ -99,14 +99,16 @@ Below are two colour grids to show how the colours interact with each other from
 
 The header can be found at the top of all three pages of the website, and is very simple in its design. It includes the site title in a centred position, using the font I chose for the logo-style text. No additional styling was added in CSS (such as hover styling), to give the impression that the text is an image logo.The header is responsive, but care was taken to make sure that it never takes up too much of the screen, so that the main page content is what sticks out the most to the user. Due to the more simplistic style of this website, the header does not include a navigation bar, but clicking on the site title will take you to the homepage, as the user would expect. The decision not to include a navigation bar was made due to there being a “Back to Game Menu” button below the game area on each page that is clear and intuitive, and allowed the option of including the Japanese text.
 
-![screenshot of header](docs/screenshots/header.PNG)
+![screenshot of header](docs/screenshots/header.png)
 
 #### **Footer**
 
-*
-*
-*
-*
+The footer also appears on all three pages of the website and contains a small amount of text explaining the purpose of the website. Initially, this was all, but the decision was made to also include a disclaimer stating that the website is for education purposes only.
+
+![screenshot of footer text without disclaimer](docs/screenshots/footer-1.png)
+
+![screenshot of footer text with disclaimer](docs/screenshots/footer-2.png)
+
 
 ### **Homepage**
 
