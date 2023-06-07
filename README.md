@@ -117,7 +117,11 @@ The header can be found at the top of all three pages of the website, and is ver
 
 The footer also appears on all three pages of the website and contains a small amount of text explaining the purpose of the website. Initially, this was all, but the decision was made to also include a disclaimer stating that the website is for education purposes only.
 
+Without disclaimer:
+
 ![screenshot of footer text without disclaimer](docs/screenshots/footer-1.png)
+
+With disclaimer:
 
 ![screenshot of footer text with disclaimer](docs/screenshots/footer-2.png)
 
