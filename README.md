@@ -227,11 +227,7 @@ The second and third are the question and answer fields.
 
 ## **Testing**
 
-*
-*
-*
-*
-
+A separate file has been created for information about testing. Please click the following link to access it: [**TESTING.md**](TESTING.md)
 
 ## **Technologies Used**
 
