@@ -1,5 +1,5 @@
 /* Google Fonts import link */
-@import url('https://fonts.googleapis.com/css2?family=BIZ+UDMincho&family=Righteous&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Righteous&family=Rubik&display=swap');
 
 /* Main body styling & font declarations */
 * {
@@ -19,11 +19,11 @@ body {
 }
 
 .logo-font {
-    font-family: "Righteous", sans-serif;
+    font-family: "Righteous", cursive;
 }
 
 .japanese-text {
-    font-family: "BIZ UDMincho", serif;
+    font-family: "Noto Sans JP", sans-serif;
 }
 
 /* Header */
