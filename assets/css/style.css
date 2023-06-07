@@ -160,14 +160,14 @@ h1 {
 }
 
 .hiragana-question {
-    background-color: #2C3259;
+    background-color: #304A78;
     color: #DCB13C;
     box-shadow: 0 0.2rem 1.2rem 0 rgba(43, 88, 110, 0.5);
 }
 
 .katakana-question {
     background-color: #DCB13C;
-    color: #2C3259;
+    color: #0A0E28;
     box-shadow: 0 0.2rem 1.2rem 0 rgba(43, 88, 110, 0.5);
 }
 
@@ -188,13 +188,13 @@ h1 {
 
 .hiragana-answer {
     background-color: #E0E58F;
-    color: #385879;
+    color: #304A78;
     box-shadow: 0 0.2rem 0.2rem 0 rgba(43, 88, 110, 0.5);
 }
 
 .katakana-answer {
-    background-color: #35586F;
-    color: #B0E4DC;
+    background-color: #304A78;
+    color: #57BDA2;
     box-shadow: 0 0.2rem 0.2rem 0 rgba(43, 88, 110, 0.5);
 }
 
@@ -212,8 +212,8 @@ h1 {
 
 .back-to-menu {
     padding: 0.5rem;
-    background-color: #385879;
-    border: 0.3rem solid #D1A617;
+    background-color: #304A78;
+    border: 0.3rem solid #DCB13C;
     border-radius: 0.5rem;
     width: fit-content;
     margin: 1rem auto;
@@ -239,8 +239,8 @@ h1 {
 
 /* Footer */
 footer {
-    background-color: #B3CFCD;
-    color: #306A67;
+    background-color: #2493A2;
+    color: #0A0E28;
     margin-top: auto;
     width: 100%;
 }
@@ -253,7 +253,7 @@ footer {
 /* JavaScript classes - "correct" and "incorrect" */
 .correct {
     background-color: #74BA6C;
-    color: #007362;
+    color: #006100;
 }
 
 .incorrect {
@@ -262,8 +262,10 @@ footer {
 }
 
 /* SweetAlert button classes */
+
 .different-game {
     text-decoration: none;
+    background-color: #2493A2;
     color: #fff;
 }
 
