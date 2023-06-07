@@ -125,8 +125,17 @@ With disclaimer:
 
 ![screenshot of footer text with disclaimer](docs/screenshots/footer-2.png)
 
-
 ### **Homepage**
+
+The homepage is fully responsive, and serves as the central hub through which the user can navigate to their chosen game.
+
+The homepage on desktop:
+
+![screenshot of homepage on desktop](docs/screenshots/homepage-full-desktop.png)
+
+The homepage on mobile:
+
+![screenshot of homepage on desktop](docs/screenshots/full-homepage-2.png)
 
 #### **Choice of Game**
 
