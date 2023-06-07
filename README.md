@@ -216,10 +216,29 @@ Katakana game area:
 
 #### **Main Game Functions**
 
-*
-*
-*
-*
+Correct answer - hiragana 'ne':
+
+![hiragana correct answer - 'ne'](docs/screenshots/hiragana-answer-correct.png)
+
+Incorrect answer - hiragana 'su':
+
+![hiragana incorrect answer - 'su'](docs/screenshots/hiragana-answer-incorrect.png)
+
+Correct answer - katakana 'ne':
+
+![katakana correct answer - 'ne'](docs/screenshots/katakana-answer-correct.png)
+
+Incorrect answer - katakana 'su':
+
+![katakana incorrect answer - 'su'](docs/screenshots/katakana-answer-incorrect.png)
+
+Hiragana current score area updating:
+
+![hiragana current score area](docs/screenshots/hiragana-current-score.png)
+
+Katakana current score area updating:
+
+![katakana current score area](docs/screenshots/katakana-current-score.png)
 
 #### **Unique Score Message**
 
