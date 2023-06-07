@@ -287,10 +287,6 @@ footer {
         font-size: 6rem;
     }
 
-    .answers-container {
-        /* max-width: 50%; */
-    }
-
     .answer-btn {
         flex-grow: 2;
         flex-basis: calc(50% - 0.2rem);
@@ -344,14 +340,12 @@ footer {
     }
 
     .question-container {
-        /* max-width: 60%; */
         font-size: 15rem;
     }
 
     .answers-container {
         gap: 0.5rem;
         padding: 0.5rem;
-        /* max-width: 50%; */
     }
 
     .answer-btn {
