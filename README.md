@@ -6,7 +6,19 @@ In a similar way, it is necessary for anyone learning Japanese to recognise both
 
 With Japanese being such a difficult language to learn for native English speakers, practise may never equal *perfect*, but practise WILL make *progress*, and gamifying that practise makes learning all the more fun.
 
-![Am I responsive screenshot]
+Am I Responsive? displays of each page:
+
+Homepage:
+
+![Am I responsive display - homepage](docs/images/amiresponsive-homepage.png)
+
+Hiragana page:
+
+![Am I responsive display - hiragana](docs/images/amiresponsive-hiragana.png)
+
+Katakana page:
+
+![Am I responsive display - katakana](docs/images/amiresponsive-katakana.png)
 
 ## **Table of Contents:**
 1. [**Site Overview**](#site-overview)
