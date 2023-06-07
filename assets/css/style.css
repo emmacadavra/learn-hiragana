@@ -15,7 +15,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #333;
+    color: #0A0E28;
 }
 
 .logo-font {
@@ -28,7 +28,7 @@ body {
 
 /* Header */
 header {
-    background-color: #B3CFCD;
+    background-color: #2493A2;
     width: 100%;
 }
 
@@ -44,11 +44,11 @@ h1 {
 
 .header-inner a {
     text-decoration: none;
-    color: #306A67;
+    color: #0A0E28;
 }
 
 .header-inner a:visited {
-    color: #306A67;
+    color: #0A0E28;
 }
 
 /* Homepage CSS */
@@ -79,15 +79,15 @@ h1 {
 
 .choose-hiragana {
     background-color: #E0E58F;
-    color: #35586F;
-    border: 0.3rem solid #D1A617;
+    color: #2C3259;
+    border: 0.3rem solid #DCB13C;
     border-radius: 0.5rem;
 }
 
 .choose-katakana {
     background-color: #B0E4DC;
-    color: #35586F;
-    border: 0.3rem solid #D1A617;
+    color: #2C3259;
+    border: 0.3rem solid #DCB13C;
     border-radius: 0.5rem;
 }
 
