@@ -156,7 +156,7 @@ h1 {
 /* Learn Hiragana & Katakana question sections */
 .question-container {
     border-radius: 0.5rem;
-    padding: 0 0.5rem 0.5rem 0.5rem;
+    padding: 0 1rem 1rem 1rem;
     text-align: center;
     height: fit-content;
     aspect-ratio: 1 / 1;
