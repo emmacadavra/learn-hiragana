@@ -235,17 +235,22 @@ The second and third are the question and answer fields.
 
 ## **Technologies Used**
 
-*
-*
-*
-*
+The technologies used in the making of this website are:
+
+* HTML5
+* CSS3
+* JavaScript
 
 ## **Deployment**
 
-*
-*
-*
-*
+This website was deployed on GitHub Pages. The following procedure was followed on desktop to achieve this:
+
+* Starting at [**this project's repository**](https://github.com/emmacadavra/learn-hiragana/tree/main), navigate to the **'Settings'** tab
+* In **'Settings'**, select **'Pages'** from the navigation menu on the left-hand side of the screen
+* In **'GitHub Pages'**, find **'Source'** under **'Build and deployment'**
+* Select the **'Main'** branch from the drop down menu and click **'Save'**
+* A message is then displayed to indicate a successful deployment to GitHub pages, and provides a live link once it has finished fully deploying
+The live link to the fully deployed website can be found here: [***https://emmacadavra.github.io/learn-hiragana/***](https://emmacadavra.github.io/learn-hiragana/)
 
 ## **Future-Enhancements**
 
