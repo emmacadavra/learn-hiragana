@@ -198,9 +198,15 @@ Katakana game page on mobile:
 
 #### **Game Area**
 
-The game area on each page contains four main sections. The first is the h2 element stating whether the game is the "Hiragana Test!" or "Katakana Test!".
+The game area on each page contains four main sections: an h2 heading, a question area, an answer area containing four potential answers, and a current score / 10 section at the bottom.
 
-The second and third are the question and answer fields.
+Hiragana game area:
+
+![hiragana game area](docs/screenshots/hiragana-game-area.png)
+
+Katakana game area:
+
+![katakana game area](docs/screenshots/katakana-game-area.png)
 
 #### **Back to Homepage**
 
