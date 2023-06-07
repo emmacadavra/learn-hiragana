@@ -87,7 +87,7 @@ h1 {
 .choose-katakana {
     background-color: #57BDA2;
     color: #2C3259;
-    border: 0.3rem solid #DCB13C;
+    border: 0.3rem solid #2493A2;
     border-radius: 0.5rem;
 }
 
@@ -109,7 +109,7 @@ h1 {
 .hiragana-go {
     background-color: #57BDA2;
     color: #2C3259;
-    border: 0.15rem solid #DCB13C;
+    border: 0.15rem solid #2493A2;
 }
 
 .katakana-go {
