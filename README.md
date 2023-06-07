@@ -58,6 +58,13 @@ With Japanese being such a difficult language to learn for native English speake
 *
 *
 
+### **Site Aims**
+
+*
+*
+*
+*
+
 ### **Colour Scheme**
 
 *
