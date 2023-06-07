@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #E6F4F1;
+    background-color: #B0E4DC;
     font-family: "Rubik", sans-serif;
     min-height: 100vh;
     display: flex;
@@ -85,7 +85,7 @@ h1 {
 }
 
 .choose-katakana {
-    background-color: #B0E4DC;
+    background-color: #57BDA2;
     color: #2C3259;
     border: 0.3rem solid #DCB13C;
     border-radius: 0.5rem;
@@ -107,15 +107,15 @@ h1 {
 }
 
 .hiragana-go {
-    background-color: #B0E4DC;
-    color: #35586F;
-    border: 0.15rem solid #D1A617;
+    background-color: #57BDA2;
+    color: #2C3259;
+    border: 0.15rem solid #DCB13C;
 }
 
 .katakana-go {
     background-color: #E0E58F;
-    color: #35586F;
-    border: 0.15rem solid #D1A617;
+    color: #2C3259;
+    border: 0.15rem solid #DCB13C;
 }
 
 .choose-game a {
@@ -123,7 +123,7 @@ h1 {
 }
 
 .choose-game a:visited {
-    color: #35586F;
+    color: #2C3259;
 }
 
 /* Learn Hiragana & Katakana game sections */
@@ -136,7 +136,7 @@ h1 {
 }
 
 .game-hiragana {
-    background-color: #B0E4DC;
+    background-color: #57BDA2;
 }
 
 .game-katakana {
@@ -160,14 +160,14 @@ h1 {
 }
 
 .hiragana-question {
-    background-color: #35586F;
-    color: #D1A617;
+    background-color: #2C3259;
+    color: #DCB13C;
     box-shadow: 0 0.2rem 1.2rem 0 rgba(43, 88, 110, 0.5);
 }
 
 .katakana-question {
-    background-color: #D1A617;
-    color: #35586F;
+    background-color: #DCB13C;
+    color: #2C3259;
     box-shadow: 0 0.2rem 1.2rem 0 rgba(43, 88, 110, 0.5);
 }
 
