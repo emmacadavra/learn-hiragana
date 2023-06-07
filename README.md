@@ -112,10 +112,11 @@ All fonts were sourced from Google Fonts, as mentioned in the Credits.
 
 #### **Favicon**
 
-*
-*
-*
-*
+The Favicon chosen for this website is the [**"crossed flags" emoji favicon**](https://favicon.io/emoji-favicons/crossed-flags/) from favicon.io - as mentioned in the Credits.
+
+The "crossed flags" emoji depicts two Japanese flags crossing one another, and is often used in relation to celebrating Japanese culture [(**source**)](https://yaytext.com/emoji/crossed-flags/#:~:text=The%20crossed%20flags%20emoji%20shows,support%20the%20Japanese%20people%20%F0%9F%8E%8C).
+
+![crossed flags favicon image](docs/images/favicon-image.png)
 
 #### **Header**
 
