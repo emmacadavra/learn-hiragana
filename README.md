@@ -135,7 +135,7 @@ The homepage on desktop:
 
 The homepage on mobile:
 
-![screenshot of homepage on desktop](docs/screenshots/full-homepage-2.png)
+![screenshot of homepage on mobile](docs/screenshots/homepage-full-mobile.png)
 
 #### **Choice of Game**
 
