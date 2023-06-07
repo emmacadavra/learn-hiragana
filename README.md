@@ -174,6 +174,24 @@ However, the first character used here is the Japanese kanji for "go". As this s
 
 ### **Hiragana and Katakana Game Pages**
 
+As with the homepage, both game pages are fully responsive based on the device used to view them on. They are where the respective games run.
+
+Hiragana game page on desktop:
+
+![hiragana game page on desktop](docs/screenshots/hiragana-full-desktop.png)
+
+Hiragana game page on mobile:
+
+![hiragana game page on mobile](docs/screenshots/hiragana-full-mobile.png)
+
+Katakana game page on desktop:
+
+![katakana game page on desktop](docs/screenshots/katakana-full-desktop.png)
+
+Katakana game page on mobile:
+
+![katakana game page on mobile](docs/screenshots/katakana-full-mobile.png)
+
 #### **Game Area**
 
 *
