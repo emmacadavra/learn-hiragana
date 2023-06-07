@@ -118,6 +118,10 @@ The "crossed flags" emoji depicts two Japanese flags crossing one another, and i
 
 ![crossed flags favicon image](docs/images/favicon-image.png)
 
+Favicon in Chrome browser tab:
+
+![favicon in Chrome browser tab](docs/screenshots/favicon-in-tab.png)
+
 #### **Header**
 
 The header can be found at the top of all three pages of the website, and is very simple in its design. It includes the site title in a centred position, using the font I chose for the logo-style text. No additional styling was added in CSS (such as hover styling), to give the impression that the text is an image logo.The header is responsive, but care was taken to make sure that it never takes up too much of the screen, so that the main page content is what sticks out the most to the user. Due to the more simplistic style of this website, the header does not include a navigation bar, but clicking on the site title will take you to the homepage, as the user would expect. The decision not to include a navigation bar was made due to there being a "Back to Game Menu" button below the game area on each page that is clear and intuitive, and allowed the option of including the Japanese text.
@@ -194,17 +198,9 @@ Katakana game page on mobile:
 
 #### **Game Area**
 
-*
-*
-*
-*
+The game area on each page contains four main sections. The first is the h2 element stating whether the game is the "Hiragana Test!" or "Katakana Test!".
 
-#### **Current Score**
-
-*
-*
-*
-*
+The second and third are the question and answer fields.
 
 #### **Back to Homepage**
 
