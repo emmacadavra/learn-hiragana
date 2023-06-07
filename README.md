@@ -46,10 +46,7 @@ With Japanese being such a difficult language to learn for native English speake
 ## **Planning stage**
 ### **Target Audiences**
 
-*
-*
-*
-*
+* People of all age groups who are learning Japanese at beginner - intermediate level who would like to use a fun game as a resource to develop and/or test their knowledge of the hiragana and katakana alphabets.
 
 ### **User Stories**
 
@@ -121,7 +118,7 @@ With Japanese being such a difficult language to learn for native English speake
 
 ### **Hiragana and Katakana Game Pages**
 
-#### **Game Area**](#game-area)*
+#### **Game Area**
 
 *
 *
