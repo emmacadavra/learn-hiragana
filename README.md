@@ -50,10 +50,11 @@ With Japanese being such a difficult language to learn for native English speake
 
 ### **User Stories**
 
-*
-*
-*
-*
+* As a user, I want to see the subject matter of the page.
+* As a user, I want to navigate the page to find what I require quickly and easily.
+* As a user, I want to test my knowledge of hiragana and katakana in a visually engaging way
+* As a user, I want to be able to clearly choose which game to play
+* As a user, I want feedback for my correct and incorrect answers, and a score that updates in real time
 
 ### **Site Aims**
 
