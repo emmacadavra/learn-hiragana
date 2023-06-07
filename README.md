@@ -147,10 +147,9 @@ The colours for the game sections are inverted, to make them visually distinct f
 
 #### **Select Game**
 
-*
-*
-*
-*
+The “button” to select each game is a styled anchor tag, to give the user the illusion of a button. When clicked, they direct the user to the respective html page that holds the content for the game. To make the page more interactive, an animation has been added to each of the “buttons” that give the impression of it jumping when hovered over. A shadow was added to emphasise this animation.
+
+
 
 ### **Hiragana and Katakana Game Pages**
 
