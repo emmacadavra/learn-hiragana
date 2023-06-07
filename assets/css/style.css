@@ -167,7 +167,7 @@ h1 {
 
 .katakana-question {
     background-color: #DCB13C;
-    color: #0A0E28;
+    color: #2C3259;
     box-shadow: 0 0.2rem 1.2rem 0 rgba(43, 88, 110, 0.5);
 }
 
@@ -193,8 +193,8 @@ h1 {
 }
 
 .katakana-answer {
-    background-color: #304A78;
-    color: #57BDA2;
+    background-color: #57BDA2;
+    color: #304A78;
     box-shadow: 0 0.2rem 0.2rem 0 rgba(43, 88, 110, 0.5);
 }
 
