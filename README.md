@@ -92,10 +92,22 @@ Below are two colour grids to show how the colours interact with each other from
 
 ### **Typography**
 
-*
-*
-*
-*
+Three fonts were used across this website - two of them for the English text, and one of them for the Japanese text.
+
+For all instances of "Learn Hiragana and Katakana", "Hiragana Test!" and "Katakana Test!", the font "Righteous" was used. This font was chosen for its fun, bold style, that doesn't compromise readibaility. It gives them impression of a logo, which was perfect for this simple website. "Rubik" was used for all other English text on the website due to its clear readability, with slightly rounded styles that again give a fun feel to the website.
+
+Originally, for the Japanese text, a font called "BIZ UDMincho" was used. Initially, this font was chosen because it resembled traditional Japanese calligraphy whilst also remaining fairly clear. However, as displayed in the below screenshot, it did make some of the characters much less legible (particularly the hiragana), and didn't align with the goal of having an easily accessible game for beginners.
+
+![game choice with BIZ UDMincho Japanese font](docs/screenshots/game-choice-old.png)
+
+Instead, "Noto Sans Japanese" was used as it's much clearer, and fits much better with the overall feel of the website. A clear comparison between the two fonts can be seen in the 'a' symbols in each alphabet:
+
+!['a' hiragana in BIZ UDMincho Japanese font](docs/screenshots/hiragana-question-a-old.png)
+!['a' hiragana in Noto Sans Japanese Japanese font](docs/screenshots/hiragana-question-a.png)
+!['a' katakana in BIZ UDMincho Japanese font](docs/screenshots/katakana-question-a-old.png)
+!['a' katakana in Noto Sans Japanese Japanese font](docs/screenshots/katakana-question-a.png)
+
+All fonts were sourced from Google Fonts, as mentioned in the Credits.
 
 ## **Current Website Features**
 ### **Features Present on All Pages**
@@ -155,7 +167,7 @@ Originally, these "buttons" displayed the following text:
 
 ![old katakana-go button](docs/screenshots/katakana-go-old.png)
 
-However, the first character used here is the Japanese kanji for "go". As this site is aimed at beginners wanting to practise hiragana and katakana only, it seemed unreasonable to include a kanji character as it is, due to the kanji alphabet being more advanced than the scope of this website. In many instances of Japanese media, such as newspapers, comics, and textbooks for school children, a type of phonetic notation is used to accompany kanji characters called *furigana*. Thankfully, W3C supports the use of furigana through [**ruby markup**](https://www.w3.org/International/articles/ruby/markup.en), and so the furigana for this kanji was added for increased readibility and accessibility for all levels of reading comprehension.
+However, the first character used here is the Japanese kanji for "go". As this site is aimed at beginners-intermediates wanting to practise hiragana and katakana only, it seemed unreasonable to include a kanji character as it is, due to the kanji alphabet being more advanced than the scope of this website. In many instances of Japanese media, such as some newspapers, comics, and textbooks for school children, a type of phonetic notation is used to accompany kanji characters called *furigana*. Thankfully, W3C supports the use of furigana through [**ruby markup**](https://www.w3.org/International/articles/ruby/markup.en), and so the furigana for this kanji was added for increased readibility and accessibility for all levels of reading comprehension.
 
 ![hiragana-go button with furigana](docs/screenshots/hiragana-go-furigana.png)
 
