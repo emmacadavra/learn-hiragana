@@ -123,6 +123,7 @@ function endGameMessage() {
             confirmButtonText: '<a class="play-again" onclick="location.reload()">Play Again!</a>',
             showDenyButton: true,
             denyButtonText: '<a class="different-game" href="index.html">Choose a Different Game</a>',
+            denyButtonColor: '#2493A2',
         })
     } else if (score < 10 && score >= 7) {
         Swal.fire({
@@ -134,6 +135,7 @@ function endGameMessage() {
             confirmButtonText: '<a class="play-again" onclick="location.reload()">Play Again!</a>',
             showDenyButton: true,
             denyButtonText: '<a class="different-game" href="index.html">Choose a Different Game</a>',
+            denyButtonColor: '#2493A2',
         })
     } else if (score < 7 && score >= 4) {
         Swal.fire({
@@ -145,6 +147,7 @@ function endGameMessage() {
             confirmButtonText: '<a class="play-again" onclick="location.reload()">Play Again!</a>',
             showDenyButton: true,
             denyButtonText: '<a class="different-game" href="index.html">Choose a Different Game</a>',
+            denyButtonColor: '#2493A2',
         })
     } else if (score < 4 && score >= 1) {
         Swal.fire({
@@ -156,6 +159,7 @@ function endGameMessage() {
             confirmButtonText: '<a class="play-again" onclick="location.reload()">Play Again!</a>',
             showDenyButton: true,
             denyButtonText: '<a class="different-game" href="index.html">Choose a Different Game</a>',
+            denyButtonColor: '#2493A2',
         })
     } else if (score === 0) {
         Swal.fire({
@@ -167,6 +171,7 @@ function endGameMessage() {
             confirmButtonText: '<a class="play-again" onclick="location.reload()">Play Again!</a>',
             showDenyButton: true,
             denyButtonText: '<a class="different-game" href="index.html">Choose a Different Game</a>',
+            denyButtonColor: '#2493A2',
         })
     }
 }

@@ -204,10 +204,7 @@ The second and third are the question and answer fields.
 
 #### **Back to Homepage**
 
-*
-*
-*
-*
+![back to homepage / "game menu" button](docs/screenshots/back-to-homepage.png)
 
 ### **JavaScript on Game Pages**
 
