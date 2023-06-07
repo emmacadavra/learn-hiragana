@@ -139,10 +139,11 @@ The homepage on mobile:
 
 #### **Choice of Game**
 
-*
-*
-*
-*
+The main section of the website contains the two game choices - hiragana and katakana. Originally, these sections were to be called “Learn Hiragana/Katakana!”, however the decision was made to change the wording to “Hiragana/Katakana Test!” due to the Japanese equivalent being much simpler, as the Japanese word for “test” is テスト - literally “te-su-to”, a loan word from English.
+
+The colours for the game sections are inverted, to make them visually distinct from one another whilst also remaining eye-catching and fitting with the overall colour scheme.
+
+![choice of game](docs/screenshots/game-choice.png) 
 
 #### **Select Game**
 
