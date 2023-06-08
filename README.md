@@ -297,8 +297,11 @@ As with my first major project, I am limited by the current scope of my knowledg
 If I had more time and knowledge, I would like to enhance this project in many ways.
 
 * Firstly, I would like to generally add a little bit more educational content, such as information about the Japanese language, about the pronunciations, grammar, and so on. I'd also like to add more visual content alongside these.
+
 * Secondly, I would like to include the option of audio to the questions - for example, when the character is displayed, being able to tap/click on it and have perhaps the Japanese text-to-speech function read the character's pronunciation to the user. This would greatly improve the effectiveness of this website as a helpful as well as fun learning resource.
+
 * For the purposes of this project, I have used the 46 main hiragana character and 45 main katakana characters (the katakana ヲ (wo) is used so infrequently that it is omitted from most modern learning programmes). However, variations of many of these characters exist, known as dakuon and handakuon. The が (ga) in ひらがな (hi-ra-ga-na) is the dakuon form of か (ka), and these variations are of equal importance to the base characters when learning Japanese. I would like to include these characters, perhaps separately or under a different 'difficulty setting' for more confident learners.
+
 * Lastly, following on from the idea of 'difficulty settings' - due to the nature of the script used to generate the games on this website, it would be possible to include kanji as an option. However, this would need much more thought and more advanced implementation (such as the inclusion of audio). Although Japanese contains around 50,000 kanji characters, only around 2,136 of them are regarded as necessary for functional Japanese literacy [**(source)**](https://en.wikipedia.org/wiki/Kanji). These 2,136 characters are separated by difficulty in the JLPTs (Japanese Language Proficiency Tests), and so this would need to be taken into consideration upon implementation.
 
 ## **Credits**
@@ -312,10 +315,15 @@ If I had more time and knowledge, I would like to enhance this project in many w
 
 ### **Code References**
 
-*
-*
-*
-*
+* This project follows the Code Institute 'Love Maths' code along project, and a lot of my starter knowledge in JavaScript has come from this project. As such there are some similarities in the code, for example in the "current score" section of each game page.
+
+* To help me better understand how to implement the quiz-style functions needed to make this website's games work, I watched videos 1 - 5 in [**James Q Quick's "Build a Quiz App with HTML CSS AND JavaScript**](https://youtube.com/playlist?list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF) playlist on YouTube. I chose this tutorial because it implemented features I wished to include from the start, such as the correct/incorrect answer feedback to questions. This tutorial is for a quiz that shares a lot of similarity in terms of JavaScript functionality to what I have used for this website, and although I wrote the majority of code for this project myself (unless otherwise stated) and have tried to make it as unique to me as possible, there are many instances of similar or even the same code being used. That said, there are a few instances where I have taken code directly from this tutorial, in some instances because it was my first time learning it, detailed below (images taken from [**jamesqquick's repository for this tutorial**](https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript)):
+    * Select button hover styling:
+    ![James Q Quick's button hover styling]
+
+* The consideration to use <lang="ja-jp"> ahead of each instance of Japanese text is thanks to Rachel Simone Weil's blog post [**Better together: Displaying Japanese and English text on the web**](https://blog.prototypr.io/better-together-displaying-japanese-and-english-text-on-the-web-538a704399be).
+
+* 
 
 ### **Content and Media**
 
