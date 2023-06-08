@@ -350,6 +350,10 @@ If I had more time and knowledge, I would like to enhance this project in many w
 
 ![Tutorials Point Fisher-Yates Shuffle](docs/images/fisher-yates-shuffle.png)
 
+* This project utilises [**necolas' normalize.css**](https://github.com/necolas/normalize.css/) to try keeping the CSS stying as consistent as possible across browsers.
+
+* All instances of the unique score messages at the end of each game (Swal.fire objects within the endGameMessage(); function) are by [**SweetAlert2 alerts**](https://sweetalert2.github.io/).
+
 * When designing the page, I had difficulty in keeping the footer at the bottom of the page on screens that were taller than the content. To fix this, I used Angelos Chalaris' Flexbox code from his blog post [**How can I ensure the footer is always at the bottom of the page?**](https://www.30secondsofcode.org/css/s/footer-at-the-bottom/#:~:text=You%20can%20use%20flexbox%20to,and%20flex%2Ddirection%3A%20column%20.):
 
 ![Angelos Chalaris' Flexbox footer code](docs/images/angelos-chalaris-footer-code.png)
