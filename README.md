@@ -308,10 +308,15 @@ If I had more time and knowledge, I would like to enhance this project in many w
 
 ### **Honourable Mentions**
 
-*
-*
-*
-*
+* [**Damon Kreft**](https://github.com/damon-kreft)
+
+* [**Richard Wells**](https://github.com/D0nni387)
+
+* [**Alicia Walker**]()
+
+* [**Christina Webb**](https://github.com/c-webb-sfougaras)
+
+* Thank you to my colleague Yuka who helped me out by checking the Japanese text on the website and within the JavaScript arrays, and making sure I hadn't made any mistakes!
 
 ### **Code References**
 
