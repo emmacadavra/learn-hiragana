@@ -339,7 +339,7 @@ If I had more time and knowledge, I would like to enhance this project in many w
 
     ![James Q Quick's classToApply and setTimeout rules](docs/images/james-quick-classes-timeout.png) 
 
-* This project implements the Fisher-Yates Shuffle Method, which I initially had immense difficulty with as different sources use all manner of variations of the method itself. Eventually, the method I found that I understood, and also that worked in my code, was by [**Tutorials Point**](https://www.tutorialspoint.com/what-is-fisher-yates-shuffle-in-javascript#):
+* This project implements the Fisher-Yates Shuffle Method, which I initially had immense difficulty with as different sources use all manner of variations of the method itself. Eventually, the method I found that I understood, and that also worked in my code, was by [**Tutorials Point**](https://www.tutorialspoint.com/what-is-fisher-yates-shuffle-in-javascript#):
 
 ![Tutorials Point Fisher-Yates Shuffle](docs/images/fisher-yates-shuffle.png)
 
@@ -348,6 +348,8 @@ If I had more time and knowledge, I would like to enhance this project in many w
 ![Angelos Chalaris' Flexbox footer code](docs/images/angelos-chalaris-footer-code.png)
 
 * The consideration to use <lang="ja-jp"> ahead of each instance of Japanese text is thanks to Rachel Simone Weil's blog post [**Better together: Displaying Japanese and English text on the web**](https://blog.prototypr.io/better-together-displaying-japanese-and-english-text-on-the-web-538a704399be).
+
+* Throughout the project, I often utilised and relied upon [**MDN Web Docs**](https://developer.mozilla.org/en-US/), [**Stack Overflow**](https://stackoverflow.com/), [**W3Schools**](https://www.w3schools.com/) and Code Institute's Programme Content and Slack Channels as references when I was stuck or needed to refresh my knowledge.
 
 ### **Content and Media**
 
