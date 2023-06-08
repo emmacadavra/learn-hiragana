@@ -193,7 +193,7 @@ Katakana game page on mobile:
 
 #### **Game Area**
 
-The game area on each page contains four main sections: an h2 heading, a question area, an answer area containing four potential answers, and a current score / 10 section at the bottom.
+The game area on each page contains four main sections: an h2 heading detailing which game is currently selected, a question area, an answer area containing four potential answers, and a current score section at the bottom.
 
 Hiragana game area:
 
@@ -202,6 +202,18 @@ Hiragana game area:
 Katakana game area:
 
 ![katakana game area](docs/screenshots/katakana-game-area.png)
+
+The question area is visually distinct from the rest of the game area, centred above the four answer fields and with much larger text. Here, a Japanese character is displayed for the user to choose the phonetic answer for.
+
+Hiragana question:
+
+![hiragana question](docs/screenshots/hiragana-question-a.png)
+
+Katakana question:
+
+![katakana question](docs/screenshots/katakana-question-a.png)
+
+
 
 #### **Back to Homepage**
 
