@@ -73,9 +73,11 @@ Katakana page:
 * To provide users with a unique message when they have answered 10 questions, depending on their score.
 * To give users the clear choice to play the game again as many times as they like, or choose to play the other game if they wish.
 
+## **Current Website Features**
+
 ### **Colour Scheme**
 
-This website’s colour scheme was inspired by the following colour palette created by [**akula creative**](https://akulakreative.com/blog/2016/02/a-sea-and-space-inspired-color-palette) based on an image posted by NASA.
+This website's colour scheme was inspired by the following colour palette created by [**akula creative**](https://akulakreative.com/blog/2016/02/a-sea-and-space-inspired-color-palette) based on an image posted by NASA.
 
 ![akula creative colour palette](docs/images/sea-space-color-palette-navy-blue-aqua-yellow.jpg)
 
@@ -86,7 +88,6 @@ Below are two colour grids to show how the colours interact with each other from
 ![colourgrid - main colours](docs/images/colourgrid-new.png)
 
 ![colourgrid - with additional colours](docs/images/colour-grid-with-js-classes.png)
-
 
 ### **Typography**
 
@@ -107,7 +108,6 @@ Instead, "Noto Sans Japanese" was used as it's much clearer, and fits much bette
 
 All fonts were sourced from Google Fonts, as mentioned in the Credits.
 
-## **Current Website Features**
 ### **Features Present on All Pages**
 
 #### **Favicon**
