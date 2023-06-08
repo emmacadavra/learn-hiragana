@@ -213,7 +213,12 @@ Katakana question:
 
 ![katakana question](docs/screenshots/katakana-question-a.png)
 
+The answers area contains four squares - one of which contains the correct phonetic answer for the question, and the other three contain a phonetic pulled from a list of the remaining characters in the relevant JavaScript file (detailed further in the JavaScript on Game Pages section). On a desktop, when the answers are hovered over, the same animation as the select game buttons is used, where the answer appears to move up slightly as the user hovers across. On mobile, this animation occurs when the user presses the answer.
 
+The animation is small so it is hard to catch in a screenshot, but below are two examples, the first where "mu" is the answer hovered over, and the second where "ru" is the answer hovered over:
+
+![hiragana answers hover ("mu")](docs/screenshots/hiragana-answers-hover.png)
+![katakana answers hover ("ru")](docs/screenshots/katakana-answers-hover-mobile.png)
 
 #### **Back to Homepage**
 
