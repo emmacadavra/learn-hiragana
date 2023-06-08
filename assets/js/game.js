@@ -123,7 +123,7 @@ function endGameMessage() {
             confirmButtonText: '<a onclick="location.reload()">Play Again!</a>',
             showDenyButton: true,
             denyButtonText: '<a class="different-game" href="index.html">Choose a Different Game</a>',
-        })
+        });
     } else if (score < 10 && score >= 7) {
         Swal.fire({
             title: `You scored ${score}/10!`,
@@ -134,7 +134,7 @@ function endGameMessage() {
             confirmButtonText: '<a onclick="location.reload()">Play Again!</a>',
             showDenyButton: true,
             denyButtonText: '<a class="different-game" href="index.html">Choose a Different Game</a>',
-        })
+        });
     } else if (score < 7 && score >= 4) {
         Swal.fire({
             title: `You scored ${score}/10!`,
@@ -145,7 +145,7 @@ function endGameMessage() {
             confirmButtonText: '<a onclick="location.reload()">Play Again!</a>',
             showDenyButton: true,
             denyButtonText: '<a class="different-game" href="index.html">Choose a Different Game</a>',
-        })
+        });
     } else if (score < 4 && score >= 1) {
         Swal.fire({
             title: `You scored ${score}/10!`,
@@ -156,7 +156,7 @@ function endGameMessage() {
             confirmButtonText: '<a onclick="location.reload()">Play Again!</a>',
             showDenyButton: true,
             denyButtonText: '<a class="different-game" href="index.html">Choose a Different Game</a>',
-        })
+        });
     } else if (score === 0) {
         Swal.fire({
             title: `You scored 0/10 :(`,
@@ -167,6 +167,6 @@ function endGameMessage() {
             confirmButtonText: '<a onclick="location.reload()">Play Again!</a>',
             showDenyButton: true,
             denyButtonText: '<a class="different-game" href="index.html">Choose a Different Game</a>',
-        })
+        });
     }
 }
