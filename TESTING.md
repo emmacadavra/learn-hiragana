@@ -110,11 +110,74 @@ Both games and end game message working correctly on Android (Samsung):
 
 ![Android (Samsung) - end game message](docs/screenshots/android-s23-endgame.png)
 
-Additionally, I tested the site on my own mobile phone, which is a Xiaomi Poco X3 Pro (ie, not a very common model) to make sure the site wasn't just functional on the major brands. 
+I also tested the site on my own mobile phone, which is a Xiaomi Poco X3 Pro (ie, not a very common model) to make sure the site wasn't just functional on the major brands.
 
 ### Bugs
 
+As mentioned previously, I encountered a great many bugs during the development of this website - most of which being a result of my inexperience with JavaScript. I have listed the most noteworthy ones below.
 
+* When I first created my JavaScript functions, they were all in one .js file that set out to distinguish between the hiragana and katakana games by naming every single variable accordingly (newHiraganaQuestion, newKatakanaQuestion, and so on). To attempt to control which game was run, I added the following code to the top of the document:
+
+"document.addEventListener("DOMContentLoaded", function () {
+    if (window.location.pathname === "/hiragana.html") {
+        runHiraganaGame();
+    } else if (window.location.pathname === "katakana.html") {
+        runKatakanaGame();
+    }
+});"
+
+When this didn't work, I tried the GitHub Pages URLS:
+
+"document.addEventListener("DOMContentLoaded", function () {
+    if (window.location.href === "https://emmacadavra.github.io/learn-hiragana/hiragana.html") {
+        runHiraganaGame();
+    } else if (window.location.href === "https://emmacadavra.github.io/learn-hiragana/katakana.html") {
+        runKatakanaGame();
+    }
+});"
+
+This also did not work, so I tried the following:
+
+"document.addEventListener("DOMContentLoaded", function () {
+    let url = window.location.pathname;
+    if (url.match("/hiragana.html")) {
+        runHiraganaGame();
+    } else if (url.match("/katakana.html")) {
+        runKatakanaGame();
+    }
+});"
+
+This did run the correct game on each webpage, however - despite the katakana game running correctly when the page loaded, the game would not function as the webpage was trying to call the newHiraganaQuestion function despite clear declarations to separate the two. As a quick but temporary fix for this, I separated the two into separate .js files. It wasn't long before I understood the enormous and unnecessary duplication of code used in all methods attempted above.
+
+* Initially within my newHiraganaQuestion function, I made several incorect declarations that caused the game not to work properly (or in some cases at all). I declared "const buttons = document.getElementsByTagName("button");" inside the function, but wanted to call the variable within an event listener outside of the function. This obviously didn't work as the event listener didn't know what to listen for!
+
+* Also within the newHiraganaQuestion function I originally made, I declared "const hiraganaAnswers = [currentHiraganaQuestion.phonetic];" rather than "let hiraganaAnswers = [currentHiraganaQuestion];" - this meant that in my for loop (for (let button of buttons) { button.innerText = hiraganaAnswers[i].phonetic;), I was asking for the phonetic OF the phonetic in the first instance, which of course does not exist. This resulted in an undefined error, as shown below:
+
+![undefined bug](docs/screenshots/bug-hiragana-undefined.png)
+
+* Upon trying to implement the Fisher-Yates Shuffle Method, I faced a huge number of bugs, mostly relating to different interations of the method being used and it taking a while to find one that worked well with my code. Among the more frustrating bugs is shown in the screenshots below - where the game is running correctly, and the console is correctly logging 4 shuffled potential answers, but the output is 4 lots of the first phonetic only:
+
+![Fisher-Yates bug 1](docs/screenshots/bug-fisher-yates-1.png)
+
+![Fisher-Yates bug 2](docs/screenshots/bug-fisher-yates-2.png)
+
+![Fisher-Yates bug 3](docs/screenshots/bug-fisher-yates-3.png)
+
+Eventually this bug was fixed by finding the variation of the method mentioned in the Credits section of the README.md file.
+
+* I faced a bug when it came to the SweetAlert2 endGameMessage if/else condition statements, which I discovered was for 2 separate reasons. The bug was that, regardless of the user score, the alert displayed would always contain the 10 out of 10 message:
+
+![end game message bug](docs/screenshots/bug-score-message.png)
+
+Upon investigating this, the first mistake I realised I had made was in the "click" event listener, where I had included the statement "if (button.innerText === currentHiraganaQuestion.phonetic) {
+    hiraganaScore++;
+}" - by saying "button.innerText", I was telling the code to increase the score if ANY of the buttons included the correct answer, which obviously one of them always did.
+
+However, even after fixing this, I was still having the same issue, but in the end I discovered that it was because within the endGameMessage function, I had entered "if (score = 10)" rather than "if (score === 10)" - this meant that I was trying to reassign the variable and it was causing the rest of the code not to run.
+
+* Whilst looking into the above bug, I also noticed that I was getting a console error when reaching the end of the game, and this was because I had missed out a "return" statement if the maximum number of questions had been reached, so the code was still trying to run but couldn't. Naturally I fixed this by adding a "return" statement.
+
+* Occasionally, I was finding that questions would be repeated, despite having a rule inside the newQuestion function that said to splice the curret question out of the availableQuestions array. This was due to a misunderstanding on my part, where I had written "availableQuestions.splice(questionIndex, 0)" rather than "availableQuestions.splice(questionIndex, 1)", as I was getting mixed up with which way round the parameters were (I was thinking that it needed to start from index 0, but of course the questionIndex is the index number!)
 
 ### Accessibility
 
