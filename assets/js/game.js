@@ -127,7 +127,7 @@ function endGameMessage() {
     } else if (score < 10 && score >= 7) {
         Swal.fire({
             title: `You scored ${score}/10!`,
-            html: `Well done! You have good knowledge of ${alphabet}! Keep practising and you will be confident in no time.<br>Would you like to play again?`,
+            html: `Well done! You have great knowledge of ${alphabet}! Keep practising and you will be confident in no time.<br>Would you like to play again?`,
             allowEscapeKey: false,
             allowEnterKey: false,
             allowOutsideClick: false,
@@ -138,7 +138,7 @@ function endGameMessage() {
     } else if (score < 7 && score >= 4) {
         Swal.fire({
             title: `You scored ${score}/10!`,
-            html: `Keep trying! You have some knowledge of ${alphabet}, and with practise your knowledge will surely grow!<br>Would you like to play again?`,
+            html: `Keep trying! You have good knowledge of ${alphabet}, and with practise your knowledge will surely grow!<br>Would you like to play again?`,
             allowEscapeKey: false,
             allowEnterKey: false,
             allowOutsideClick: false,
