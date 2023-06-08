@@ -102,7 +102,15 @@ Both games and end game message working correctly on iPhone:
 
 ![iPhone - end game message](docs/screenshots/iphone-endgame.png)
 
+Both games and end game message working correctly on Android (Samsung):
 
+![Android (Samsung) - hiragana game](docs/screenshots/android-s23-hiragana.png)
+
+![Android (Samsung) - katakana game](docs/screenshots/android-s23-katakana.png)
+
+![Android (Samsung) - end game message](docs/screenshots/android-s23-endgame.png)
+
+Additionally, I tested the site on my own mobile phone, which is a Xiaomi Poco X3 Pro (ie, not a very common model) to make sure the site wasn't just functional on the major brands. 
 
 ### Bugs
 
