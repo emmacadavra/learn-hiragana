@@ -215,10 +215,15 @@ Katakana question:
 
 The answers area contains four squares - one of which contains the correct phonetic answer for the question, and the other three contain a phonetic pulled from a list of the remaining characters in the relevant JavaScript file (detailed further in the JavaScript on Game Pages section). On a desktop, when the answers are hovered over, the same animation as the select game buttons is used, where the answer appears to move up slightly as the user hovers across. On mobile, this animation occurs when the user presses the answer.
 
-The animation is small so it is hard to catch in a screenshot, but below are two examples, the first where "mu" is the answer hovered over, and the second where "ru" is the answer hovered over:
+The animation is small (so as not to be distracting or obstructive) so it is hard to catch in a screenshot, but below are two examples, the first where "mu" is the answer hovered over, and the second where "ru" is the answer hovered over:
 
 ![hiragana answers hover ("mu")](docs/screenshots/hiragana-answers-hover.png)
 ![katakana answers hover ("ru")](docs/screenshots/katakana-answers-hover-mobile.png)
+
+The current score section is a clear, simple paragraph beneath the question & answers section of the game, that says "Current score: [0] / 10". The [0] is updated as the game progresses, if the answer the user has provided is correct. More detail is included in the JavaScript on Game Pages section.
+
+![hiragana current score](docs/screenshots/hiragana-current-score.png)
+![katakana current score](docs/screenshots/katakana-current-score.png)
 
 #### **Back to Homepage**
 
