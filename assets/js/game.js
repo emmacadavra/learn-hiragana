@@ -100,7 +100,7 @@ for (let button of buttons) {
             this.classList.add("incorrect");
         }
 
-        setTimeout(() => {
+        setTimeout(function() {
             selectedAnswer.classList.remove("correct", "incorrect");
             newQuestion();
         }, 500);
