@@ -234,6 +234,8 @@ Beneath the game area on each game page, there is a button that uses the Japanes
 
 ### **JavaScript on Game Pages**
 
+
+
 #### **Main Game Functions**
 
 Correct answer - hiragana 'ne':
@@ -317,7 +319,7 @@ If I had more time and knowledge, I would like to enhance this project in many w
 
 * [**Richard Wells**](https://github.com/D0nni387)
 
-* [**Alicia Walker**]()
+* [**Alicia Walker**](https://github.com/AliciaWalker01)
 
 * [**Christina Webb**](https://github.com/c-webb-sfougaras)
 
