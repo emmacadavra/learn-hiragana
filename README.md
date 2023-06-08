@@ -46,7 +46,7 @@ Katakana page:
 1. [**Testing**](#testing)
 1. [**Technologies Used**](#technologies-used)
 1. [**Deployment**](#deployment)
-1. [**Future-Enhancements**](#future-enhancements)
+1. [**Future Enhancements**](#future-enhancements)
 1. [**Credits**](#credits)
     * [**Honourable Mentions**](#honourable-mentions)
     * [**Code References**](#code-references)
@@ -165,7 +165,7 @@ Originally, these "buttons" displayed the following text:
 
 ![old katakana-go button](docs/screenshots/katakana-go-old.png)
 
-However, the first character used here is the Japanese kanji for "go". As this site is aimed at beginners-intermediates wanting to practise hiragana and katakana only, it seemed unreasonable to include a kanji character as it is, due to the kanji alphabet being more advanced than the scope of this website. In many instances of Japanese media, such as some newspapers, comics, and textbooks for school children, a type of phonetic notation is used to accompany kanji characters called *furigana*. Thankfully, W3C supports the use of furigana through [**ruby markup**](https://www.w3.org/International/articles/ruby/markup.en), and so the furigana for this kanji was added for increased readibility and accessibility for all levels of reading comprehension.
+However, the first character used here is the Japanese kanji for "go". As this site is aimed at beginners-intermediates wanting to practise hiragana and katakana only, it seemed unreasonable to include a kanji character as it is, due to the kanji alphabet being more advanced than the scope of this website. As kanji characters can have multiple meanings and pronunciations, to assist with reading kanji the Japanese utilise a method of phonetic notation called *furigana* - "a Japanese reading aid consisting of smaller kana or syllabic characters printed either above or next to kanji (logographic characters) or other characters to indicate their pronunciation" [**(source)**](https://en.wikipedia.org/wiki/Furigana). Thankfully, W3C supports the use of furigana through [**ruby markup**](https://www.w3.org/International/articles/ruby/markup.en), and so the furigana for this kanji was added for increased readibility and accessibility for all levels of reading comprehension.
 
 ![hiragana-go button with furigana](docs/screenshots/hiragana-go-furigana.png)
 
@@ -218,11 +218,13 @@ The answers area contains four squares - one of which contains the correct phone
 The animation is small (so as not to be distracting or obstructive) so it is hard to catch in a screenshot, but below are two examples, the first where "mu" is the answer hovered over, and the second where "ru" is the answer hovered over:
 
 ![hiragana answers hover ("mu")](docs/screenshots/hiragana-answers-hover.png)
+
 ![katakana answers hover ("ru")](docs/screenshots/katakana-answers-hover-mobile.png)
 
 The current score section is a clear, simple paragraph beneath the question & answers section of the game, that says "Current score: [0] / 10". The [0] is updated as the game progresses, if the answer the user has provided is correct. More detail is included in the JavaScript on Game Pages section.
 
 ![hiragana current score](docs/screenshots/hiragana-current-score.png)
+
 ![katakana current score](docs/screenshots/katakana-current-score.png)
 
 #### **Back to Homepage**
@@ -289,10 +291,14 @@ This website was deployed on GitHub Pages. The following procedure was followed 
 * A message is then displayed to indicate a successful deployment to GitHub pages, and provides a live link once it has finished fully deploying
 The live link to the fully deployed website can be found here: [***https://emmacadavra.github.io/learn-hiragana/***](https://emmacadavra.github.io/learn-hiragana/)
 
-## **Future-Enhancements**
+## **Future Enhancements**
 
-*
-*
+As with my first major project, I am limited by the current scope of my knowledge - particularly in JavaScript - as well as by time constraints.
+
+If I had more time and knowledge, I would like to enhance this project in many ways.
+
+* Firstly, I would like to add the option of audio to the questions - for example, when the character is displayed, being able to tap/click on it and have perhaps the Japanese text-to-speech function read the character's pronunciation to the user. This would greatly improve the effectiveness of this website as a helpful as well as fun learning resource.
+* Secondly, for the purposes of this project, I have used the 46 main hiragana character and 45 main katakana characters (the katakana 'ヲ' (wo) is used so infrequently that it is omitted from most modern learning programmes). However, variations of many of these characters exist, known as dakuon and handakuon. The が (ga) in ひらがな (hi-ra-ga-na) is the dakuon form of か (ka), and these variations are of equal importance to the base characters when learning Japanese. I would like to include these characters, perhaps separately or under a different 'difficulty setting' for more confident learners.
 *
 *
 
