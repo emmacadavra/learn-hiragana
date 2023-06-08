@@ -375,13 +375,15 @@ If I had more time and knowledge, I would like to enhance this project in many w
 
 ### **Honourable Mentions**
 
-* [**Damon Kreft**](https://github.com/damon-kreft)
+Thank you to the following individuals:
 
-* [**Richard Wells**](https://github.com/D0nni387)
+* [**Damon Kreft**](https://github.com/damon-kreft) - As always, for your love and support, and for being so enthustastic about my learning journey. Thank you for always being willing to listen to what I've learned, helping me understand concepts in greater detail - and for being so encouraging and patient.
 
-* [**Alicia Walker**](https://github.com/AliciaWalker01)
+* [**Richard Wells**](https://github.com/D0nni387) - Thank you for creating a safe space for me to progress, and for being so positive and constructive in your feedback. As always, I appreciate your guidance very much!
 
-* [**Christina Webb**](https://github.com/c-webb-sfougaras)
+* [**Alicia Walker**](https://github.com/AliciaWalker01) - Thank you for taking so much interest in seeing me progress as I move through this development course! Your insight is unparalleled and I value your advice, guidance and kindness so much.
+
+* [**Christina Webb**](https://github.com/c-webb-sfougaras) - Your enthusiasm about my development journey is so encouraging and I always feel able to share my thoughts with you!
 
 * Thank you to my colleague Yuka who helped me out by checking the Japanese text on the website and within the JavaScript arrays, and making sure I hadn't made any mistakes!
 
