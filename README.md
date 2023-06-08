@@ -50,8 +50,7 @@ Katakana page:
 1. [**Credits**](#credits)
     * [**Honourable Mentions**](#honourable-mentions)
     * [**Code References**](#code-references)
-    * [**Content**](#content)
-    * [**Media**](#media)
+    * [**Content and Media**](#content-and-media)
     
 ## **Planning stage**
 ### **Target Audiences**
@@ -318,16 +317,12 @@ If I had more time and knowledge, I would like to enhance this project in many w
 *
 *
 
-### **Content**
+### **Content and Media**
 
-*
-*
-*
-*
+* All fonts have been imported from [**Google Fonts**](https://fonts.google.com/).
 
-### **Media**
+* [**"Crossed flags" emoji favicon**](https://favicon.io/emoji-favicons/crossed-flags/) courtesy of [**Favicon.io**](https://favicon.io/).
 
-*
-*
-*
-*
+* Colour palette image courtesy of [**akula creative**](https://akulakreative.com/blog/2016/02/a-sea-and-space-inspired-color-palette).
+
+* The [**Colour Contrast Grids**](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23E0E58F%2C%0D%0A%23DCB13C%2C%0D%0A%23B0E4DC%0D%0A%2357BDA2%2C%0D%0A%232493A2%2C%0D%0A%23304A78%2C%0D%0A%232C3259%2C%0D%0A%230A0E28%2C%0D%0A%2374BA6C%2C%0D%0A%23006100%2C%0D%0A%23FF9C9D%2C%0D%0A%239E0022&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18) used in the Colour Scheme section of this README.md are courtesy of [**Eightshapes**](https://eightshapes.com/).
