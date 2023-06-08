@@ -272,9 +272,15 @@ The question that is being displayed is then spliced from the avaiable questions
 
 ##### shuffle(array)
 
-
+The shuffle(array) function takes the answers array and uses the Fisher-Yates Shuffle Method (see Credits section) to randomly switch the order of the array's contents. This is to ensure that the four potential answers displayed to the user are always shuffled in a completely unpredictable way. If the correct answer always appeared in the same slot, it wouldn't be much of a fun game!
 
 ##### for loop - Event Listener: "click" & setTimeout(function());
+
+Once the question and answers have been picked at random, the answers shuffled, and both the question and shuffled answers correctly displayed on the webpage, a for loop containing a "click" event listener is called. The first thing this does is check whether "acceptingAnswers" is "true" or "false". If the user clicks a button while "acceptingAnswers" is "false", a return statement prevents the click from going anywhere and it is essentially ignored by the browser. If it is "true", then when the user clicks a button, it first sets it back to "false". This is so that the user can only click on one button as their answer. The event listener checks whether the inner text of the button that has been clicked matches the phonetic in the object the current question is from. If it matches, a temporary "correct" class is added to the button, and the current score is increased by 1. If it does not match, a temporary "incorrect" class is added. The CSS styling for the "correct" class means that the button turns green to indicate a correct answer, and the "incorrect" class button turns red to indicate an incorrect answer.
+
+A setTimeout(function()) is then declared, which creates a 500 milliseconds pause before removing the temporary classes again, and calling the newQuestion() function which repeats the process until the maximum number of questions has been reached.
+
+The screenshots below show the output of all of these functions from a user perspective. In each game, I have taken a screenshot of a correct answer when the question is 'ne' (to show how the random answers are shuffled differently each time), and an incorrect answer when the question is 'su' (again to show the random orderand contents of the shuffled answers). It took refreshing the page quite a few times to get the same question on both games! You can also see that selecting the correct answer increases the current score by 1, whereas selecting the incorrect answer does not.
 
 Correct answer - hiragana 'ne':
 
