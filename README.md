@@ -262,10 +262,15 @@ Katakana current score area updating:
 
 #### **Unique Score Message**
 
-*
-*
-*
-*
+![10 out of 10 - hiragana example](docs/screenshots/10-out-of-10-hiragana.png)
+
+![8 out of 10 - katakana example](docs/screenshots/8-out-of-10-katakana.png)
+
+![6 out of 10 - katakana example](docs/screenshots/6-out-of-10-katakana.png)
+
+![3 out of 10 - hiragana example](docs/screenshots/3-out-of-10-hiragana.png)
+
+![0 out of 10 - both alphabets](docs/screenshots/0-out-of-10.png)
 
 ## **Testing**
 
