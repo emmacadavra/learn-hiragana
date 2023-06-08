@@ -1,3 +1,53 @@
-Accessibility: Japanese text:
+# **Learn Hiragana & Katakana - Testing**
 
-In all instances of Japanese text, the HTML element <lang="ja-jp"> was used to ensure that the browser is aware that the characters used are Japanese, and therefore it is unlikely to return errors. This was especially important in the case of the game select buttons, which each include one kanji character (explained under the Homepage section). As Japanese kanji are also characters in the Chinese alphabet, not declaring the specific language may have caused screen readers to become confused and give an inaccurate and confusing result.
+## **Table of Contents (Testing):**
+1. [**Testing Throughout Development**](#testing-throughout-development)
+    * [***Overview***](#overview)
+    * [***Responsive Design and Functionality***](#responsive-design-and-functionality)
+    * [***Testing of Site Features***](#testing-of-site-features)
+        * [*HTML and CSS*](#html-and-css)
+        * [JavaScript](#javascript)
+    * [***Bugs***](#bugs)
+    * [***Accessibility***](#accessibility)
+1. [**Post Development Testing**](#post-development-testing)
+    * [***Validation***](#validation)
+        * [*HTML Validation*](#html-validation)
+        * [*CSS Validation*](#css-validation)
+        * [*Lighthouse Scores and PageSpeed Insights*](#lighthouse-scores-and-pagespeed-insights)
+    * [***Unresolved Bugs***](#unresolved-bugs)
+
+## Testing Throughout Development
+
+### Overview
+
+
+
+### Responsive Design and Functionality
+
+
+
+### Testing of Site Features
+
+#### HTML and CSS
+
+
+
+#### JavaScript
+
+
+
+### Bugs
+
+
+
+### Accessibility
+
+
+
+## Post Development Testing
+
+### Validation
+
+
+
+### Unresolved Bugs

@@ -100,6 +100,8 @@ Originally, for the Japanese text, a font called "BIZ UDMincho" was used. Initia
 
 Instead, "Noto Sans Japanese" was used as it's much clearer, and fits much better with the overall feel of the website.
 
+For accessibility and semantic reasons, in all instances of Japanese text the HTML element <lang="ja-jp"> has been used to ensure that the browser is aware that the characters used are Japanese, and therefore it is unlikely to return errors. This is especially important in the case of the game select buttons, which each include one kanji character (explained under the Homepage section). As Japanese kanji are also characters in the Chinese alphabet, not declaring the specific language may have caused screen readers to become confused and give an inaccurate and confusing result. It would also negatively impact the website's SEO scores.
+
 All fonts were sourced from Google Fonts, as mentioned in the Credits.
 
 ### **Features Present on All Pages**
