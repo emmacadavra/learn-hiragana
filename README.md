@@ -234,7 +234,15 @@ Beneath the game area on each game page, there is a button that uses the Japanes
 
 ### **JavaScript on Game Pages**
 
+This website uses three main JavaScript files that are found in the root directory and are responsible for running the games. It also accesses an additional third-party JavaScript file for the message alerts at the end of each game (SweetAlert2, mentioned in the Credits section).
 
+The three main JavaScript files are as follows:
+
+* **hiragana.js** - This file declares that the variable "alphabet" = "hiragana", and declares that the variable "questions" is an array of 46 objects - these being each of the hiragana characters and their phonetic pronunciation. This is the first script to be loaded on the hiragana.html page.
+
+* **katakana.js** - Similarly to the above, this file declares that the variable "alphabet" = "katakana", and declares that the variable "questions" is an array of 45 objects - these being each of the katakana characters and their phonetic pronunciation. This is the first script to be loaded on the katakana.html page.
+
+* **game.js** - This is the largest JavaScript file, and contains all of the functions required to run the games on their respective pages. It contains 8 functions in total that are all necessary for the smooth operation of the games. This is the second script to be loaded on the hiragana.html and katakana.html pages, as, crucially, this file takes the variables declared in the script loaded before it to implement them into the games. More information about the functions can be found in the Main Game Functions section below.
 
 #### **Main Game Functions**
 
