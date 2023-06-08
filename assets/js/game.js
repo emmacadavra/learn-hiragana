@@ -64,7 +64,7 @@ function newQuestion() {
         i++;
     }
 
-    availableQuestions.splice(questionIndex, 0);
+    availableQuestions.splice(questionIndex, 1);
 
     acceptingAnswers = true;
 }
