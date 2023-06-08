@@ -42,7 +42,7 @@ Katakana page:
         * [*Back to Homepage*](#back-to-homepage)
     * [***JavaScript on Game Pages***](#javascript-on-game-pages)
         * [*Main Game Functions*](#main-game-functions)
-        * [*Unique Score Message*](#unique-score-message)
+        * [*Unique Score Messages*](#unique-score-messages)
 1. [**Testing**](#testing)
 1. [**Technologies Used**](#technologies-used)
 1. [**Deployment**](#deployment)
@@ -246,6 +246,36 @@ The three main JavaScript files are as follows:
 
 #### **Main Game Functions**
 
+##### Event Listener: "DOMContentLoaded"
+
+As mentioned above, it is crucial that the first JavaScript file loaded on each page is the respective alphabet file. This is so that the correct alphabet name and questions array of objects is fed into the game.js file.
+
+The game.js file starts with a "DOMCOntentLoaded" event listener function, which waits for the page to load before starting the runGame() function. This is to avoid any potential issues for the user, where the page is trying to run parts of the script that haven't loaded yet. This would make for a bad user experience.
+
+For the same reason, as a default, a variable called "acceptingAnswers" is given the boolean value of "false". This prevents the user from being able to press buttons and attempt to answer questions before the game has loaded properly.
+
+##### runGame();
+
+When the page has finished loading, the runGame() function is executed. It sets/resets the user score and question counter to 0, generates an array of available questions by pulling from the questions array declared in the hiragana.js/katakana.js file, and calls the newQuestion() function.
+
+##### newQuestion();
+
+The first statement in the newQuestion() function is an if statement to check whether the maximum number of questions (in this case, 10) has been reached. If it has, it calls the endGameMessage() function (explained in more detail in the Unique Score Message section below) and ends the newQuestion() function with a return statement.
+
+If the question counter is below the maximum amount, the first thing the function does is increase the question counter by 1. It then generates a random number to use as an index number on the available questions array. It takes the object with that index number from the array, and inserts the object's character into the question field.
+
+The selected object is also added to a new array of answers, and a random index number is once again generated as long as this new answers array contains fewer than 4 items. The resulting object is pushed into this new array until it contains 4 objects.
+
+The answers array is re-declared by calling the shuffle(array) function (detailed below), and the phonetics of the resulting shuffled array are then inserted into the answer buttons on the webpage.
+
+The question that is being displayed is then spliced from the avaiable questions array to avoid being repeated in a single instance of the game, and "acceptingAnswers" is set to "true", allowing the user to play.
+
+##### shuffle(array)
+
+
+
+##### for loop - Event Listener: "click" & setTimeout(function());
+
 Correct answer - hiragana 'ne':
 
 ![hiragana correct answer - 'ne'](docs/screenshots/hiragana-answer-correct.png)
@@ -270,7 +300,9 @@ Katakana current score area updating:
 
 ![katakana current score area](docs/screenshots/katakana-current-score.png)
 
-#### **Unique Score Message**
+#### **Unique Score Messages**
+
+##### endGameMessage();
 
 ![10 out of 10 - hiragana example](docs/screenshots/10-out-of-10-hiragana.png)
 
