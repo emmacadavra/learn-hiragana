@@ -120,7 +120,7 @@ function endGameMessage() {
             allowEscapeKey: false,
             allowEnterKey: false,
             allowOutsideClick: false,
-            confirmButtonText: '<a class="play-again" onclick="location.reload()">Play Again!</a>',
+            confirmButtonText: '<a onclick="location.reload()">Play Again!</a>',
             showDenyButton: true,
             denyButtonText: '<a class="different-game" href="index.html">Choose a Different Game</a>',
         })
@@ -131,7 +131,7 @@ function endGameMessage() {
             allowEscapeKey: false,
             allowEnterKey: false,
             allowOutsideClick: false,
-            confirmButtonText: '<a class="play-again" onclick="location.reload()">Play Again!</a>',
+            confirmButtonText: '<a onclick="location.reload()">Play Again!</a>',
             showDenyButton: true,
             denyButtonText: '<a class="different-game" href="index.html">Choose a Different Game</a>',
         })
@@ -142,7 +142,7 @@ function endGameMessage() {
             allowEscapeKey: false,
             allowEnterKey: false,
             allowOutsideClick: false,
-            confirmButtonText: '<a class="play-again" onclick="location.reload()">Play Again!</a>',
+            confirmButtonText: '<a onclick="location.reload()">Play Again!</a>',
             showDenyButton: true,
             denyButtonText: '<a class="different-game" href="index.html">Choose a Different Game</a>',
         })
@@ -153,7 +153,7 @@ function endGameMessage() {
             allowEscapeKey: false,
             allowEnterKey: false,
             allowOutsideClick: false,
-            confirmButtonText: '<a class="play-again" onclick="location.reload()">Play Again!</a>',
+            confirmButtonText: '<a onclick="location.reload()">Play Again!</a>',
             showDenyButton: true,
             denyButtonText: '<a class="different-game" href="index.html">Choose a Different Game</a>',
         })
@@ -164,7 +164,7 @@ function endGameMessage() {
             allowEscapeKey: false,
             allowEnterKey: false,
             allowOutsideClick: false,
-            confirmButtonText: '<a class="play-again" onclick="location.reload()">Play Again!</a>',
+            confirmButtonText: '<a onclick="location.reload()">Play Again!</a>',
             showDenyButton: true,
             denyButtonText: '<a class="different-game" href="index.html">Choose a Different Game</a>',
         })
