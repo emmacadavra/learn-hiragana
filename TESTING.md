@@ -88,7 +88,19 @@ Once I had resolved the bugs mentioned below (and many more), I tested the funct
 
 Below are some screenshots from Safari, iPhone and Android of the games running correctly, as well as the correct end game messages appearing:
 
+Correct answers working on both games on Safari:
 
+![correct answer on Safari - hiragana](docs/screenshots/safari-hiragana-correct.png)
+
+![correct answer on Safari - katakana](docs/screenshots/safari-katakana-correct.png)
+
+Both games and end game message working correctly on iPhone:
+
+![iPhone - hiragana game](docs/screenshots/iphone-hiragana.png)
+
+![iPhone - katakana game](docs/screenshots/iphone-katakana.png)
+
+![iPhone - end game message](docs/screenshots/iphone-endgame.png)
 
 
 
