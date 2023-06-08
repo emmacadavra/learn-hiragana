@@ -308,15 +308,29 @@ Katakana current score area updating:
 
 #### **Unique Score Messages**
 
+One of the functions I wanted this website to have from the start was a unique message at the end of the game based on the user's score. Originally, the if statement within the endGameMessage() function was at the top of the newQuestion() function, however it meant that the newQuestion() function was clogged up with a lot of code that made it hard to read and generally wasn't in line with best practise.
+
 ##### endGameMessage();
+
+The endGameMessage() function is essentially one big if/else statement that displays a unique message to the user based on their score out of 10. To achieve this, external JavaScript and CSS files are used. These are the SweetAlert2 message alert files, detailed in the Credits section. They override the browser's default alerts to make them more visually pleasing for the user. Template literals are used in 3 out of the 5 unique messages so that the name of the correct alphabet can be inserted into the message that is displayed. The "confirm"/"deny" buttons are repurposed into buttons that give the user to "Play Again" (by utilising an onclick="location.reload()") tag, or "Choose a Different Game" (by adding an a href="index.html" tag). The 5 possible messages are shown below:
+
+Score of 10/10:
 
 ![10 out of 10 - hiragana example](docs/screenshots/10-out-of-10-hiragana.png)
 
+Score of 8/10 (message displays for scores of 7 - 9):
+
 ![8 out of 10 - katakana example](docs/screenshots/8-out-of-10-katakana.png)
+
+Score of 6/10 (message displays for scores of 4 - 6):
 
 ![6 out of 10 - katakana example](docs/screenshots/6-out-of-10-katakana.png)
 
+Score of 3/10 (message displays for scores of 1 - 3):
+
 ![3 out of 10 - both alphabets](docs/screenshots/3-out-of-10.png)
+
+Score of 0/10:
 
 ![0 out of 10 - both alphabets](docs/screenshots/0-out-of-10.png)
 
