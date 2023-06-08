@@ -26,9 +26,9 @@ Katakana page:
     * [***Target Audiences***](#target-audiences)
     * [***User Stories***](#user-stories)
     * [***Site Aims***](#site-aims)
+1. [**Current Website Features**](#current-website-features)
     * [***Colour Scheme***](#colour-scheme)
     * [***Typography***](#typography)
-1. [**Current Website Features**](#current-website-features)
     * [***Features Present on All Pages***](#features-present-on-all-pages)
         * [*Favicon*](#favicon)
         * [*Header*](#header)
@@ -99,12 +99,7 @@ Originally, for the Japanese text, a font called "BIZ UDMincho" was used. Initia
 
 ![game choice with BIZ UDMincho Japanese font](docs/screenshots/game-choice-old.png)
 
-Instead, "Noto Sans Japanese" was used as it's much clearer, and fits much better with the overall feel of the website. A clear comparison between the two fonts can be seen in the 'a' symbols in each alphabet:
-
-!['a' hiragana in BIZ UDMincho Japanese font](docs/screenshots/hiragana-question-a-old.png)
-!['a' hiragana in Noto Sans Japanese Japanese font](docs/screenshots/hiragana-question-a.png)
-!['a' katakana in BIZ UDMincho Japanese font](docs/screenshots/katakana-question-a-old.png)
-!['a' katakana in Noto Sans Japanese Japanese font](docs/screenshots/katakana-question-a.png)
+Instead, "Noto Sans Japanese" was used as it's much clearer, and fits much better with the overall feel of the website.
 
 All fonts were sourced from Google Fonts, as mentioned in the Credits.
 

@@ -1,0 +1,3 @@
+Accessibility: Japanese text:
+
+In all instances of Japanese text, the HTML element <lang="ja-jp"> was used to ensure that the browser is aware that the characters used are Japanese, and therefore it is unlikely to return errors. This was especially important in the case of the game select buttons, which each include one kanji character (explained under the Homepage section). As Japanese kanji are also characters in the Chinese alphabet, not declaring the specific language may have caused screen readers to become confused and give an inaccurate and confusing result.
