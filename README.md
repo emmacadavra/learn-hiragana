@@ -193,7 +193,7 @@ Katakana game page on mobile:
 
 #### **Game Area**
 
-The game area on each page contains four main sections: an h2 heading detailing which game is currently selected, a question area, an answer area containing four potential answers, and a current score section at the bottom.
+The game area on each page contains four main sections: an h2 heading detailing which game is currently selected, a question area, an answer area containing four potential answers, and a current score section at the bottom. The game areas themselves are structured identically, but with different colour styling so that the user can distinguish the games from one another by colour as well as by reading the heading.
 
 Hiragana game area:
 
@@ -226,6 +226,8 @@ The current score section is a clear, simple paragraph beneath the question & an
 ![katakana current score](docs/screenshots/katakana-current-score.png)
 
 #### **Back to Homepage**
+
+Beneath the game area on each game page, there is a button that uses the Japanese katakana loan words for "game menu" above the English text "Back to Game Menu". The styling for this button is the same on both pages, to ensure that the user's familiarity with its function isn't compromised across either game. 
 
 ![back to homepage / "game menu" button](docs/screenshots/back-to-homepage.png)
 
