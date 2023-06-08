@@ -317,9 +317,17 @@ If I had more time and knowledge, I would like to enhance this project in many w
 
 * This project follows the Code Institute 'Love Maths' code along project, and a lot of my starter knowledge in JavaScript has come from this project. As such there are some similarities in the code, for example in the "current score" section of each game page.
 
-* To help me better understand how to implement the quiz-style functions needed to make this website's games work, I watched videos 1 - 5 in [**James Q Quick's "Build a Quiz App with HTML CSS AND JavaScript**](https://youtube.com/playlist?list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF) playlist on YouTube. I chose this tutorial because it implemented features I wished to include from the start, such as the correct/incorrect answer feedback to questions. This tutorial is for a quiz that shares a lot of similarity in terms of JavaScript functionality to what I have used for this website, and although I wrote the majority of code for this project myself (unless otherwise stated) and have tried to make it as unique to me as possible, there are many instances of similar or even the same code being used. That said, there are a few instances where I have taken code directly from this tutorial, in some instances because it was my first time learning it, detailed below (images taken from [**jamesqquick's repository for this tutorial**](https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript)):
+* To help me better understand how to implement the quiz-style functions needed to make this website's games work, I watched videos 1 - 4 in [**James Q Quick's "Build a Quiz App with HTML CSS AND JavaScript**](https://youtube.com/playlist?list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF) playlist on YouTube. I chose this tutorial because it implemented features I wished to include from the start, such as the correct/incorrect answer feedback to questions. This tutorial is for a quiz that shares a lot of similarity in terms of JavaScript functionality to what I have used for this website, and although I wrote the majority of code for this project myself (unless otherwise stated) and have tried to make it as unique to me as possible, there are many instances of similar or even the same code being used. That said, there are a few instances where I have taken code directly from this tutorial, in some instances because it was my first time learning it, detailed below (images taken from [**jamesqquick's repository for this tutorial**](https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript)):
     * Select button hover styling:
-    ![James Q Quick's button hover styling]
+    ![James Q Quick's button hover styling](qdocs/imagesjames-quick-button-hover.png)
+    * Setting the maximum questions as a varuable (I used MAX_QUESTIONS in my code for a while before renaming it to maxQuestions in line with camelCase standards):
+    ![James Q Quick's MAX_QUESTIONS variable](docs/images/james-quick-max-questions.png)
+    * Creating an availableQuestions array out of the existing questions array using "[...questions]":
+    ![James Q Quick's availableQuestions = [...questions];"](docs/images/james-quick-questions-array.png)
+    * Including an "acceptingAnswers" rule to prevent buttons being clicked before the game has fully loaded:
+    ![James Q Quick's acceptingAnswers rule](docs/images/james-quick-accepting-answers.png)
+    * Including a "setTimeout" rule alongside the adding/removing of classes for the correct/incorrect user feedback:
+    ![James Q Quick's classToApply and setTimeout rules](docs/images/james-quick-classes-timeout.png) 
 
 * The consideration to use <lang="ja-jp"> ahead of each instance of Japanese text is thanks to Rachel Simone Weil's blog post [**Better together: Displaying Japanese and English text on the web**](https://blog.prototypr.io/better-together-displaying-japanese-and-english-text-on-the-web-538a704399be).
 
