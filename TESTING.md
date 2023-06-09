@@ -261,3 +261,25 @@ PageSpeed Insight Game Page Scores - Mobile:
 The reason given for the poorer scores on mobile with PageSpeed Insights was due to the normalize.css file.
 
 ### Unresolved Bugs
+
+Aside from the performance issues on mobile on the PageSpeed Insights due to the normalize.css file, there are three unresolved bugs that I am aware of.
+
+* The first is fairly minor, but it is that the answer buttons do not stay the same size for all questions. I am aware that an easy fix for this would be to set a fuxed height and/or width, butI wanted the page to be as responsive and flexible as possible, so I chose to avoid this. If I had more time, I would look into ways of keeping the sizes consistent for all questions.
+
+* The second was found by [**Alicia Walker**](https://github.com/AliciaWalker01), who has extensive testing experience for various technologies. She helped me recreate it across all browsers, and it was she who discovered the cause of the bug itself, too:
+
+When the user has reached the end of the game, there is a chance that clicking either button in the alert message box will NOT redirect to the correct location - instead the alert box will close, the game score will not refresh, and the game will not restart. The work-around for this is to click either the header link or the Back to Game Menu button, and choose the game again from the homepage. Alicia was able to identify that this only happens when, very specifically, another answer is clicked mid-transition on the final question only. Despite the acceptingAnswers rule, it seems that if the user clicks faster tha the JavaScript can react, it causes the script to break. Unfortunately, this was caught very late into development, and upon researching why this happens and what to do in order to fix it, I felt that the crucial understanding I need is beyond the current scope of my knowledge. I intend to take this forward and learn about it more ahead of my future projects so that I can bear it in mind and hopefully prevent it from happening.
+
+* Finally, the third unresolved bug is in the form of a console error that only appears after the first time a SweetAlert2 alert message has been displayed:
+
+![Console error message displayed following SweetAlert2 alert](docs/images/incorrect-label-error.png)
+
+Following the link to the violating node, it takes me to this line of code within the external SweetAlert2 file:
+
+![Violating node](docs/images/violating-node-closed.png)
+
+The code when opened:
+
+![Violating node - opened](docs/images/violating-node-open.png)
+
+As with the previous issue, I do not feel as though I currently possess enough knowledge to confidently know how to fix this bug, however it is again something I will take forward with me and investigate in my spare time in the hopes of understanding why this happens and how to prevent it in future.

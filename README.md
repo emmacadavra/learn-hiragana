@@ -252,7 +252,7 @@ The three main JavaScript files are as follows:
 
 As mentioned above, it is crucial that the first JavaScript file loaded on each page is the respective alphabet file. This is so that the correct alphabet name and questions array of objects is fed into the game.js file.
 
-The game.js file starts with a "DOMCOntentLoaded" event listener function, which waits for the page to load before starting the runGame() function. This is to avoid any potential issues for the user, where the page is trying to run parts of the script that haven't loaded yet. This would make for a bad user experience.
+The game.js file starts with a "DOMContentLoaded" event listener function, which waits for the page to load before starting the runGame() function. This is to avoid any potential issues for the user, where the page is trying to run parts of the script that haven't loaded yet. This would make for a bad user experience.
 
 For the same reason, as a default, a variable called "acceptingAnswers" is given the boolean value of "false". This prevents the user from being able to press buttons and attempt to answer questions before the game has loaded properly.
 
