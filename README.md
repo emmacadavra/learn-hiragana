@@ -92,7 +92,7 @@ Below are two colour grids to show how the colours interact with each other from
 
 Three fonts were used across this website - two of them for the English text, and one of them for the Japanese text.
 
-For all instances of "Learn Hiragana and Katakana", "Hiragana Test!" and "Katakana Test!", the font "Righteous" was used. This font was chosen for its fun, bold style, that doesn't compromise readibaility. It gives them impression of a logo, which was perfect for this simple website. "Rubik" was used for all other English text on the website due to its clear readability, with slightly rounded styles that again give a fun feel to the website.
+For all instances of "Learn Hiragana and Katakana", "Hiragana Test!" and "Katakana Test!", the font "Righteous" was used. This font was chosen for its fun, bold style, that doesn't compromise readability. It gives the impression of a logo, which was perfect for this simple website. "Rubik" was used for all other English text on the website due to its clear readability, with slightly rounded styles that again give a fun feel to the website.
 
 Originally, for the Japanese text, a font called "BIZ UDMincho" was used. Initially, this font was chosen because it resembled traditional Japanese calligraphy whilst also remaining fairly clear. However, as displayed in the below screenshot, it did make some of the characters much less legible (particularly the hiragana), and didn't align with the goal of having an easily accessible game for beginners.
 
@@ -166,7 +166,7 @@ Originally, these "buttons" displayed the following text:
 
 ![old katakana-go button](docs/screenshots/katakana-go-old.png)
 
-However, the first character used here is the Japanese kanji for "go". As this site is aimed at beginners-intermediates wanting to practise hiragana and katakana only, it seemed unreasonable to include a kanji character as it is, due to the kanji alphabet being more advanced than the scope of this website. As kanji characters can have multiple meanings and pronunciations, to assist with reading kanji the Japanese utilise a method of phonetic notation called *furigana* - "a Japanese reading aid consisting of smaller kana or syllabic characters printed either above or next to kanji (logographic characters) or other characters to indicate their pronunciation" [**(source)**](https://en.wikipedia.org/wiki/Furigana). Thankfully, W3C supports the use of furigana through [**ruby markup**](https://www.w3.org/International/articles/ruby/markup.en), and so the furigana for this kanji was added for increased readibility and accessibility for all levels of reading comprehension.
+However, the first character used here is the Japanese kanji for "go". As this site is aimed at beginners-intermediates wanting to practise hiragana and katakana only, it seemed unreasonable to include a kanji character as it is, due to the kanji alphabet being more advanced than the scope of this website. As kanji characters can have multiple meanings and pronunciations, to assist with reading kanji the Japanese utilise a method of phonetic notation called *furigana* - "a Japanese reading aid consisting of smaller kana or syllabic characters printed either above or next to kanji (logographic characters) or other characters to indicate their pronunciation" [**(source)**](https://en.wikipedia.org/wiki/Furigana). Thankfully, W3C supports the use of furigana through [**ruby markup**](https://www.w3.org/International/articles/ruby/markup.en), and so the furigana for this kanji was added for increased readability and accessibility for all levels of reading comprehension.
 
 ![hiragana-go button with furigana](docs/screenshots/hiragana-go-furigana.png)
 
@@ -230,7 +230,7 @@ The current score section is a clear, simple paragraph beneath the question & an
 
 #### **Back to Homepage**
 
-Beneath the game area on each game page, there is a button that uses the Japanese katakana loan words for "game menu" above the English text "Back to Game Menu". The styling for this button is the same on both pages, to ensure that the user's familiarity with its function isn't compromised across either game. 
+Beneath the game area on each game page, there is a button that uses the Japanese katakana loanwords for "game menu" above the English text "Back to Game Menu". The styling for this button is the same on both pages, to ensure that the user's familiarity with its function isn't compromised across either game. 
 
 ![back to homepage / "game menu" button](docs/screenshots/back-to-homepage.png)
 
@@ -270,7 +270,7 @@ The selected object is also added to a new array of answers, and a random index 
 
 The answers array is re-declared by calling the shuffle(array) function (detailed below), and the phonetics of the resulting shuffled array are then inserted into the answer buttons on the webpage.
 
-The question that is being displayed is then spliced from the avaiable questions array to avoid being repeated in a single instance of the game, and "acceptingAnswers" is set to "true", allowing the user to play.
+The question that is being displayed is then spliced from the available questions array to avoid being repeated in a single instance of the game, and "acceptingAnswers" is set to "true", allowing the user to play.
 
 ##### shuffle(array)
 
@@ -280,9 +280,9 @@ The shuffle(array) function takes the answers array and uses the Fisher-Yates Sh
 
 Once the question and answers have been picked at random, the answers shuffled, and both the question and shuffled answers correctly displayed on the webpage, a for loop containing a "click" event listener is called. The first thing this does is check whether "acceptingAnswers" is "true" or "false". If the user clicks a button while "acceptingAnswers" is "false", a return statement prevents the click from going anywhere and it is essentially ignored by the browser. If it is "true", then when the user clicks a button, it first sets it back to "false". This is so that the user can only click on one button as their answer. The event listener checks whether the inner text of the button that has been clicked matches the phonetic in the object the current question is from. If it matches, a temporary "correct" class is added to the button, and the current score is increased by 1. If it does not match, a temporary "incorrect" class is added. The CSS styling for the "correct" class means that the button turns green to indicate a correct answer, and the "incorrect" class button turns red to indicate an incorrect answer.
 
-A setTimeout(function()) is then declared, which creates a 500 milliseconds pause before removing the temporary classes again, and calling the newQuestion() function which repeats the process until the maximum number of questions has been reached.
+A setTimeout(function()) is then declared, which creates a 500 millisecond pause before removing the temporary classes again, and calling the newQuestion() function which repeats the process until the maximum number of questions has been reached.
 
-The screenshots below show the output of all of these functions from a user perspective. In each game, I have taken a screenshot of a correct answer when the question is 'ne' (to show how the random answers are shuffled differently each time), and an incorrect answer when the question is 'su' (again to show the random orderand contents of the shuffled answers). It took refreshing the page quite a few times to get the same question on both games! You can also see that selecting the correct answer increases the current score by 1, whereas selecting the incorrect answer does not.
+The screenshots below show the output of all of these functions from a user perspective. In each game, I have taken a screenshot of a correct answer when the question is 'ne' (to show how the random answers are shuffled differently each time), and an incorrect answer when the question is 'su' (again to show the random order and contents of the shuffled answers). It took refreshing the page quite a few times to get the same question on both games! You can also see that selecting the correct answer increases the current score by 1, whereas selecting the incorrect answer does not.
 
 Correct answer - hiragana 'ne':
 
@@ -379,7 +379,7 @@ If I had more time and knowledge, I would like to enhance this project in many w
 
 Thank you to the following individuals:
 
-* [**Damon Kreft**](https://github.com/damon-kreft) - As always, for your love and support, and for being so enthustastic about my learning journey. Thank you for always being willing to listen to what I've learned, helping me understand concepts in greater detail - and for being so encouraging and patient.
+* [**Damon Kreft**](https://github.com/damon-kreft) - As always, for your love and support, and for being so enthusiastic about my learning journey. Thank you for always being willing to listen to what I've learned, helping me understand concepts in greater detail - and for being so encouraging and patient.
 
 * [**Richard Wells**](https://github.com/D0nni387) - Thank you for creating a safe space for me to progress, and for being so positive and constructive in your feedback. As always, I appreciate your guidance very much!
 
@@ -397,7 +397,7 @@ Thank you to the following individuals:
     * Select button hover styling:
 
     ![James Q Quick's button hover styling](docs/images/james-quick-button-hover.png)
-    * Setting the maximum questions as a varuable (I used MAX_QUESTIONS in my code for a while before renaming it to maxQuestions in line with camelCase standards):
+    * Setting the maximum questions as a variable (I used MAX_QUESTIONS in my code for a while before renaming it to maxQuestions in line with camelCase standards):
 
     ![James Q Quick's MAX_QUESTIONS variable](docs/images/james-quick-max-questions.png)
     * Creating an availableQuestions array out of the existing questions array using "[...questions]":
@@ -414,7 +414,7 @@ Thank you to the following individuals:
 
 ![Tutorials Point Fisher-Yates Shuffle](docs/images/fisher-yates-shuffle.png)
 
-* This project utilises [**necolas' normalize.css**](https://github.com/necolas/normalize.css/) to try keeping the CSS stying as consistent as possible across browsers.
+* This project utilises [**necolas' normalize.css**](https://github.com/necolas/normalize.css/) to try keeping the CSS styling as consistent as possible across browsers.
 
 * All instances of the unique score messages at the end of each game (Swal.fire objects within the endGameMessage(); function) are by [**SweetAlert2 alerts**](https://sweetalert2.github.io/).
 
