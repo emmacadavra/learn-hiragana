@@ -238,4 +238,26 @@ Lighthouse Game Page Scores - Mobile:
 
 ![Lighthouse Game Page Scores - Mobile](docs/images/lighthouse-game-mobile.png)
 
+#### PageSpeed Insight Scores
+
+PageSpeed Insight Homepage Score - Desktop:
+
+![PageSpeed Insight Homepage Score - Desktop](docs/images/pagespeed-homepage-desktop.png)
+
+PageSpeed Insight Homepage Score - Mobile:
+
+![PageSpeed Insight Homepage Score - Mobile](docs/images/pagespeed-homepage-mobile.png)
+
+The PageSpeed Insight scores for both games were also identical every time I ran the test.
+
+PageSpeed Insight Game Page Scores - Desktop:
+
+![PageSpeed Insight Game Page Scores - Desktop](docs/images/pagespeed-game-desktop.png)
+
+PageSpeed Insight Game Page Scores - Mobile:
+
+![PageSpeed Insight Game Page Scores - Mobile](docs/images/pagespeed-game-mobile.png)
+
+The reason given for the poorer scores on mobile with PageSpeed Insights was due to the normalize.css file.
+
 ### Unresolved Bugs
