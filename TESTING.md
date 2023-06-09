@@ -18,7 +18,7 @@
 
 ### Overview
 
-During the development of this project, I manually tested the wesbite and its code primarily by using the 'python3 -m http.server' command in GitPod and CodeAnywhere's VSCode workspace, which created a love instance of the website that updated in real time every time I saved my code within the IDE. My default browser is Google Chrome, so I also heavily utilised Chrome's DevTools to allow me to test the site's responsive design, tweak elements of the code for bug fixing purposes, and crucially to use the console to aid me in creating JavaScript functions.
+During the development of this project, I manually tested the website and its code primarily by using the 'python3 -m http.server' command in GitPod and CodeAnywhere's VSCode workspace, which created a love instance of the website that updated in real time every time I saved my code within the IDE. My default browser is Google Chrome, so I also heavily utilised Chrome's DevTools to allow me to test the site's responsive design, tweak elements of the code for bug fixing purposes, and crucially to use the console to aid me in creating JavaScript functions.
 
 When the website itself was more or less "put together", I deployed it to GitHub pages so that I could test it not only in my own testing environment, but also in a live environment. This proved useful on several occasions - for example, while I received no errors for my favicon's site.webmanifest file in my testing environment, I did receive the following console error on the deployed GitHub Pages website:
 
@@ -108,7 +108,7 @@ Both games and end game message working correctly on Android (Samsung):
 
 ![Android (Samsung) - end game message](docs/screenshots/android-s23-endgame.png)
 
-I also tested the site on my own mobile phone, which is a Xiaomi Poco X3 Pro (ie, not a very common model) to make sure the site wasn't just functional on the major brands.
+I also tested the site on my own mobile phone, which is a Xiaomi Poco X3 Pro, to make sure the site wasn't just functional on the major brands.
 
 ### Bugs
 
@@ -147,13 +147,13 @@ This also did not work, so I tried the following:
 
 This did run the correct game on each webpage, however - despite the katakana game running correctly when the page loaded, the game would not function as the webpage was trying to call the newHiraganaQuestion function despite clear declarations to separate the two. As a quick but temporary fix for this, I separated the two into separate .js files. It wasn't long before I understood the enormous and unnecessary duplication of code used in all methods attempted above.
 
-* Initially within my newHiraganaQuestion function, I made several incorect declarations that caused the game not to work properly (or in some cases at all). I declared "const buttons = document.getElementsByTagName("button");" inside the function, but wanted to call the variable within an event listener outside of the function. This obviously didn't work as the event listener didn't know what to listen for!
+* Initially within my newHiraganaQuestion function, I made several incorrect declarations that caused the game not to work properly (or in some cases at all). I declared "const buttons = document.getElementsByTagName("button");" inside the function, but wanted to call the variable within an event listener outside of the function. This obviously didn't work as the event listener didn't know what to listen for!
 
 * Also within the newHiraganaQuestion function I originally made, I declared "const hiraganaAnswers = [currentHiraganaQuestion.phonetic];" rather than "let hiraganaAnswers = [currentHiraganaQuestion];" - this meant that in my for loop (for (let button of buttons) { button.innerText = hiraganaAnswers[i].phonetic;), I was asking for the phonetic OF the phonetic in the first instance, which of course does not exist. This resulted in an undefined error, as shown below:
 
 ![undefined bug](docs/screenshots/bug-hiragana-undefined.png)
 
-* Upon trying to implement the Fisher-Yates Shuffle Method, I faced a huge number of bugs, mostly relating to different interations of the method being used and it taking a while to find one that worked well with my code. Among the more frustrating bugs is shown in the screenshots below - where the game is running correctly, and the console is correctly logging 4 shuffled potential answers, but the output is 4 lots of the first phonetic only:
+* Upon trying to implement the Fisher-Yates Shuffle Method, I faced a huge number of bugs, mostly relating to different iterations of the method being used and it taking a while to find one that worked well with my code. Among the more frustrating bugs is shown in the screenshots below - where the game is running correctly, and the console is correctly logging 4 shuffled potential answers, but the output is 4 lots of the first phonetic only:
 
 ![Fisher-Yates bug 1](docs/screenshots/bug-fisher-yates-1.png)
 
@@ -175,7 +175,7 @@ However, even after fixing this, I was still having the same issue, but in the e
 
 * Whilst looking into the above bug, I also noticed that I was getting a console error when reaching the end of the game, and this was because I had missed out a "return" statement if the maximum number of questions had been reached, so the code was still trying to run but couldn't. Naturally I fixed this by adding a "return" statement.
 
-* Occasionally, I was finding that questions would be repeated, despite having a rule inside the newQuestion function that said to splice the curret question out of the availableQuestions array. This was due to a misunderstanding on my part, where I had written "availableQuestions.splice(questionIndex, 0)" rather than "availableQuestions.splice(questionIndex, 1)", as I was getting mixed up with which way round the parameters were (I was thinking that it needed to start from index 0, but of course the questionIndex is the index number!)
+* Occasionally, I was finding that questions would be repeated, despite having a rule inside the newQuestion function that said to splice the current question out of the availableQuestions array. This was due to a misunderstanding on my part, where I had written "availableQuestions.splice(questionIndex, 0)" rather than "availableQuestions.splice(questionIndex, 1)", as I was getting mixed up with which way round the parameters were (I was thinking that it needed to start from index 0, but of course the questionIndex is the index number!)
 
 ### Accessibility
 
@@ -185,7 +185,7 @@ A variety of considerations for accessibility were taken into account both durin
 
 * As seen in some of the screenshots in the above Bugs section, the original colour scheme I used for this website was slightly different, and I was quite far into development before I checked the colours on the Colour Grid Contrast Checker. Below is a screenshot of the colours I used, where almost every combination I had used up until that point was either AA18, or DNP. This led me to reconsider the colour scheme for accessibility purposes, which I am very grateful for as it brought me to the beautiful picture which did inspire the final colour scheme.
 
-* The original font I chose for the Japanese text, as mentioned in the Typography section of the README.md file, was styled much more like brush script / calligraphy, which thematically seemed like a good idea initially but in the end it made the text much less readable, so the font was changed to a simpler one that increased readibility. The inclusion of <lang="ja-jp"> for all Japanese text was also added with accessibility in mind, so that screen readers would not confuse the Japanese kanji character on the homepage for a Chinese character, and so that browsers know which characters to load (avoiding blank squares or other symbols).
+* The original font I chose for the Japanese text, as mentioned in the Typography section of the README.md file, was styled much more like brush script / calligraphy, which thematically seemed like a good idea initially but in the end it made the text much less readable, so the font was changed to a simpler one that increased readability. The inclusion of <lang="ja-jp"> for all Japanese text was also added with accessibility in mind, so that screen readers would not confuse the Japanese kanji character on the homepage for a Chinese character, and so that browsers know which characters to load (avoiding blank squares or other symbols).
 
 ## Post Development Testing
 
@@ -210,9 +210,9 @@ I used a variety of validation tools to make sure that this website meets high s
     * Largest function has 19 statements in it, while the median is 4.5.
     * The most complex function has a cyclomatic complexity value of 9 while the median is 1.5.
 
-* **WAVE Accessibility** - I ran all three webpages through the WAVE Accessibility tool and they all passed with no errors.
+* **WAVE Accessibility** - I ran all three web pages through the WAVE Accessibility tool and they all passed with no errors.
 
-* **WCAG Colour Checker** - I ran all three webpages through the WCAG Colour Checker, and again all three passed with AA standard, and AAA in some areas.
+* **WCAG Colour Checker** - I ran all three web pages through the WCAG Colour Checker, and again all three passed with AA standard, and AAA in some areas.
 
 ### Lighthouse Scores and PageSpeed Insights
 
@@ -258,17 +258,17 @@ PageSpeed Insight Game Page Scores - Mobile:
 
 ![PageSpeed Insight Game Page Scores - Mobile](docs/images/pagespeed-game-mobile.png)
 
-The reason given for the poorer scores on mobile with PageSpeed Insights was due to the normalize.css file.
+The reason given for the poorer scores on mobile with PageSpeed Insights was due to the external normalize.css file.
 
 ### Unresolved Bugs
 
 Aside from the performance issues on mobile on the PageSpeed Insights due to the normalize.css file, there are three unresolved bugs that I am aware of.
 
-* The first is fairly minor, but it is that the answer buttons do not stay the same size for all questions. I am aware that an easy fix for this would be to set a fuxed height and/or width, butI wanted the page to be as responsive and flexible as possible, so I chose to avoid this. If I had more time, I would look into ways of keeping the sizes consistent for all questions.
+* The first is fairly minor, but it is that the answer buttons do not stay the same size for all questions. I am aware that an easy fix for this would be to set a fixed height and/or width, butI wanted the page to be as responsive and flexible as possible, so I chose to avoid this. If I had more time, I would look into ways of keeping the sizes consistent for all questions.
 
 * The second was found by [**Alicia Walker**](https://github.com/AliciaWalker01), who has extensive testing experience for various technologies. She helped me recreate it across all browsers, and it was she who discovered the cause of the bug itself, too:
 
-When the user has reached the end of the game, there is a chance that clicking either button in the alert message box will NOT redirect to the correct location - instead the alert box will close, the game score will not refresh, and the game will not restart. The work-around for this is to click either the header link or the Back to Game Menu button, and choose the game again from the homepage. Alicia was able to identify that this only happens when, very specifically, another answer is clicked mid-transition on the final question only. Despite the acceptingAnswers rule, it seems that if the user clicks faster tha the JavaScript can react, it causes the script to break. Unfortunately, this was caught very late into development, and upon researching why this happens and what to do in order to fix it, I felt that the crucial understanding I need is beyond the current scope of my knowledge. I intend to take this forward and learn about it more ahead of my future projects so that I can bear it in mind and hopefully prevent it from happening.
+When the user has reached the end of the game, there is a chance that clicking either button in the alert message box will NOT redirect to the correct location - instead the alert box will close, the game score will not refresh, and the game will not restart. The work-around for this is to click either the header link or the Back to Game Menu button, and choose the game again from the homepage. Alicia was able to identify that this only happens when, very specifically, another answer is clicked mid-transition on the final question only. Despite the acceptingAnswers rule, it seems that if the user clicks faster than the JavaScript can react, it causes the script to break. Unfortunately, this was caught very late into development, and upon researching why this happens and what to do in order to fix it, I felt that the crucial understanding I need is beyond the current scope of my knowledge. I intend to take this forward and learn about it more ahead of my future projects so that I can bear it in mind and hopefully prevent it from happening.
 
 * Finally, the third unresolved bug is in the form of a console error that only appears after the first time a SweetAlert2 alert message has been displayed:
 
