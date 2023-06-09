@@ -283,3 +283,5 @@ The code when opened:
 ![Violating node - opened](docs/images/violating-node-open.png)
 
 As with the previous issue, I do not feel as though I currently possess enough knowledge to confidently know how to fix this bug, however it is again something I will take forward with me and investigate in my spare time in the hopes of understanding why this happens and how to prevent it in future.
+
+Please click the following link to return to the [**README.md**](README.md) file.
