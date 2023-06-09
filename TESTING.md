@@ -11,9 +11,7 @@
     * [***Accessibility***](#accessibility)
 1. [**Post Development Testing**](#post-development-testing)
     * [***Validation***](#validation)
-        * [*HTML Validation*](#html-validation)
-        * [*CSS Validation*](#css-validation)
-        * [*Lighthouse Scores and PageSpeed Insights*](#lighthouse-scores-and-pagespeed-insights)
+    * [***Lighthouse Scores and PageSpeed Insights***](#lighthouse-scores-and-pagespeed-insights)
     * [***Unresolved Bugs***](#unresolved-bugs)
 
 ## Testing Throughout Development
@@ -193,6 +191,29 @@ A variety of considerations for accessibility were taken into account both durin
 
 ### Validation
 
-(WAVE Accessibility)
+I used a variety of validation tools to make sure that this website meets high standards across many different areas.
+
+* **HTML Validation** - The HTML for index.html, hiragana.html and katakana.html was entered into the [**W3C CSS Validation Service ('Jigsaw')**](https://jigsaw.w3.org/css-validator/), and passed with no errors found.
+
+![W3C Markup Validation Service - no errors found](docs/images/w3c-html-pass.png)
+
+* **CSS Validation** - The CSS code for this website was entered into the [**W3C CSS Validation Service ('Jigsaw')**](https://jigsaw.w3.org/css-validator/), and passed with no errors found.
+
+![W3C CSS Validation Service - no errors found](docs/images/w3c-jigsaw-css-pass.png)
+
+![W3C CSS Validation Icon - Valid CSS!](docs/images/w3c-css-tick.png)
+
+* **JSHint** - I ran the main game.js file through [**JSHint**](https://jshint.com/), which found no errors and returned the following metrics, with and without the inclusion of one of the alphabet .js files:
+
+    * There are 8 functions in this file.
+    * Function with the largest signature take 1 arguments, while the median is 0.
+    * Largest function has 19 statements in it, while the median is 4.5.
+    * The most complex function has a cyclomatic complexity value of 9 while the median is 1.5.
+
+* **WAVE Accessibility** - I ran all three webpages through the WAVE Accessibility tool and they all passed with no errors.
+
+* **WCAG Colour Checker** - I ran all three webpages through the WCAG Colour Checker, and again all three passed with AA standard, and AAA in some areas.
+
+### Lighthouse Scores and PageSpeed Insights
 
 ### Unresolved Bugs
