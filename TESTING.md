@@ -216,4 +216,26 @@ I used a variety of validation tools to make sure that this website meets high s
 
 ### Lighthouse Scores and PageSpeed Insights
 
+When running these tests, I made sure that they were run in Incognito windows so that there could be no interference from browser extensions.
+
+#### Lighthouse Scores
+
+Lighthouse Homepage Score - Desktop:
+
+![Lighthouse Homepage Score - Desktop](docs/images/lighthouse-homepage-desktop.png)
+
+Lighthouse Homepage Score - Mobile:
+
+![Lighthouse Homepage Score - Mobile](docs/images/lighthouse-homepage-mobile.png)
+
+The Lighthouse scores for both games were identical every time I ran the test.
+
+Lighthouse Game Page Scores - Desktop:
+
+![Lighthouse Game Page Scores - Desktop](docs/images/lighthouse-game-desktop.png)
+
+Lighthouse Game Page Scores - Mobile:
+
+![Lighthouse Game Page Scores - Mobile](docs/images/lighthouse-game-mobile.png)
+
 ### Unresolved Bugs
